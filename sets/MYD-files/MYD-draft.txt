@@ -1,0 +1,2752 @@
+﻿[CustomCards]
+	[	{
+			"name": "Room for Two",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/26_Room for Two.png"
+			}
+		},
+		{
+			"name": "Slimy Shellsnap",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Mutant Turtle ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/75_Slimy Shellsnap.png"
+			}
+		},
+		{
+			"name": "Inconspicuous Amphin",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Salamander Horror ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/58_Inconspicuous Amphin.png"
+			}
+		},
+		{
+			"name": "Unmanned Carrier",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Artifact Creature — Drone ",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/80_Unmanned Carrier.png"
+			}
+		},
+		{
+			"name": "First Contact",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/53_First Contact.png"
+			}
+		},
+		{
+			"name": "Paper Trail",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/67_Paper Trail.png"
+			}
+		},
+		{
+			"name": "Cover Identity",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/48_Cover Identity.png"
+			}
+		},
+		{
+			"name": "Mindless Masses",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/101_Mindless Masses.png"
+			}
+		},
+		{
+			"name": "Extravital Organs",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/93_Extravital Organs.png"
+			}
+		},
+		{
+			"name": "Evil Sky",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/91_Evil Sky.png"
+			}
+		},
+		{
+			"name": "Superior Skill",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/118_Superior Skill.png"
+			}
+		},
+		{
+			"name": "Top Agent",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/162_Top Agent.png"
+			}
+		},
+		{
+			"name": "Carnage Spawn",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Eldrazi Spawn ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/131_Carnage Spawn.png"
+			}
+		},
+		{
+			"name": "Lashmass",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Mutant Tentacle ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/145_Lashmass.png"
+			}
+		},
+		{
+			"name": "Living Furnace",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/146_Living Furnace.png"
+			}
+		},
+		{
+			"name": "Tools of the Trade",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/161_Tools of the Trade.png"
+			}
+		},
+		{
+			"name": "Bioverdiversity",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/127_Bioverdiversity.png"
+			}
+		},
+		{
+			"name": "Inner Beast",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/141_Inner Beast.png"
+			}
+		},
+		{
+			"name": "Sporeflayer",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Fungus Mutant ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/201_Sporeflayer.png"
+			}
+		},
+		{
+			"name": "Creatures from Worlds Beyond",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Alien ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/177_Creatures from Worlds Beyond.png"
+			}
+		},
+		{
+			"name": "Chittering Tyrano",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Insect Lizard Mutant ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/172_Chittering Tyrano.png"
+			}
+		},
+		{
+			"name": "Might of the Many",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/193_Might of the Many.png"
+			}
+		},
+		{
+			"name": "Unquestioned Authority",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/37_Unquestioned Authority.png"
+			}
+		},
+		{
+			"name": "Flight Researcher",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/54_Flight Researcher.png"
+			}
+		},
+		{
+			"name": "Pinnacle of Divergence",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Bird Insect Mutant ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/69_Pinnacle of Divergence.png"
+			}
+		},
+		{
+			"name": "Live and Let Die",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/99_Live and Let Die.png"
+			}
+		},
+		{
+			"name": "Echoing Return",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/90_Echoing Return.png"
+			}
+		},
+		{
+			"name": "Mech Tinkerer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/148_Mech Tinkerer.png"
+			}
+		},
+		{
+			"name": "Knobbleboar",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Mutant Boar ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/144_Knobbleboar.png"
+			}
+		},
+		{
+			"name": "Escape Containment",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{R}",
+			"type": "Sorcery",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/137_Escape Containment.png"
+			}
+		},
+		{
+			"name": "Invasion Frontrunner",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Alien Warrior ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/143_Invasion Frontrunner.png"
+			}
+		},
+		{
+			"name": "Optional Tentacles",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/151_Optional Tentacles.png"
+			}
+		},
+		{
+			"name": "Botanist Team",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/171_Botanist Team.png"
+			}
+		},
+		{
+			"name": "Strange Carnivorous Predator",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Alien Badger Insect Kavu Troll ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/202_Strange Carnivorous Predator.png"
+			}
+		},
+		{
+			"name": "Contact Agents",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/176_Contact Agents.png"
+			}
+		},
+		{
+			"name": "Intelligent Life",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Treefolk Horror ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/188_Intelligent Life.png"
+			}
+		},
+		{
+			"name": "Biodiversity Survey",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}",
+			"type": "Sorcery",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/167_Biodiversity Survey.png"
+			}
+		},
+		{
+			"name": "Epicenter of Evolution",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Artifact",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/179_Epicenter of Evolution.png"
+			}
+		},
+		{
+			"name": "Everflayer",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Harpy Drake Mutant ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/52_Everflayer.png"
+			}
+		},
+		{
+			"name": "Universe Beholder",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/79_Universe Beholder.png"
+			}
+		},
+		{
+			"name": "Anders, Truth Hunter",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Human Detective ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/43_Anders, Truth Hunter.png"
+			}
+		},
+		{
+			"name": "Secrets Extractor",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/112_Secrets Extractor.png"
+			}
+		},
+		{
+			"name": "Breach Gateway",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Artifact",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/130_Breach Gateway.png"
+			}
+		},
+		{
+			"name": "Extraplanar Fauna",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Plant Alien ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/181_Extraplanar Fauna.png"
+			}
+		},
+		{
+			"name": "Hyperadapt",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/186_Hyperadapt.png"
+			}
+		},
+		{
+			"name": "Extraction Specialist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/10_Extraction Specialist.png"
+			}
+		},
+		{
+			"name": "Mission Briefing",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Instant",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/65_Mission Briefing.png"
+			}
+		},
+		{
+			"name": "Dogged Detective",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/88_Dogged Detective.png"
+			}
+		},
+		{
+			"name": "Conspiracy Theorist",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/133_Conspiracy Theorist.png"
+			}
+		},
+		{
+			"name": "On the Case",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/212_On the Case.png"
+			}
+		},
+		{
+			"name": "Time Walker",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/77_Time Walker.png"
+			}
+		},
+		{
+			"name": "Tamrin, Veteran Agent",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/219_Tamrin, Veteran Agent.png"
+			}
+		},
+		{
+			"name": "Anomalous Awakener",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/3_Anomalous Awakener.png"
+			}
+		},
+		{
+			"name": "Taskbot Savior",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/34_Taskbot Savior.png"
+			}
+		},
+		{
+			"name": "Doomed Analyst",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/8_Doomed Analyst.png"
+			}
+		},
+		{
+			"name": "Meticulous Assistant",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/14_Meticulous Assistant.png"
+			}
+		},
+		{
+			"name": "Researcher's Assistant",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/25_Researcher's Assistant.png"
+			}
+		},
+		{
+			"name": "Conspicuous Taskbot",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/226_Conspicuous Taskbot.png"
+			}
+		},
+		{
+			"name": "Conspicuous Evidence",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Clue ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/223_Conspicuous Evidence.png"
+			}
+		},
+		{
+			"name": "Conspicuous Wealth",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Treasure ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/227_Conspicuous Wealth.png"
+			}
+		},
+		{
+			"name": "Conspicuous Sample",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Blood ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/225_Conspicuous Sample.png"
+			}
+		},
+		{
+			"name": "Conspicuous Meal",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact — Food ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/224_Conspicuous Meal.png"
+			}
+		},
+		{
+			"name": "Forward Scout",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Alien Drone ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/230_Forward Scout.png"
+			}
+		},
+		{
+			"name": "Break Facilitator",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/5_Break Facilitator.png"
+			}
+		},
+		{
+			"name": "Odd Ox",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Alien Ox Beast ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/18_Odd Ox.png"
+			}
+		},
+		{
+			"name": "Taskbot Gatherer",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/33_Taskbot Gatherer.png"
+			}
+		},
+		{
+			"name": "Splinterflock",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Bird Horror ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/30_Splinterflock.png"
+			}
+		},
+		{
+			"name": "Relentless Reporter",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Detective ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/24_Relentless Reporter.png"
+			}
+		},
+		{
+			"name": "Recovery Agent",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/23_Recovery Agent.png"
+			}
+		},
+		{
+			"name": "Security Procedures",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/27_Security Procedures.png"
+			}
+		},
+		{
+			"name": "Stored in the Archives",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/31_Stored in the Archives.png"
+			}
+		},
+		{
+			"name": "Omnipresent Watch",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/19_Omnipresent Watch.png"
+			}
+		},
+		{
+			"name": "New Gear",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/17_New Gear.png"
+			}
+		},
+		{
+			"name": "Recharge",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/22_Recharge.png"
+			}
+		},
+		{
+			"name": "Reallocate",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/21_Reallocate.png"
+			}
+		},
+		{
+			"name": "Mallik, the Curator",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Artifact Creature — Golem ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/13_Mallik, the Curator.png"
+			}
+		},
+		{
+			"name": "Subject MW02",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Legendary Planeswalker — Gemma ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/32_Subject MW02_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/MYD-files/img/32_Subject MW02_back.png"
+				}
+			}
+		},
+		{
+			"name": "Gordon, Threshold Wrangler",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Legendary Artifact Creature — Golem ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/183_Gordon, Threshold Wrangler.png"
+			}
+		},
+		{
+			"name": "Angelic Taskmaster",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Artifact Creature — Angel ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/2_Angelic Taskmaster.png"
+			}
+		},
+		{
+			"name": "Adamantine Enforcer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Human Soldier ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/1_Adamantine Enforcer.png"
+			}
+		},
+		{
+			"name": "Cecil, Head of Development",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Creature — Human Artificer ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/47_Cecil, Head of Development.png"
+			}
+		},
+		{
+			"name": "Grizzled Mentor",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/12_Grizzled Mentor.png"
+			}
+		},
+		{
+			"name": "Mortal Coil",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/16_Mortal Coil.png"
+			}
+		},
+		{
+			"name": "Field Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/11_Field Agent.png"
+			}
+		},
+		{
+			"name": "Buddybot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/6_Buddybot.png"
+			}
+		},
+		{
+			"name": "Spark Studier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/29_Spark Studier.png"
+			}
+		},
+		{
+			"name": "Transport Master",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/36_Transport Master.png"
+			}
+		},
+		{
+			"name": "Unrealized Flying Object",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/38_Unrealized Flying Object.png"
+			}
+		},
+		{
+			"name": "Threshold Warden",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/35_Threshold Warden.png"
+			}
+		},
+		{
+			"name": "Unseen Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/39_Unseen Guardian.png"
+			}
+		},
+		{
+			"name": "Metrics Tracker",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/15_Metrics Tracker.png"
+			}
+		},
+		{
+			"name": "Come in Peace",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/7_Come in Peace.png"
+			}
+		},
+		{
+			"name": "Auto-Restoration",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/4_Auto-Restoration.png"
+			}
+		},
+		{
+			"name": "Take as Evidence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/76_Take as Evidence.png"
+			}
+		},
+		{
+			"name": "Investigative Journalist",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/60_Investigative Journalist.png"
+			}
+		},
+		{
+			"name": "Phone Home",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/68_Phone Home.png"
+			}
+		},
+		{
+			"name": "What Lurks Among Men",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Horror ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/220_What Lurks Among Men.png"
+			}
+		},
+		{
+			"name": "Escaped Abomination",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Chimera Horror ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/210_Escaped Abomination.png"
+			}
+		},
+		{
+			"name": "Riftmender",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{W}",
+			"type": "Creature — Human Cleric ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/217_Riftmender.png"
+			}
+		},
+		{
+			"name": "Dispassionate Experimentor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/208_Dispassionate Experimentor.png"
+			}
+		},
+		{
+			"name": "Bot Depot",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Artifact",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/207_Bot Depot.png"
+			}
+		},
+		{
+			"name": "Endless Aliases",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Enchantment",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/209_Endless Aliases.png"
+			}
+		},
+		{
+			"name": "Retromaniac",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/216_Retromaniac.png"
+			}
+		},
+		{
+			"name": "Protoplasm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Alien Ooze Shapeshifter ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/215_Protoplasm.png"
+			}
+		},
+		{
+			"name": "Field Testing",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/138_Field Testing.png"
+			}
+		},
+		{
+			"name": "Paranoid Droid",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/152_Paranoid Droid.png"
+			}
+		},
+		{
+			"name": "Prospective Detective",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Artifact Creature — Construct Detective ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/71_Prospective Detective.png"
+			}
+		},
+		{
+			"name": "Disturbance Monitor",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Drone ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/51_Disturbance Monitor.png"
+			}
+		},
+		{
+			"name": "Tireless Researcher",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/78_Tireless Researcher.png"
+			}
+		},
+		{
+			"name": "Lurking Anomaly",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Serpent Horror ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/62_Lurking Anomaly.png"
+			}
+		},
+		{
+			"name": "Area 0 — Threshold",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/240_Area 0 — Threshold.png"
+			}
+		},
+		{
+			"name": "Interplanar Extraction Labs",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/247_Interplanar Extraction Labs.png"
+			}
+		},
+		{
+			"name": "Inside Scoop",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/59_Inside Scoop.png"
+			}
+		},
+		{
+			"name": "Lab Results",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/61_Lab Results.png"
+			}
+		},
+		{
+			"name": "Void Prober",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/81_Void Prober.png"
+			}
+		},
+		{
+			"name": "Distant Melody",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/50_Distant Melody.png"
+			}
+		},
+		{
+			"name": "Hushed Operation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/56_Hushed Operation.png"
+			}
+		},
+		{
+			"name": "Puzzleform",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Enchantment",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/72_Puzzleform.png"
+			}
+		},
+		{
+			"name": "Background Check",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/45_Background Check.png"
+			}
+		},
+		{
+			"name": "Cryoexamination",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/49_Cryoexamination.png"
+			}
+		},
+		{
+			"name": "Organic Automation",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/66_Organic Automation.png"
+			}
+		},
+		{
+			"name": "Multiplying Multiplier",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/232_Multiplying Multiplier.png"
+			}
+		},
+		{
+			"name": "Bottled Lightning",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/221_Bottled Lightning.png"
+			}
+		},
+		{
+			"name": "Testing Grounds",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/248_Testing Grounds.png"
+			}
+		},
+		{
+			"name": "Warped Landscape",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/249_Warped Landscape.png"
+			}
+		},
+		{
+			"name": "Abduct",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/42_Abduct.png"
+			}
+		},
+		{
+			"name": "Records Auditor",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/74_Records Auditor.png"
+			}
+		},
+		{
+			"name": "Bwrfbn, Hidden Eye",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Homunculus ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/46_Bwrfbn, Hidden Eye.png"
+			}
+		},
+		{
+			"name": "Recon Squad",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/73_Recon Squad.png"
+			}
+		},
+		{
+			"name": "Hypothesphinx",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Sphinx Wizard ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/57_Hypothesphinx.png"
+			}
+		},
+		{
+			"name": "Mass Prototyping",
+			"rarity": "rare",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/63_Mass Prototyping.png"
+			}
+		},
+		{
+			"name": "Mindjack",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/64_Mindjack.png"
+			}
+		},
+		{
+			"name": "Project Tech",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/70_Project Tech.png"
+			}
+		},
+		{
+			"name": "Rapid Developer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/20_Rapid Developer.png"
+			}
+		},
+		{
+			"name": "Formtwister",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Alien Shaman ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/55_Formtwister.png"
+			}
+		},
+		{
+			"name": "Want to Believe",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Enchantment",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/82_Want to Believe.png"
+			}
+		},
+		{
+			"name": "The World is Hollow",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/206_The World is Hollow.png"
+			}
+		},
+		{
+			"name": "Close Encounter",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/173_Close Encounter.png"
+			}
+		},
+		{
+			"name": "Bizarreborist",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/169_Bizarreborist.png"
+			}
+		},
+		{
+			"name": "Anomaly Tamer",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/166_Anomaly Tamer.png"
+			}
+		},
+		{
+			"name": "Into the World",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/190_Into the World.png"
+			}
+		},
+		{
+			"name": "Toxin Tester",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/120_Toxin Tester.png"
+			}
+		},
+		{
+			"name": "Breakthrough Subject",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Rat ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/84_Breakthrough Subject.png"
+			}
+		},
+		{
+			"name": "Willing Volunteers",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/124_Willing Volunteers.png"
+			}
+		},
+		{
+			"name": "Hapless Victim",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/95_Hapless Victim.png"
+			}
+		},
+		{
+			"name": "Creator of Formulas",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/85_Creator of Formulas.png"
+			}
+		},
+		{
+			"name": "Nightmare Stalker",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Horror Assassin ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/103_Nightmare Stalker.png"
+			}
+		},
+		{
+			"name": "Rastafel's Menaces",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Rat Horror ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/109_Rastafel's Menaces.png"
+			}
+		},
+		{
+			"name": "Dissect",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/87_Dissect.png"
+			}
+		},
+		{
+			"name": "Double-Agency",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/89_Double-Agency.png"
+			}
+		},
+		{
+			"name": "Weed Out",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/122_Weed Out.png"
+			}
+		},
+		{
+			"name": "Recover Assets",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/111_Recover Assets.png"
+			}
+		},
+		{
+			"name": "Interrogate",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/97_Interrogate.png"
+			}
+		},
+		{
+			"name": "Crypt Cleaner",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/86_Crypt Cleaner.png"
+			}
+		},
+		{
+			"name": "Emergence Zone",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/246_Emergence Zone.png"
+			}
+		},
+		{
+			"name": "Osbargoth, the First Anamoly",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}",
+			"type": "Legendary Creature — Angel Demon Horror ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/106_Osbargoth, the First Anamoly.png"
+			}
+		},
+		{
+			"name": "Spree Slasher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/116_Spree Slasher.png"
+			}
+		},
+		{
+			"name": "The Facetaker",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Human Warlock ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/94_The Facetaker.png"
+			}
+		},
+		{
+			"name": "The Overrat",
+			"rarity": "rare",
+			"mana_cost": "{7}{B}",
+			"type": "Legendary Creature — Rat Horror ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/107_The Overrat.png"
+			}
+		},
+		{
+			"name": "Ratastrophe",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/110_Ratastrophe.png"
+			}
+		},
+		{
+			"name": "Standard Specimen",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Rat ",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/117_Standard Specimen.png"
+			}
+		},
+		{
+			"name": "Waste Analyst",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/121_Waste Analyst.png"
+			}
+		},
+		{
+			"name": "Plague Researcher",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/108_Plague Researcher.png"
+			}
+		},
+		{
+			"name": "Horrific Success",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Rat Horror ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/96_Horrific Success.png"
+			}
+		},
+		{
+			"name": "Spark Siphoner",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire Wizard ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/115_Spark Siphoner.png"
+			}
+		},
+		{
+			"name": "What Lurks in Shadows",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/123_What Lurks in Shadows.png"
+			}
+		},
+		{
+			"name": "Exploratory Biopsy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/92_Exploratory Biopsy.png"
+			}
+		},
+		{
+			"name": "Dilligent Droid",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/135_Dilligent Droid.png"
+			}
+		},
+		{
+			"name": "Mechanized Infantry Batallion",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Artifact Creature — Construct Soldier ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/149_Mechanized Infantry Batallion.png"
+			}
+		},
+		{
+			"name": "Bloodcurler",
+			"rarity": "common",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Horror ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/129_Bloodcurler.png"
+			}
+		},
+		{
+			"name": "Analyze the Remains",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/125_Analyze the Remains.png"
+			}
+		},
+		{
+			"name": "Illuminating Flame",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/140_Illuminating Flame.png"
+			}
+		},
+		{
+			"name": "Shifting Allegiance",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/157_Shifting Allegiance.png"
+			}
+		},
+		{
+			"name": "Rapid Development",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/154_Rapid Development.png"
+			}
+		},
+		{
+			"name": "Verminate",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/164_Verminate.png"
+			}
+		},
+		{
+			"name": "Destructive Tampering",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/134_Destructive Tampering.png"
+			}
+		},
+		{
+			"name": "Self-Catalyzer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/156_Self-Catalyzer.png"
+			}
+		},
+		{
+			"name": "Newshounds",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Dog ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/150_Newshounds.png"
+			}
+		},
+		{
+			"name": "Strike from the Record",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Instant",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/159_Strike from the Record.png"
+			}
+		},
+		{
+			"name": "Superconductor",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Artifact",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/160_Superconductor.png"
+			}
+		},
+		{
+			"name": "HAL, From Accounting",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Planeswalker — HAL ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/139_HAL, From Accounting.png"
+			}
+		},
+		{
+			"name": "Propane Phoenix",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Phoenix ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/153_Propane Phoenix.png"
+			}
+		},
+		{
+			"name": "Ego Influencers",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/136_Ego Influencers.png"
+			}
+		},
+		{
+			"name": "Whipfang",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Frog Beast Horror ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/165_Whipfang.png"
+			}
+		},
+		{
+			"name": "Unleash the Archives",
+			"rarity": "rare",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/163_Unleash the Archives.png"
+			}
+		},
+		{
+			"name": "Intimidator-inator",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/142_Intimidator-inator.png"
+			}
+		},
+		{
+			"name": "Cole, Impetuous Agent",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Human Soldier ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/132_Cole, Impetuous Agent.png"
+			}
+		},
+		{
+			"name": "Blood-Hazed Specimen",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Mutant ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/128_Blood-Hazed Specimen.png"
+			}
+		},
+		{
+			"name": "Restless Seeking",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/155_Restless Seeking.png"
+			}
+		},
+		{
+			"name": "Loose Cannon",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/147_Loose Cannon.png"
+			}
+		},
+		{
+			"name": "Interplanar Expert",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/189_Interplanar Expert.png"
+			}
+		},
+		{
+			"name": "Overgrowth Researchers",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/197_Overgrowth Researchers.png"
+			}
+		},
+		{
+			"name": "Threshold Stalker",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beast Horror ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/204_Threshold Stalker.png"
+			}
+		},
+		{
+			"name": "Biomaximizer",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Druid ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/168_Biomaximizer.png"
+			}
+		},
+		{
+			"name": "Master of Symbiosis",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/192_Master of Symbiosis.png"
+			}
+		},
+		{
+			"name": "Outland Beast Tracker",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/195_Outland Beast Tracker.png"
+			}
+		},
+		{
+			"name": "Overgrown Mass",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Plant Ooze Horror ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/196_Overgrown Mass.png"
+			}
+		},
+		{
+			"name": "Typical Pet",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/205_Typical Pet.png"
+			}
+		},
+		{
+			"name": "Overgrowth Spasms",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/198_Overgrowth Spasms.png"
+			}
+		},
+		{
+			"name": "Influence of the Beyond",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/187_Influence of the Beyond.png"
+			}
+		},
+		{
+			"name": "Commune with the Unnatural",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/175_Commune with the Unnatural.png"
+			}
+		},
+		{
+			"name": "Blend In",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/170_Blend In.png"
+			}
+		},
+		{
+			"name": "Simulated Terrain",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/200_Simulated Terrain.png"
+			}
+		},
+		{
+			"name": "Reverse Engineering",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/199_Reverse Engineering.png"
+			}
+		},
+		{
+			"name": "Tendrils from Below",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Alien Tentacle Horror ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/203_Tendrils from Below.png"
+			}
+		},
+		{
+			"name": "Evolution Driver",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Alien Treefolk Skeleton ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/180_Evolution Driver.png"
+			}
+		},
+		{
+			"name": "Living Lichen",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Plant Fungus Mutant ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/191_Living Lichen.png"
+			}
+		},
+		{
+			"name": "Field Operator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/182_Field Operator.png"
+			}
+		},
+		{
+			"name": "Haze Lurker",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Beast Horror ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/184_Haze Lurker.png"
+			}
+		},
+		{
+			"name": "Hydrofarming",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/185_Hydrofarming.png"
+			}
+		},
+		{
+			"name": "Day-to-Day Activity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/178_Day-to-Day Activity.png"
+			}
+		},
+		{
+			"name": "Traveling Taskbot",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/238_Traveling Taskbot.png"
+			}
+		},
+		{
+			"name": "Buzzing Drone",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Insect Drone ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/222_Buzzing Drone.png"
+			}
+		},
+		{
+			"name": "Display Visor",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/229_Display Visor.png"
+			}
+		},
+		{
+			"name": "Ordinary Operator",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/233_Ordinary Operator.png"
+			}
+		},
+		{
+			"name": "Samara, Containment Proctor",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Planeswalker — Samara ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/218_Samara, Containment Proctor.png"
+			}
+		},
+		{
+			"name": "The Progenitor-Mutant",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Mutant Avatar ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/214_The Progenitor-Mutant.png"
+			}
+		},
+		{
+			"name": "Typical Taskbot",
+			"rarity": "uncommon",
+			"mana_cost": "{0}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/239_Typical Taskbot.png"
+			}
+		},
+		{
+			"name": "Cosmos Delver",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/228_Cosmos Delver.png"
+			}
+		},
+		{
+			"name": "Memory Editor",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/231_Memory Editor.png"
+			}
+		},
+		{
+			"name": "Strange Monolith",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/237_Strange Monolith.png"
+			}
+		},
+		{
+			"name": "Standard-Issue Crossbow",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/236_Standard-Issue Crossbow.png"
+			}
+		},
+		{
+			"name": "Planeswalking Augmentation",
+			"rarity": "mythic",
+			"mana_cost": "{2}",
+			"type": "Legendary Artifact — Equipment ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/235_Planeswalking Augmentation.png"
+			}
+		},
+		{
+			"name": "Spark Extraction",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/114_Spark Extraction.png"
+			}
+		},
+		{
+			"name": "Mutagenic Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Mutant Hydra ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/194_Mutagenic Hydra.png"
+			}
+		},
+		{
+			"name": "Extinction-Level Event",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/9_Extinction-Level Event.png"
+			}
+		},
+		{
+			"name": "Slow Burn",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/158_Slow Burn.png"
+			}
+		},
+		{
+			"name": "Taboo Experimentation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/119_Taboo Experimentation.png"
+			}
+		},
+		{
+			"name": "Colossification",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/174_Colossification.png"
+			}
+		},
+		{
+			"name": "Once Upon a Midnight Dreary",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/105_Once Upon a Midnight Dreary.png"
+			}
+		},
+		{
+			"name": "Nightmare Fuel",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/102_Nightmare Fuel.png"
+			}
+		},
+		{
+			"name": "Soul Absorption",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/113_Soul Absorption.png"
+			}
+		},
+		{
+			"name": "Masked Tempter",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/100_Masked Tempter.png"
+			}
+		},
+		{
+			"name": "Shella Codebreaker",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/28_Shella Codebreaker.png"
+			}
+		},
+		{
+			"name": "Parallel Door",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/234_Parallel Door.png"
+			}
+		},
+		{
+			"name": "Pitfall Engineer",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{U}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/213_Pitfall Engineer.png"
+			}
+		},
+		{
+			"name": "Exceptional Experiment",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/211_Exceptional Experiment.png"
+			}
+		},
+		{
+			"name": "Upgraded Operatives",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/40_Upgraded Operatives.png"
+			}
+		},
+		{
+			"name": "Brainswarm",
+			"rarity": "rare",
+			"mana_cost": "{5}{B}",
+			"type": "Sorcery",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/83_Brainswarm.png"
+			}
+		},
+		{
+			"name": "Null Revival",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/104_Null Revival.png"
+			}
+		},
+		{
+			"name": "Artful Dodge",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/44_Artful Dodge.png"
+			}
+		},
+		{
+			"name": "Crime Scene",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Artifact Land — Clue ",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/245_Crime Scene.png"
+			}
+		},
+		{
+			"name": "Jemdar, the Interrogator",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Legendary Creature — Demon Warlock ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/98_Jemdar, the Interrogator.png"
+			}
+		},
+		{
+			"name": "Ashmoth, the Blazing End",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Creature — Elemental ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/126_Ashmoth, the Blazing End.png"
+			}
+		},
+		{
+			"name": "Winks, Private Eye",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Legendary Creature — Eye Detective ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/41_Winks, Private Eye.png"
+			}
+		},
+		{
+			"name": "Area 3 — Interrogation",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/241_Area 3 — Interrogation.png"
+			}
+		},
+		{
+			"name": "Area 53 — Armory",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/243_Area 53 — Armory.png"
+			}
+		},
+		{
+			"name": "Area 16 — Laboratories",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/242_Area 16 — Laboratories.png"
+			}
+		},
+		{
+			"name": "Area 99 — Archives",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Legendary Land",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYD-files/img/244_Area 99 — Archives.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Everflayer
+		2 Universe Beholder
+		2 Anders, Truth Hunter
+		2 Secrets Extractor
+		2 Breach Gateway
+		2 Extraplanar Fauna
+		2 Hyperadapt
+		2 Extraction Specialist
+		2 Mission Briefing
+		2 Dogged Detective
+		2 Conspiracy Theorist
+		2 On the Case
+		2 Tamrin, Veteran Agent
+		2 Angelic Taskmaster
+		2 Adamantine Enforcer
+		2 Cecil, Head of Development
+		2 Grizzled Mentor
+		2 Mortal Coil
+		2 Area 0 — Threshold
+		2 Interplanar Extraction Labs
+		2 Recon Squad
+		2 Hypothesphinx
+		2 Mass Prototyping
+		2 Mindjack
+		2 The World is Hollow
+		2 Close Encounter
+		2 Bizarreborist
+		2 Anomaly Tamer
+		2 Into the World
+		2 The Facetaker
+		2 The Overrat
+		2 Ratastrophe
+		2 Propane Phoenix
+		2 Ego Influencers
+		2 Whipfang
+		2 Unleash the Archives
+		2 Intimidator-inator
+		2 Blood-Hazed Specimen
+		2 Loose Cannon
+		2 Mutagenic Hydra
+		2 Extinction-Level Event
+		2 Colossification
+		2 Once Upon a Midnight Dreary
+		2 Soul Absorption
+		2 Masked Tempter
+		2 Shella Codebreaker
+		2 Upgraded Operatives
+		2 Brainswarm
+		2 Winks, Private Eye
+		2 Area 3 — Interrogation
+		2 Area 53 — Armory
+		2 Area 16 — Laboratories
+		2 Area 99 — Archives
+		1 Time Walker
+		1 Mallik, the Curator
+		1 Subject MW02
+		1 Gordon, Threshold Wrangler
+		1 Bwrfbn, Hidden Eye
+		1 Osbargoth, the First Anamoly
+		1 HAL, From Accounting
+		1 Tendrils from Below
+		1 Samara, Containment Proctor
+		1 The Progenitor-Mutant
+		1 Planeswalking Augmentation
+		1 Nightmare Fuel
+		1 Parallel Door
+		1 Jemdar, the Interrogator
+		1 Ashmoth, the Blazing End
+		[UncommonSlot(3)]
+	9 Lashmass
+		9 Unquestioned Authority
+		9 Flight Researcher
+		9 Pinnacle of Divergence
+		9 Live and Let Die
+		9 Echoing Return
+		9 Mech Tinkerer
+		9 Escape Containment
+		9 Invasion Frontrunner
+		9 Optional Tentacles
+		9 Botanist Team
+		9 Strange Carnivorous Predator
+		9 Contact Agents
+		9 Intelligent Life
+		9 Biodiversity Survey
+		9 Epicenter of Evolution
+		9 Field Agent
+		9 Buddybot
+		9 Spark Studier
+		9 Transport Master
+		9 Unrealized Flying Object
+		9 Threshold Warden
+		9 Unseen Guardian
+		9 Metrics Tracker
+		9 Come in Peace
+		9 Auto-Restoration
+		9 Take as Evidence
+		9 Phone Home
+		9 What Lurks Among Men
+		9 Escaped Abomination
+		9 Riftmender
+		9 Dispassionate Experimentor
+		9 Bot Depot
+		9 Endless Aliases
+		9 Retromaniac
+		9 Protoplasm
+		9 Inside Scoop
+		9 Void Prober
+		9 Distant Melody
+		9 Hushed Operation
+		9 Puzzleform
+		9 Multiplying Multiplier
+		9 Bottled Lightning
+		9 Testing Grounds
+		9 Project Tech
+		9 Rapid Developer
+		9 Formtwister
+		9 Want to Believe
+		9 Emergence Zone
+		9 Spree Slasher
+		9 Waste Analyst
+		9 Plague Researcher
+		9 Horrific Success
+		9 Spark Siphoner
+		9 What Lurks in Shadows
+		9 Exploratory Biopsy
+		9 Self-Catalyzer
+		9 Newshounds
+		9 Strike from the Record
+		9 Superconductor
+		9 Cole, Impetuous Agent
+		9 Restless Seeking
+		9 Evolution Driver
+		9 Living Lichen
+		9 Field Operator
+		9 Haze Lurker
+		9 Hydrofarming
+		9 Day-to-Day Activity
+		9 Typical Taskbot
+		9 Cosmos Delver
+		9 Memory Editor
+		9 Strange Monolith
+		9 Standard-Issue Crossbow
+		9 Spark Extraction
+		9 Slow Burn
+		9 Taboo Experimentation
+		9 Pitfall Engineer
+		9 Exceptional Experiment
+		9 Null Revival
+		9 Crime Scene
+		[CommonSlot(12)]
+	30 Room for Two
+		30 Slimy Shellsnap
+		30 Inconspicuous Amphin
+		30 Unmanned Carrier
+		30 First Contact
+		30 Paper Trail
+		30 Cover Identity
+		30 Mindless Masses
+		30 Extravital Organs
+		30 Evil Sky
+		30 Superior Skill
+		30 Top Agent
+		30 Carnage Spawn
+		30 Living Furnace
+		30 Tools of the Trade
+		30 Bioverdiversity
+		30 Inner Beast
+		30 Sporeflayer
+		30 Creatures from Worlds Beyond
+		30 Chittering Tyrano
+		30 Might of the Many
+		30 Knobbleboar
+		30 Anomalous Awakener
+		30 Taskbot Savior
+		30 Doomed Analyst
+		30 Meticulous Assistant
+		30 Researcher's Assistant
+		30 Conspicuous Taskbot
+		30 Conspicuous Evidence
+		30 Conspicuous Wealth
+		30 Conspicuous Sample
+		30 Conspicuous Meal
+		30 Forward Scout
+		30 Break Facilitator
+		30 Odd Ox
+		30 Taskbot Gatherer
+		30 Splinterflock
+		30 Relentless Reporter
+		30 Recovery Agent
+		30 Security Procedures
+		30 Stored in the Archives
+		30 Omnipresent Watch
+		30 New Gear
+		30 Recharge
+		30 Reallocate
+		30 Investigative Journalist
+		30 Field Testing
+		30 Paranoid Droid
+		30 Prospective Detective
+		30 Disturbance Monitor
+		30 Tireless Researcher
+		30 Lurking Anomaly
+		30 Lab Results
+		30 Background Check
+		30 Cryoexamination
+		30 Organic Automation
+		30 Warped Landscape
+		30 Abduct
+		30 Records Auditor
+		30 Toxin Tester
+		30 Breakthrough Subject
+		30 Willing Volunteers
+		30 Hapless Victim
+		30 Creator of Formulas
+		30 Nightmare Stalker
+		30 Rastafel's Menaces
+		30 Dissect
+		30 Double-Agency
+		30 Weed Out
+		30 Recover Assets
+		30 Interrogate
+		30 Crypt Cleaner
+		30 Standard Specimen
+		30 Dilligent Droid
+		30 Mechanized Infantry Batallion
+		30 Bloodcurler
+		30 Analyze the Remains
+		30 Illuminating Flame
+		30 Shifting Allegiance
+		30 Rapid Development
+		30 Verminate
+		30 Destructive Tampering
+		30 Interplanar Expert
+		30 Overgrowth Researchers
+		30 Threshold Stalker
+		30 Biomaximizer
+		30 Master of Symbiosis
+		30 Outland Beast Tracker
+		30 Overgrown Mass
+		30 Typical Pet
+		30 Overgrowth Spasms
+		30 Influence of the Beyond
+		30 Commune with the Unnatural
+		30 Blend In
+		30 Simulated Terrain
+		30 Reverse Engineering
+		30 Traveling Taskbot
+		30 Buzzing Drone
+		30 Display Visor
+		30 Ordinary Operator
+		30 Artful Dodge
+		

@@ -1,0 +1,2912 @@
+﻿[CustomCards]
+	[	{
+			"name": "Chef of the Rest",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Creature — Bird Chef ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/211_Chef of the Rest.png"
+			}
+		},
+		{
+			"name": "Zealous Connoisseur",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/231_Zealous Connoisseur.png"
+			}
+		},
+		{
+			"name": "Foodie Family",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Human Chef ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/214_Foodie Family.png"
+			}
+		},
+		{
+			"name": "Murktide Lurker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Creature — Octopus ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/221_Murktide Lurker.png"
+			}
+		},
+		{
+			"name": "Spell-Chef Prodigy",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Creature — Orc Wizard Chef ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/227_Spell-Chef Prodigy.png"
+			}
+		},
+		{
+			"name": "Reckless Novice",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{R}",
+			"type": "Creature — Goblin Chef ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/224_Reckless Novice.png"
+			}
+		},
+		{
+			"name": "Accomplished Composter",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/209_Accomplished Composter.png"
+			}
+		},
+		{
+			"name": "Exotic Exemplar",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/213_Exotic Exemplar.png"
+			}
+		},
+		{
+			"name": "Sunbeam Stag",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elk Beast ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/48_Sunbeam Stag.png"
+			}
+		},
+		{
+			"name": "Copper Chef",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Chef Construct ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/235_Copper Chef.png"
+			}
+		},
+		{
+			"name": "Stern Critic",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/47_Stern Critic.png"
+			}
+		},
+		{
+			"name": "Assistance Inventor",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Artificer ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/21_Assistance Inventor.png"
+			}
+		},
+		{
+			"name": "Domesticated Wingmate",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/27_Domesticated Wingmate.png"
+			}
+		},
+		{
+			"name": "Hunter's Provisions",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/239_Hunter's Provisions.png"
+			}
+		},
+		{
+			"name": "Benthic Subduer",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/60_Benthic Subduer.png"
+			}
+		},
+		{
+			"name": "Recipe Thief",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/78_Recipe Thief.png"
+			}
+		},
+		{
+			"name": "Crop Keeper",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Scarecrow ",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/236_Crop Keeper.png"
+			}
+		},
+		{
+			"name": "Raid the Pantry",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/77_Raid the Pantry.png"
+			}
+		},
+		{
+			"name": "Leave to Cool",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/74_Leave to Cool.png"
+			}
+		},
+		{
+			"name": "Starving Crab",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Crab ",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/126_Starving Crab.png"
+			}
+		},
+		{
+			"name": "Grilling Gang",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Ooze Chef ",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/109_Grilling Gang.png"
+			}
+		},
+		{
+			"name": "Inksnare Octopus",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Octopus ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/111_Inksnare Octopus.png"
+			}
+		},
+		{
+			"name": "Blood Hunter",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Shark ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/97_Blood Hunter.png"
+			}
+		},
+		{
+			"name": "Blighted Barkhide",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Plant Beast ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/96_Blighted Barkhide.png"
+			}
+		},
+		{
+			"name": "Seahunter's Bane",
+			"rarity": "common",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Kraken ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/124_Seahunter's Bane.png"
+			}
+		},
+		{
+			"name": "Takeout",
+			"rarity": "common",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Instant",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/127_Takeout.png"
+			}
+		},
+		{
+			"name": "Gothic Goop",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Ooze ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/108_Gothic Goop.png"
+			}
+		},
+		{
+			"name": "Servo Server",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Artifact Creature — Servo Construct ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/241_Servo Server.png"
+			}
+		},
+		{
+			"name": "Delicious Dispute",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/104_Delicious Dispute.png"
+			}
+		},
+		{
+			"name": "Retrieved from the Cellar",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/121_Retrieved from the Cellar.png"
+			}
+		},
+		{
+			"name": "Spoil",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/125_Spoil.png"
+			}
+		},
+		{
+			"name": "Help Wanted",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/150_Help Wanted.png"
+			}
+		},
+		{
+			"name": "Ferocious Marksman",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Archer ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/143_Ferocious Marksman.png"
+			}
+		},
+		{
+			"name": "Bloodthirsty Snarltooth",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Beast ",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/137_Bloodthirsty Snarltooth.png"
+			}
+		},
+		{
+			"name": "Conjoined Tigorilla",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Cat Ape Beast ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/141_Conjoined Tigorilla.png"
+			}
+		},
+		{
+			"name": "Hijack",
+			"rarity": "common",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/151_Hijack.png"
+			}
+		},
+		{
+			"name": "Ruin the Batch",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/160_Ruin the Batch.png"
+			}
+		},
+		{
+			"name": "Crafty Scavenger",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Raccoon Beast ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/181_Crafty Scavenger.png"
+			}
+		},
+		{
+			"name": "Berry Blenders",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Ooze Chef ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/177_Berry Blenders.png"
+			}
+		},
+		{
+			"name": "Evolving Wilds",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/247_Evolving Wilds.png"
+			}
+		},
+		{
+			"name": "Sporecap Hermit",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/201_Sporecap Hermit.png"
+			}
+		},
+		{
+			"name": "Slimy Shopkeep",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Ooze Citizen ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/200_Slimy Shopkeep.png"
+			}
+		},
+		{
+			"name": "Jungle Slasher",
+			"rarity": "common",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Lizard Beast ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/191_Jungle Slasher.png"
+			}
+		},
+		{
+			"name": "And Featuring a Rare Ingredient",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/170_And Featuring a Rare Ingredient.png"
+			}
+		},
+		{
+			"name": "Produce Produce",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/196_Produce Produce.png"
+			}
+		},
+		{
+			"name": "Cleaner's Knife",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/233_Cleaner's Knife.png"
+			}
+		},
+		{
+			"name": "Flock Herder",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Peasant ",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/32_Flock Herder.png"
+			}
+		},
+		{
+			"name": "Ancestral Guide",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit Chef ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/16_Ancestral Guide.png"
+			}
+		},
+		{
+			"name": "Feasting Wildlife",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Elk Cat Beast ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/30_Feasting Wildlife.png"
+			}
+		},
+		{
+			"name": "Against All Odds",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/14_Against All Odds.png"
+			}
+		},
+		{
+			"name": "All that Simmers",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/15_All that Simmers.png"
+			}
+		},
+		{
+			"name": "Trial of Skill",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/51_Trial of Skill.png"
+			}
+		},
+		{
+			"name": "Skilled Slicer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Octopus Chef ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/83_Skilled Slicer.png"
+			}
+		},
+		{
+			"name": "Blur Leopard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Cat Beast ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/61_Blur Leopard.png"
+			}
+		},
+		{
+			"name": "Shaken, Not Stirred",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/81_Shaken, Not Stirred.png"
+			}
+		},
+		{
+			"name": "Trial of Improvisation",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/89_Trial of Improvisation.png"
+			}
+		},
+		{
+			"name": "Pincher Crab",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Crab ",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/119_Pincher Crab.png"
+			}
+		},
+		{
+			"name": "Citrus Sucker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Bat ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/101_Citrus Sucker.png"
+			}
+		},
+		{
+			"name": "Octofolk Gorger",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}",
+			"type": "Creature — Octopus ",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/116_Octofolk Gorger.png"
+			}
+		},
+		{
+			"name": "Chupacabra Devourer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Beast Horror ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/100_Chupacabra Devourer.png"
+			}
+		},
+		{
+			"name": "Candy Keeper",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Ooze ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/98_Candy Keeper.png"
+			}
+		},
+		{
+			"name": "Sabotage the Competition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/123_Sabotage the Competition.png"
+			}
+		},
+		{
+			"name": "And Paired with a Sampler",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/93_And Paired with a Sampler.png"
+			}
+		},
+		{
+			"name": "Haul from the Depths",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/110_Haul from the Depths.png"
+			}
+		},
+		{
+			"name": "Trial of Deceit",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/129_Trial of Deceit.png"
+			}
+		},
+		{
+			"name": "Rowdy Patron",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Orc Citizen ",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/159_Rowdy Patron.png"
+			}
+		},
+		{
+			"name": "Giant Cindermaw",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dinosaur Beast ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/146_Giant Cindermaw.png"
+			}
+		},
+		{
+			"name": "Sizzlemancer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Bear Chef ",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/162_Sizzlemancer.png"
+			}
+		},
+		{
+			"name": "Sapfarm Scourge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/161_Sapfarm Scourge.png"
+			}
+		},
+		{
+			"name": "Stovetop Maniac",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Squirrel Chef ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/165_Stovetop Maniac.png"
+			}
+		},
+		{
+			"name": "Char to a Crisp",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Instant",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/140_Char to a Crisp.png"
+			}
+		},
+		{
+			"name": "Trial of Originality",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/166_Trial of Originality.png"
+			}
+		},
+		{
+			"name": "Feisty Cub",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Cat Beast ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/185_Feisty Cub.png"
+			}
+		},
+		{
+			"name": "Sap Suckers",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/198_Sap Suckers.png"
+			}
+		},
+		{
+			"name": "Cakery Crew",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/180_Cakery Crew.png"
+			}
+		},
+		{
+			"name": "Trial of Resourcefulness",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/206_Trial of Resourcefulness.png"
+			}
+		},
+		{
+			"name": "Cyclical Harvester",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Scarecrow ",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/238_Cyclical Harvester.png"
+			}
+		},
+		{
+			"name": "Shambling Suit",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/242_Shambling Suit.png"
+			}
+		},
+		{
+			"name": "Assorted Sweets",
+			"rarity": "uncommon",
+			"mana_cost": "{5}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/7_Assorted Sweets.png"
+			}
+		},
+		{
+			"name": "And Loaded with Caffeine",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/2_And Loaded with Caffeine.png"
+			}
+		},
+		{
+			"name": "Jax, Charming Critic",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/37_Jax, Charming Critic.png"
+			}
+		},
+		{
+			"name": "Enchanting Temptress",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/29_Enchanting Temptress.png"
+			}
+		},
+		{
+			"name": "Sweet Dreams",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/50_Sweet Dreams.png"
+			}
+		},
+		{
+			"name": "Selected Specially",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/43_Selected Specially.png"
+			}
+		},
+		{
+			"name": "Snipcaster Mage",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Crab Wizard ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/84_Snipcaster Mage.png"
+			}
+		},
+		{
+			"name": "Ars, Technical Critic",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Legendary Creature — Bird Advisor ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/57_Ars, Technical Critic.png"
+			}
+		},
+		{
+			"name": "Bakery Bunch",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Ooze Artificer ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/59_Bakery Bunch.png"
+			}
+		},
+		{
+			"name": "Cuprising",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/66_Cuprising.png"
+			}
+		},
+		{
+			"name": "Corentine, Indulgent Critic",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Cat Advisor ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/102_Corentine, Indulgent Critic.png"
+			}
+		},
+		{
+			"name": "Chef's Shadow",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Avatar ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/99_Chef's Shadow.png"
+			}
+		},
+		{
+			"name": "Sanity Amplifier",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Kraken Illusion ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/79_Sanity Amplifier.png"
+			}
+		},
+		{
+			"name": "Goblin Brewmaster",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Goblin Shaman Chef ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/147_Goblin Brewmaster.png"
+			}
+		},
+		{
+			"name": "Berth, Practical Critic",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Human Advisor ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/135_Berth, Practical Critic.png"
+			}
+		},
+		{
+			"name": "Food Fight",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/145_Food Fight.png"
+			}
+		},
+		{
+			"name": "Gigantifier Jelly",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/187_Gigantifier Jelly.png"
+			}
+		},
+		{
+			"name": "Thragtusk",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/204_Thragtusk.png"
+			}
+		},
+		{
+			"name": "Effa, Verdurous Critic",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Elf Advisor ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/184_Effa, Verdurous Critic.png"
+			}
+		},
+		{
+			"name": "Blossoming Season",
+			"rarity": "rare",
+			"mana_cost": "{4}{G}",
+			"type": "Enchantment",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/178_Blossoming Season.png"
+			}
+		},
+		{
+			"name": "Crop-Cobbled Scarecrow",
+			"rarity": "rare",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Scarecrow ",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/237_Crop-Cobbled Scarecrow.png"
+			}
+		},
+		{
+			"name": "Banquet Hall",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/243_Banquet Hall.png"
+			}
+		},
+		{
+			"name": "Sustainable Food Source",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Phoenix ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/49_Sustainable Food Source.png"
+			}
+		},
+		{
+			"name": "Oakenmaul, the Apex",
+			"rarity": "mythic",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Legendary Creature — Beast ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/195_Oakenmaul, the Apex.png"
+			}
+		},
+		{
+			"name": "Codex Culinaria",
+			"rarity": "mythic",
+			"mana_cost": "{5}",
+			"type": "Legendary Artifact",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/234_Codex Culinaria.png"
+			}
+		},
+		{
+			"name": "Bane of Crops",
+			"rarity": "mythic",
+			"mana_cost": "{8}",
+			"type": "Artifact Creature — Scarecrow ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/232_Bane of Crops.png"
+			}
+		},
+		{
+			"name": "And Served in Fine China",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/6_And Served in Fine China.png"
+			}
+		},
+		{
+			"name": "And Loaded with Toppings",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/3_And Loaded with Toppings.png"
+			}
+		},
+		{
+			"name": "And Paired with a Side of Eyeballs",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/4_And Paired with a Side of Eyeballs.png"
+			}
+		},
+		{
+			"name": "And Complimented with Marbled Gargoyle",
+			"rarity": "common",
+			"mana_cost": "{6}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/1_And Complimented with Marbled Gargoyle.png"
+			}
+		},
+		{
+			"name": "Made With Care",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/11_Made With Care.png"
+			}
+		},
+		{
+			"name": "Gathered From Far Off Lands",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/10_Gathered From Far Off Lands.png"
+			}
+		},
+		{
+			"name": "Seasonal Harvest",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/199_Seasonal Harvest.png"
+			}
+		},
+		{
+			"name": "With Seconds Included",
+			"rarity": "common",
+			"mana_cost": "{1}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/13_With Seconds Included.png"
+			}
+		},
+		{
+			"name": "Tenderized",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/12_Tenderized.png"
+			}
+		},
+		{
+			"name": "Fattened Up",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/9_Fattened Up.png"
+			}
+		},
+		{
+			"name": "And Served by Automatic Helpers",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/5_And Served by Automatic Helpers.png"
+			}
+		},
+		{
+			"name": "Shady Salesman",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/225_Shady Salesman.png"
+			}
+		},
+		{
+			"name": "Mocktail",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Sorcery",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/220_Mocktail.png"
+			}
+		},
+		{
+			"name": "Livestock Farmer",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Elf Peasant ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/193_Livestock Farmer.png"
+			}
+		},
+		{
+			"name": "Mountainous Goat",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/41_Mountainous Goat.png"
+			}
+		},
+		{
+			"name": "Angus Beef",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/20_Angus Beef.png"
+			}
+		},
+		{
+			"name": "Sprinkled with Salt",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/46_Sprinkled with Salt.png"
+			}
+		},
+		{
+			"name": "And Glazed in Caramel",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/18_And Glazed in Caramel.png"
+			}
+		},
+		{
+			"name": "Drake Hatchling",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/68_Drake Hatchling.png"
+			}
+		},
+		{
+			"name": "And Served on Ice",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/55_And Served on Ice.png"
+			}
+		},
+		{
+			"name": "Watered Down",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/90_Watered Down.png"
+			}
+		},
+		{
+			"name": "Winter Crab",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/91_Winter Crab.png"
+			}
+		},
+		{
+			"name": "And Simmered in Manticore Venom",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/95_And Simmered in Manticore Venom.png"
+			}
+		},
+		{
+			"name": "Poached Squirrel",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/120_Poached Squirrel.png"
+			}
+		},
+		{
+			"name": "Roasted Scorpion",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/122_Roasted Scorpion.png"
+			}
+		},
+		{
+			"name": "And Coated in Spices",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/132_And Coated in Spices.png"
+			}
+		},
+		{
+			"name": "Steamed to Perfection",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/164_Steamed to Perfection.png"
+			}
+		},
+		{
+			"name": "Braised Gremlin",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/138_Braised Gremlin.png"
+			}
+		},
+		{
+			"name": "Wild Boar",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/168_Wild Boar.png"
+			}
+		},
+		{
+			"name": "Homegrown Sprouts",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/189_Homegrown Sprouts.png"
+			}
+		},
+		{
+			"name": "Jungle Baloth",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/190_Jungle Baloth.png"
+			}
+		},
+		{
+			"name": "Drizzled with Oil",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/183_Drizzled with Oil.png"
+			}
+		},
+		{
+			"name": "Selveth, Decorated Chef",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}{W}",
+			"type": "Legendary Creature — Cat Chef ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/44_Selveth, Decorated Chef_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/44_Selveth, Decorated Chef_back.png"
+				}
+			}
+		},
+		{
+			"name": "Cass, Impressionable Prodigy",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Creature — Human Chef ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/63_Cass, Impressionable Prodigy_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/63_Cass, Impressionable Prodigy_back.png"
+				}
+			}
+		},
+		{
+			"name": "Josue Moreau",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Legendary Creature — Rat Chef ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/112_Josue Moreau_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/112_Josue Moreau_back.png"
+				}
+			}
+		},
+		{
+			"name": "Kobbit, Burly Butcher",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Orc Chef ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/154_Kobbit, Burly Butcher_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/154_Kobbit, Burly Butcher_back.png"
+				}
+			}
+		},
+		{
+			"name": "Arietta, Who Caters to All",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Elf Chef ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/174_Arietta, Who Caters to All_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/174_Arietta, Who Caters to All_back.png"
+				}
+			}
+		},
+		{
+			"name": "Emillie, Heavenly Baker",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Legendary Creature — Angel Chef ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/212_Emillie, Heavenly Baker_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/212_Emillie, Heavenly Baker_back.png"
+				}
+			}
+		},
+		{
+			"name": "Fritt, the Hunter",
+			"rarity": "rare",
+			"mana_cost": "{R}{G}",
+			"type": "Legendary Creature — Human Ranger Chef ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/215_Fritt, the Hunter_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/215_Fritt, the Hunter_back.png"
+				}
+			}
+		},
+		{
+			"name": "Grom, Cooking Momma",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{R}",
+			"type": "Legendary Creature — Goblin Chef ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/216_Grom, Cooking Momma_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/216_Grom, Cooking Momma_back.png"
+				}
+			}
+		},
+		{
+			"name": "Halvis, Seafood Spokestopus",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Legendary Creature — Octopus Chef ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/217_Halvis, Seafood Spokestopus_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/217_Halvis, Seafood Spokestopus_back.png"
+				}
+			}
+		},
+		{
+			"name": "Jennig, Queen of Confections",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Creature — Human Noble Chef ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/218_Jennig, Queen of Confections_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/218_Jennig, Queen of Confections_back.png"
+				}
+			}
+		},
+		{
+			"name": "Kinna de Rolo III",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Creature — Elf Chef ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/219_Kinna de Rolo III_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/219_Kinna de Rolo III_back.png"
+				}
+			}
+		},
+		{
+			"name": "Pallo, Palate Perfectionist",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Creature — Frog Chef ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/223_Pallo, Palate Perfectionist_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/223_Pallo, Palate Perfectionist_back.png"
+				}
+			}
+		},
+		{
+			"name": "Sid, the Kid",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{W}",
+			"type": "Legendary Creature — Orc Chef ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/226_Sid, the Kid_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/226_Sid, the Kid_back.png"
+				}
+			}
+		},
+		{
+			"name": "Terry, Sous Supreme",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Legendary Creature — Ooze Chef ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/228_Terry, Sous Supreme_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/228_Terry, Sous Supreme_back.png"
+				}
+			}
+		},
+		{
+			"name": "Urnis, Battlechef Exemplar",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{W}",
+			"type": "Legendary Creature — Human Wizard Chef ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/229_Urnis, Battlechef Exemplar_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/229_Urnis, Battlechef Exemplar_back.png"
+				}
+			}
+		},
+		{
+			"name": "Ryori, Iron Chef",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Artifact Creature — Chef Construct ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/240_Ryori, Iron Chef_front.png"
+			},
+			"back": {
+				"name": "",
+				"type": "",
+				"image_uris": {
+					"en": "https://thatonesungod.github.io/sets/CHF-files/img/240_Ryori, Iron Chef_back.png"
+				}
+			}
+		},
+		{
+			"name": "Cadewyn, Short Order Cook",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Legendary Planeswalker — Cadewyn ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/210_Cadewyn, Short Order Cook.png"
+			}
+		},
+		{
+			"name": "Oko, Lavish Host",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Legendary Planeswalker — Oko ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/222_Oko, Lavish Host.png"
+			}
+		},
+		{
+			"name": "Vaul, Cannibal Outcast",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Legendary Planeswalker — Vaul ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/230_Vaul, Cannibal Outcast.png"
+			}
+		},
+		{
+			"name": "Sinzer, Seafood Surprise",
+			"rarity": "mythic",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Legendary Planeswalker — Sinzer ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/82_Sinzer, Seafood Surprise.png"
+			}
+		},
+		{
+			"name": "Lost in Flavor",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/39_Lost in Flavor.png"
+			}
+		},
+		{
+			"name": "You Are What You Eat",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Enchantment",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/130_You Are What You Eat.png"
+			}
+		},
+		{
+			"name": "Seasoned Seasoner",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Chef ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/42_Seasoned Seasoner.png"
+			}
+		},
+		{
+			"name": "Empty the Plate",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/28_Empty the Plate.png"
+			}
+		},
+		{
+			"name": "Biggest Fan",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Creature — Giant Citizen ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/23_Biggest Fan.png"
+			}
+		},
+		{
+			"name": "Hunting Hawk",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/34_Hunting Hawk.png"
+			}
+		},
+		{
+			"name": "Icing Aficionado",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Ooze Chef ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/35_Icing Aficionado.png"
+			}
+		},
+		{
+			"name": "Lunch Break",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/40_Lunch Break.png"
+			}
+		},
+		{
+			"name": "Ingredient Juggler",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Cat Chef ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/36_Ingredient Juggler.png"
+			}
+		},
+		{
+			"name": "Chopped",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/25_Chopped.png"
+			}
+		},
+		{
+			"name": "Pastry Poisoner",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Chef Assassin ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/118_Pastry Poisoner.png"
+			}
+		},
+		{
+			"name": "Kitchen Rats",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Rat ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/113_Kitchen Rats.png"
+			}
+		},
+		{
+			"name": "Aven Spell-Chef",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Bird Wizard Chef ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/58_Aven Spell-Chef.png"
+			}
+		},
+		{
+			"name": "Trapjaw Kraken",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Kraken Beast ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/88_Trapjaw Kraken.png"
+			}
+		},
+		{
+			"name": "Supernatural Intervention",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/86_Supernatural Intervention.png"
+			}
+		},
+		{
+			"name": "Messy Decorator",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Ooze Chef ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/75_Messy Decorator.png"
+			}
+		},
+		{
+			"name": "Secret Way",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/80_Secret Way.png"
+			}
+		},
+		{
+			"name": "Ambidextrous Spellcook",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Octopus Wizard Chef ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/53_Ambidextrous Spellcook.png"
+			}
+		},
+		{
+			"name": "Cafe Chums",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Ooze ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/62_Cafe Chums.png"
+			}
+		},
+		{
+			"name": "Exotics Vendor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Bird Citizen ",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/69_Exotics Vendor.png"
+			}
+		},
+		{
+			"name": "Thirst for Sustenance",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/87_Thirst for Sustenance.png"
+			}
+		},
+		{
+			"name": "Check Please",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/64_Check Please.png"
+			}
+		},
+		{
+			"name": "Crafty Resilience",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/103_Crafty Resilience.png"
+			}
+		},
+		{
+			"name": "Campfire Cooks",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Ooze Chef ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/139_Campfire Cooks.png"
+			}
+		},
+		{
+			"name": "Hunted Corrix",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Beast ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/152_Hunted Corrix.png"
+			}
+		},
+		{
+			"name": "Heated Up",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/149_Heated Up.png"
+			}
+		},
+		{
+			"name": "Inspiring Chef",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Goblin Chef ",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/153_Inspiring Chef.png"
+			}
+		},
+		{
+			"name": "Sizzling Chef",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Orc Chef ",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/163_Sizzling Chef.png"
+			}
+		},
+		{
+			"name": "Overcook",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/156_Overcook.png"
+			}
+		},
+		{
+			"name": "Flambe",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/144_Flambe.png"
+			}
+		},
+		{
+			"name": "Harvest Warden",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact Creature — Scarecrow ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/188_Harvest Warden.png"
+			}
+		},
+		{
+			"name": "Titanic Gorzilla",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Ape Lizard Beast ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/205_Titanic Gorzilla.png"
+			}
+		},
+		{
+			"name": "Knuckle Sandwich",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/192_Knuckle Sandwich.png"
+			}
+		},
+		{
+			"name": "Broken Wings",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Instant",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/179_Broken Wings.png"
+			}
+		},
+		{
+			"name": "Distant Haze",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/182_Distant Haze.png"
+			}
+		},
+		{
+			"name": "Hinterland Harbor",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/249_Hinterland Harbor.png"
+			}
+		},
+		{
+			"name": "Isolated Chapel",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "250",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/250_Isolated Chapel.png"
+			}
+		},
+		{
+			"name": "Dragonskull Summit",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/245_Dragonskull Summit.png"
+			}
+		},
+		{
+			"name": "Woodland Cemetery",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "254",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/254_Woodland Cemetery.png"
+			}
+		},
+		{
+			"name": "Clifftop Retreat",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/244_Clifftop Retreat.png"
+			}
+		},
+		{
+			"name": "Evaporated",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/8_Evaporated.png"
+			}
+		},
+		{
+			"name": "Healer's Livestock",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/33_Healer's Livestock.png"
+			}
+		},
+		{
+			"name": "Flattened",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/31_Flattened.png"
+			}
+		},
+		{
+			"name": "And Preserved for Later",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/19_And Preserved for Later.png"
+			}
+		},
+		{
+			"name": "And with the Recipe Provided",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/56_And with the Recipe Provided.png"
+			}
+		},
+		{
+			"name": "Steamed Octopus",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/85_Steamed Octopus.png"
+			}
+		},
+		{
+			"name": "Freshly Butchered",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/106_Freshly Butchered.png"
+			}
+		},
+		{
+			"name": "Maggot Cheese",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/114_Maggot Cheese.png"
+			}
+		},
+		{
+			"name": "Twice-Baked",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant — Ingredient ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/167_Twice-Baked.png"
+			}
+		},
+		{
+			"name": "And Sliced Up",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/134_And Sliced Up.png"
+			}
+		},
+		{
+			"name": "Molten Rock",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/155_Molten Rock.png"
+			}
+		},
+		{
+			"name": "Lots of Things",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/194_Lots of Things.png"
+			}
+		},
+		{
+			"name": "Free Range",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/186_Free Range.png"
+			}
+		},
+		{
+			"name": "And Yesterday's Leftovers",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/173_And Yesterday's Leftovers.png"
+			}
+		},
+		{
+			"name": "Server Angel",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/45_Server Angel.png"
+			}
+		},
+		{
+			"name": "Boarkin Incenser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Boar Chef ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/24_Boarkin Incenser.png"
+			}
+		},
+		{
+			"name": "Livestock Guardian",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Halfling Soldier ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/38_Livestock Guardian.png"
+			}
+		},
+		{
+			"name": "Five Second Rule",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/70_Five Second Rule.png"
+			}
+		},
+		{
+			"name": "Hunt for Ingredients",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/72_Hunt for Ingredients.png"
+			}
+		},
+		{
+			"name": "Clumsy Cook",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Ooze Chef ",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/65_Clumsy Cook.png"
+			}
+		},
+		{
+			"name": "Hungry Squab",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Bird ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/71_Hungry Squab.png"
+			}
+		},
+		{
+			"name": "Kraken Drowner",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Kraken ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/73_Kraken Drowner.png"
+			}
+		},
+		{
+			"name": "Tavern Swindler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Rogue ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/128_Tavern Swindler.png"
+			}
+		},
+		{
+			"name": "Greasefire Phoenix",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Phoenix ",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/148_Greasefire Phoenix.png"
+			}
+		},
+		{
+			"name": "Prepmage Adept",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Goblin Wizard Chef ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/157_Prepmage Adept.png"
+			}
+		},
+		{
+			"name": "Woodcrasher Baloth",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Beast ",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/169_Woodcrasher Baloth.png"
+			}
+		},
+		{
+			"name": "Ready to Crumble",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/158_Ready to Crumble.png"
+			}
+		},
+		{
+			"name": "Well-Fed Grizzly",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Bear Beast ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/208_Well-Fed Grizzly.png"
+			}
+		},
+		{
+			"name": "Unbalanced Diet",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Instant",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/207_Unbalanced Diet.png"
+			}
+		},
+		{
+			"name": "Battlechef Contestant",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Human Soldier Chef ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/175_Battlechef Contestant.png"
+			}
+		},
+		{
+			"name": "Stompede",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/202_Stompede.png"
+			}
+		},
+		{
+			"name": "Sweets Swiper",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Ouphe ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/203_Sweets Swiper.png"
+			}
+		},
+		{
+			"name": "Aged to Perfection",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/92_Aged to Perfection.png"
+			}
+		},
+		{
+			"name": "Doubled Up",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/67_Doubled Up.png"
+			}
+		},
+		{
+			"name": "And Kicked Up a Notch",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/133_And Kicked Up a Notch.png"
+			}
+		},
+		{
+			"name": "And Made Premium",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/172_And Made Premium.png"
+			}
+		},
+		{
+			"name": "Baker's Dozen",
+			"rarity": "rare",
+			"mana_cost": "{4}{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/22_Baker's Dozen.png"
+			}
+		},
+		{
+			"name": "Veteran Competitor",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bear Chef ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/52_Veteran Competitor.png"
+			}
+		},
+		{
+			"name": "Clear the Table",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/26_Clear the Table.png"
+			}
+		},
+		{
+			"name": "Overwhelming Wave",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/76_Overwhelming Wave.png"
+			}
+		},
+		{
+			"name": "One Minute Remaining",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Instant",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/117_One Minute Remaining.png"
+			}
+		},
+		{
+			"name": "Demon of Endless Appetite",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/105_Demon of Endless Appetite.png"
+			}
+		},
+		{
+			"name": "Meatery Master",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Orc Chef ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/115_Meatery Master.png"
+			}
+		},
+		{
+			"name": "Bloodlash",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Legendary Creature — Beast Horror ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/136_Bloodlash.png"
+			}
+		},
+		{
+			"name": "Battlechef Lieutenant",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Elf Soldier Chef ",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/176_Battlechef Lieutenant.png"
+			}
+		},
+		{
+			"name": "Revel in Dishes",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Enchantment",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/197_Revel in Dishes.png"
+			}
+		},
+		{
+			"name": "And Enough to Share",
+			"rarity": "mythic",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/17_And Enough to Share.png"
+			}
+		},
+		{
+			"name": "And Repeat Step One",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/54_And Repeat Step One.png"
+			}
+		},
+		{
+			"name": "And Served Exactly as Requested",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/94_And Served Exactly as Requested.png"
+			}
+		},
+		{
+			"name": "And a Dessert To Go",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/131_And a Dessert To Go.png"
+			}
+		},
+		{
+			"name": "And Including a Special Surpise",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Sorcery — Ingredient ",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/171_And Including a Special Surpise.png"
+			}
+		},
+		{
+			"name": "Culdona Reaper",
+			"rarity": "mythic",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/142_Culdona Reaper.png"
+			}
+		},
+		{
+			"name": "Ghost-Story Group",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Ooze ",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/107_Ghost-Story Group.png"
+			}
+		},
+		{
+			"name": "Sulfur Falls",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "252",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/252_Sulfur Falls.png"
+			}
+		},
+		{
+			"name": "Drowned Catacomb",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/246_Drowned Catacomb.png"
+			}
+		},
+		{
+			"name": "Glacial Fortress",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/248_Glacial Fortress.png"
+			}
+		},
+		{
+			"name": "Rootbound Crag",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "251",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/251_Rootbound Crag.png"
+			}
+		},
+		{
+			"name": "Sunpetal Grove",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "253",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/CHF-files/img/253_Sunpetal Grove.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Jax, Charming Critic
+		2 Enchanting Temptress
+		2 Sweet Dreams
+		2 Selected Specially
+		2 Snipcaster Mage
+		2 Ars, Technical Critic
+		2 Bakery Bunch
+		2 Cuprising
+		2 Corentine, Indulgent Critic
+		2 Chef's Shadow
+		2 Sanity Amplifier
+		2 Goblin Brewmaster
+		2 Berth, Practical Critic
+		2 Food Fight
+		2 Gigantifier Jelly
+		2 Thragtusk
+		2 Effa, Verdurous Critic
+		2 Blossoming Season
+		2 Crop-Cobbled Scarecrow
+		2 Banquet Hall
+		2 Selveth, Decorated Chef
+		2 Cass, Impressionable Prodigy
+		2 Josue Moreau
+		2 Kobbit, Burly Butcher
+		2 Arietta, Who Caters to All
+		2 Emillie, Heavenly Baker
+		2 Fritt, the Hunter
+		2 Grom, Cooking Momma
+		2 Halvis, Seafood Spokestopus
+		2 Jennig, Queen of Confections
+		2 Kinna de Rolo III
+		2 Pallo, Palate Perfectionist
+		2 Sid, the Kid
+		2 Terry, Sous Supreme
+		2 Urnis, Battlechef Exemplar
+		2 Ryori, Iron Chef
+		2 You Are What You Eat
+		2 Greasefire Phoenix
+		2 Prepmage Adept
+		2 Aged to Perfection
+		2 Doubled Up
+		2 And Kicked Up a Notch
+		2 And Made Premium
+		2 Baker's Dozen
+		2 Veteran Competitor
+		2 Clear the Table
+		2 Overwhelming Wave
+		2 One Minute Remaining
+		2 Demon of Endless Appetite
+		2 Meatery Master
+		2 Bloodlash
+		2 Battlechef Lieutenant
+		2 Revel in Dishes
+		1 Sustainable Food Source
+		1 Oakenmaul, the Apex
+		1 Codex Culinaria
+		1 Bane of Crops
+		1 Cadewyn, Short Order Cook
+		1 Oko, Lavish Host
+		1 Vaul, Cannibal Outcast
+		1 Sinzer, Seafood Surprise
+		1 And Enough to Share
+		1 And Repeat Step One
+		1 And Served Exactly as Requested
+		1 And a Dessert To Go
+		1 And Including a Special Surpise
+		1 Culdona Reaper
+		1 Ghost-Story Group
+		[UncommonSlot(3)]
+	9 Chef of the Rest
+		9 Zealous Connoisseur
+		9 Foodie Family
+		9 Murktide Lurker
+		9 Spell-Chef Prodigy
+		9 Reckless Novice
+		9 Accomplished Composter
+		9 Exotic Exemplar
+		9 Flock Herder
+		9 Ancestral Guide
+		9 Feasting Wildlife
+		9 Against All Odds
+		9 All that Simmers
+		9 Trial of Skill
+		9 Skilled Slicer
+		9 Blur Leopard
+		9 Shaken, Not Stirred
+		9 Trial of Improvisation
+		9 Pincher Crab
+		9 Citrus Sucker
+		9 Octofolk Gorger
+		9 Chupacabra Devourer
+		9 Candy Keeper
+		9 Sabotage the Competition
+		9 And Paired with a Sampler
+		9 Haul from the Depths
+		9 Trial of Deceit
+		9 Rowdy Patron
+		9 Giant Cindermaw
+		9 Sizzlemancer
+		9 Sapfarm Scourge
+		9 Stovetop Maniac
+		9 Char to a Crisp
+		9 Trial of Originality
+		9 Feisty Cub
+		9 Sap Suckers
+		9 Cakery Crew
+		9 Trial of Resourcefulness
+		9 Cyclical Harvester
+		9 Shambling Suit
+		9 Assorted Sweets
+		9 And Loaded with Caffeine
+		9 Shady Salesman
+		9 Mocktail
+		9 Exotics Vendor
+		9 Hinterland Harbor
+		9 Isolated Chapel
+		9 Dragonskull Summit
+		9 Woodland Cemetery
+		9 Clifftop Retreat
+		9 Evaporated
+		9 Healer's Livestock
+		9 Flattened
+		9 And Preserved for Later
+		9 And with the Recipe Provided
+		9 Steamed Octopus
+		9 Freshly Butchered
+		9 Maggot Cheese
+		9 Twice-Baked
+		9 And Sliced Up
+		9 Molten Rock
+		9 Lots of Things
+		9 Free Range
+		9 And Yesterday's Leftovers
+		9 Server Angel
+		9 Boarkin Incenser
+		9 Livestock Guardian
+		9 Five Second Rule
+		9 Hunt for Ingredients
+		9 Clumsy Cook
+		9 Hungry Squab
+		9 Kraken Drowner
+		9 Tavern Swindler
+		9 Woodcrasher Baloth
+		9 Ready to Crumble
+		9 Well-Fed Grizzly
+		9 Unbalanced Diet
+		9 Battlechef Contestant
+		9 Stompede
+		9 Sweets Swiper
+		9 Sulfur Falls
+		9 Drowned Catacomb
+		9 Glacial Fortress
+		9 Rootbound Crag
+		9 Sunpetal Grove
+		[CommonSlot(12)]
+	30 Sunbeam Stag
+		30 Copper Chef
+		30 Stern Critic
+		30 Assistance Inventor
+		30 Domesticated Wingmate
+		30 Hunter's Provisions
+		30 Benthic Subduer
+		30 Recipe Thief
+		30 Crop Keeper
+		30 Raid the Pantry
+		30 Leave to Cool
+		30 Starving Crab
+		30 Grilling Gang
+		30 Inksnare Octopus
+		30 Blood Hunter
+		30 Blighted Barkhide
+		30 Seahunter's Bane
+		30 Takeout
+		30 Gothic Goop
+		30 Servo Server
+		30 Delicious Dispute
+		30 Retrieved from the Cellar
+		30 Spoil
+		30 Help Wanted
+		30 Ferocious Marksman
+		30 Bloodthirsty Snarltooth
+		30 Conjoined Tigorilla
+		30 Hijack
+		30 Ruin the Batch
+		30 Crafty Scavenger
+		30 Berry Blenders
+		30 Evolving Wilds
+		30 Sporecap Hermit
+		30 Slimy Shopkeep
+		30 Jungle Slasher
+		30 And Featuring a Rare Ingredient
+		30 Produce Produce
+		30 Cleaner's Knife
+		30 And Served in Fine China
+		30 And Loaded with Toppings
+		30 And Paired with a Side of Eyeballs
+		30 And Complimented with Marbled Gargoyle
+		30 Made With Care
+		30 Gathered From Far Off Lands
+		30 Seasonal Harvest
+		30 With Seconds Included
+		30 Tenderized
+		30 Fattened Up
+		30 And Served by Automatic Helpers
+		30 Livestock Farmer
+		30 Mountainous Goat
+		30 Angus Beef
+		30 Sprinkled with Salt
+		30 And Glazed in Caramel
+		30 Drake Hatchling
+		30 And Served on Ice
+		30 Watered Down
+		30 Winter Crab
+		30 And Simmered in Manticore Venom
+		30 Poached Squirrel
+		30 Roasted Scorpion
+		30 And Coated in Spices
+		30 Steamed to Perfection
+		30 Braised Gremlin
+		30 Wild Boar
+		30 Homegrown Sprouts
+		30 Jungle Baloth
+		30 Drizzled with Oil
+		30 Lost in Flavor
+		30 Seasoned Seasoner
+		30 Empty the Plate
+		30 Biggest Fan
+		30 Hunting Hawk
+		30 Icing Aficionado
+		30 Lunch Break
+		30 Ingredient Juggler
+		30 Chopped
+		30 Pastry Poisoner
+		30 Kitchen Rats
+		30 Aven Spell-Chef
+		30 Trapjaw Kraken
+		30 Supernatural Intervention
+		30 Messy Decorator
+		30 Secret Way
+		30 Ambidextrous Spellcook
+		30 Cafe Chums
+		30 Thirst for Sustenance
+		30 Check Please
+		30 Crafty Resilience
+		30 Campfire Cooks
+		30 Hunted Corrix
+		30 Heated Up
+		30 Inspiring Chef
+		30 Sizzling Chef
+		30 Overcook
+		30 Flambe
+		30 Harvest Warden
+		30 Titanic Gorzilla
+		30 Knuckle Sandwich
+		30 Broken Wings
+		30 Distant Haze
+		

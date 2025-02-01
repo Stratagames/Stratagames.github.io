@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/MYD-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>MYD visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/MYD-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CHF-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DWE-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/NLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/S23-files/icon.png" />
+		<img class="preload-hidden" src="/sets/WBR-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CHF-spoiler"><img src="sets/CHF-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="DWE-spoiler"><img src="sets/DWE-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYD-spoiler"><img src="sets/MYD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="NLD-spoiler"><img src="sets/NLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="S23-spoiler"><img src="sets/S23-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="WBR-spoiler"><img src="sets/WBR-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/MYD-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\MYD-files\img\13_Mallik, the Curator.png" id="13_Mallik, the Curator" data-flag="@X" onclick="openSidebar('13_Mallik, the Curator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\46_Bwrfbn, Hidden Eye.png" id="46_Bwrfbn, Hidden Eye" data-flag="@X" onclick="openSidebar('46_Bwrfbn, Hidden Eye',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\98_Jemdar, the Interrogator.png" id="98_Jemdar, the Interrogator" data-flag="@X" onclick="openSidebar('98_Jemdar, the Interrogator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\126_Ashmoth, the Blazing End.png" id="126_Ashmoth, the Blazing End" data-flag="@X" onclick="openSidebar('126_Ashmoth, the Blazing End',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\183_Gordon, Threshold Wrangler.png" id="183_Gordon, Threshold Wrangler" data-flag="@X" onclick="openSidebar('183_Gordon, Threshold Wrangler',false)"></div>
+			<div class="container"><img data-alt_src="sets\MYD-files\img\32_Subject MW02_back.png" alt="sets\MYD-files\img\32_Subject MW02_front.png" id="32_Subject MW02" data-flag="@XD" onclick="openSidebar('32_Subject MW02',false)"><button class="flip-btn" onclick="imgFlip(32_Subject MW02)"></button></div>
+			<div class="container"><img alt="sets\MYD-files\img\77_Time Walker.png" id="77_Time Walker" data-flag="@X" onclick="openSidebar('77_Time Walker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\102_Nightmare Fuel.png" id="102_Nightmare Fuel" data-flag="@X" onclick="openSidebar('102_Nightmare Fuel',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\139_HAL, From Accounting.png" id="139_HAL, From Accounting" data-flag="@X" onclick="openSidebar('139_HAL, From Accounting',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\203_Tendrils from Below.png" id="203_Tendrils from Below" data-flag="@X" onclick="openSidebar('203_Tendrils from Below',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\1_Adamantine Enforcer.png" id="1_Adamantine Enforcer" data-flag="@X" onclick="openSidebar('1_Adamantine Enforcer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\43_Anders, Truth Hunter.png" id="43_Anders, Truth Hunter" data-flag="@X" onclick="openSidebar('43_Anders, Truth Hunter',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\106_Osbargoth, the First Anamoly.png" id="106_Osbargoth, the First Anamoly" data-flag="@X" onclick="openSidebar('106_Osbargoth, the First Anamoly',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\128_Blood-Hazed Specimen.png" id="128_Blood-Hazed Specimen" data-flag="@X" onclick="openSidebar('128_Blood-Hazed Specimen',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\166_Anomaly Tamer.png" id="166_Anomaly Tamer" data-flag="@X" onclick="openSidebar('166_Anomaly Tamer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\2_Angelic Taskmaster.png" id="2_Angelic Taskmaster" data-flag="@X" onclick="openSidebar('2_Angelic Taskmaster',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\47_Cecil, Head of Development.png" id="47_Cecil, Head of Development" data-flag="@X" onclick="openSidebar('47_Cecil, Head of Development',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\83_Brainswarm.png" id="83_Brainswarm" data-flag="@X" onclick="openSidebar('83_Brainswarm',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\130_Breach Gateway.png" id="130_Breach Gateway" data-flag="@X" onclick="openSidebar('130_Breach Gateway',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\169_Bizarreborist.png" id="169_Bizarreborist" data-flag="@X" onclick="openSidebar('169_Bizarreborist',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\9_Extinction-Level Event.png" id="9_Extinction-Level Event" data-flag="@X" onclick="openSidebar('9_Extinction-Level Event',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\52_Everflayer.png" id="52_Everflayer" data-flag="@X" onclick="openSidebar('52_Everflayer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\88_Dogged Detective.png" id="88_Dogged Detective" data-flag="@X" onclick="openSidebar('88_Dogged Detective',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\133_Conspiracy Theorist.png" id="133_Conspiracy Theorist" data-flag="@X" onclick="openSidebar('133_Conspiracy Theorist',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\173_Close Encounter.png" id="173_Close Encounter" data-flag="@X" onclick="openSidebar('173_Close Encounter',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\10_Extraction Specialist.png" id="10_Extraction Specialist" data-flag="@X" onclick="openSidebar('10_Extraction Specialist',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\57_Hypothesphinx.png" id="57_Hypothesphinx" data-flag="@X" onclick="openSidebar('57_Hypothesphinx',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\94_The Facetaker.png" id="94_The Facetaker" data-flag="@X" onclick="openSidebar('94_The Facetaker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\136_Ego Influencers.png" id="136_Ego Influencers" data-flag="@X" onclick="openSidebar('136_Ego Influencers',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\174_Colossification.png" id="174_Colossification" data-flag="@X" onclick="openSidebar('174_Colossification',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\12_Grizzled Mentor.png" id="12_Grizzled Mentor" data-flag="@X" onclick="openSidebar('12_Grizzled Mentor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\63_Mass Prototyping.png" id="63_Mass Prototyping" data-flag="@X" onclick="openSidebar('63_Mass Prototyping',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\100_Masked Tempter.png" id="100_Masked Tempter" data-flag="@X" onclick="openSidebar('100_Masked Tempter',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\142_Intimidator-inator.png" id="142_Intimidator-inator" data-flag="@X" onclick="openSidebar('142_Intimidator-inator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\181_Extraplanar Fauna.png" id="181_Extraplanar Fauna" data-flag="@X" onclick="openSidebar('181_Extraplanar Fauna',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\16_Mortal Coil.png" id="16_Mortal Coil" data-flag="@X" onclick="openSidebar('16_Mortal Coil',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\64_Mindjack.png" id="64_Mindjack" data-flag="@X" onclick="openSidebar('64_Mindjack',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\105_Once Upon a Midnight Dreary.png" id="105_Once Upon a Midnight Dreary" data-flag="@X" onclick="openSidebar('105_Once Upon a Midnight Dreary',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\147_Loose Cannon.png" id="147_Loose Cannon" data-flag="@X" onclick="openSidebar('147_Loose Cannon',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\186_Hyperadapt.png" id="186_Hyperadapt" data-flag="@X" onclick="openSidebar('186_Hyperadapt',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\28_Shella Codebreaker.png" id="28_Shella Codebreaker" data-flag="@X" onclick="openSidebar('28_Shella Codebreaker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\65_Mission Briefing.png" id="65_Mission Briefing" data-flag="@X" onclick="openSidebar('65_Mission Briefing',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\107_The Overrat.png" id="107_The Overrat" data-flag="@X" onclick="openSidebar('107_The Overrat',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\153_Propane Phoenix.png" id="153_Propane Phoenix" data-flag="@X" onclick="openSidebar('153_Propane Phoenix',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\190_Into the World.png" id="190_Into the World" data-flag="@X" onclick="openSidebar('190_Into the World',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\40_Upgraded Operatives.png" id="40_Upgraded Operatives" data-flag="@X" onclick="openSidebar('40_Upgraded Operatives',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\73_Recon Squad.png" id="73_Recon Squad" data-flag="@X" onclick="openSidebar('73_Recon Squad',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\110_Ratastrophe.png" id="110_Ratastrophe" data-flag="@X" onclick="openSidebar('110_Ratastrophe',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\163_Unleash the Archives.png" id="163_Unleash the Archives" data-flag="@X" onclick="openSidebar('163_Unleash the Archives',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\194_Mutagenic Hydra.png" id="194_Mutagenic Hydra" data-flag="@X" onclick="openSidebar('194_Mutagenic Hydra',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\41_Winks, Private Eye.png" id="41_Winks, Private Eye" data-flag="@X" onclick="openSidebar('41_Winks, Private Eye',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\79_Universe Beholder.png" id="79_Universe Beholder" data-flag="@X" onclick="openSidebar('79_Universe Beholder',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\112_Secrets Extractor.png" id="112_Secrets Extractor" data-flag="@X" onclick="openSidebar('112_Secrets Extractor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\165_Whipfang.png" id="165_Whipfang" data-flag="@X" onclick="openSidebar('165_Whipfang',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\206_The World is Hollow.png" id="206_The World is Hollow" data-flag="@X" onclick="openSidebar('206_The World is Hollow',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\4_Auto-Restoration.png" id="4_Auto-Restoration" data-flag="@X" onclick="openSidebar('4_Auto-Restoration',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\50_Distant Melody.png" id="50_Distant Melody" data-flag="@X" onclick="openSidebar('50_Distant Melody',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\113_Soul Absorption.png" id="113_Soul Absorption" data-flag="@X" onclick="openSidebar('113_Soul Absorption',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\132_Cole, Impetuous Agent.png" id="132_Cole, Impetuous Agent" data-flag="@X" onclick="openSidebar('132_Cole, Impetuous Agent',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\167_Biodiversity Survey.png" id="167_Biodiversity Survey" data-flag="@X" onclick="openSidebar('167_Biodiversity Survey',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\6_Buddybot.png" id="6_Buddybot" data-flag="@X" onclick="openSidebar('6_Buddybot',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\54_Flight Researcher.png" id="54_Flight Researcher" data-flag="@X" onclick="openSidebar('54_Flight Researcher',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\90_Echoing Return.png" id="90_Echoing Return" data-flag="@X" onclick="openSidebar('90_Echoing Return',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\137_Escape Containment.png" id="137_Escape Containment" data-flag="@X" onclick="openSidebar('137_Escape Containment',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\171_Botanist Team.png" id="171_Botanist Team" data-flag="@X" onclick="openSidebar('171_Botanist Team',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\7_Come in Peace.png" id="7_Come in Peace" data-flag="@X" onclick="openSidebar('7_Come in Peace',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\55_Formtwister.png" id="55_Formtwister" data-flag="@X" onclick="openSidebar('55_Formtwister',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\92_Exploratory Biopsy.png" id="92_Exploratory Biopsy" data-flag="@X" onclick="openSidebar('92_Exploratory Biopsy',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\143_Invasion Frontrunner.png" id="143_Invasion Frontrunner" data-flag="@X" onclick="openSidebar('143_Invasion Frontrunner',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\176_Contact Agents.png" id="176_Contact Agents" data-flag="@X" onclick="openSidebar('176_Contact Agents',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\11_Field Agent.png" id="11_Field Agent" data-flag="@X" onclick="openSidebar('11_Field Agent',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\56_Hushed Operation.png" id="56_Hushed Operation" data-flag="@X" onclick="openSidebar('56_Hushed Operation',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\96_Horrific Success.png" id="96_Horrific Success" data-flag="@X" onclick="openSidebar('96_Horrific Success',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\145_Lashmass.png" id="145_Lashmass" data-flag="@X" onclick="openSidebar('145_Lashmass',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\178_Day-to-Day Activity.png" id="178_Day-to-Day Activity" data-flag="@X" onclick="openSidebar('178_Day-to-Day Activity',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\15_Metrics Tracker.png" id="15_Metrics Tracker" data-flag="@X" onclick="openSidebar('15_Metrics Tracker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\59_Inside Scoop.png" id="59_Inside Scoop" data-flag="@X" onclick="openSidebar('59_Inside Scoop',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\99_Live and Let Die.png" id="99_Live and Let Die" data-flag="@X" onclick="openSidebar('99_Live and Let Die',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\148_Mech Tinkerer.png" id="148_Mech Tinkerer" data-flag="@X" onclick="openSidebar('148_Mech Tinkerer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\179_Epicenter of Evolution.png" id="179_Epicenter of Evolution" data-flag="@X" onclick="openSidebar('179_Epicenter of Evolution',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\20_Rapid Developer.png" id="20_Rapid Developer" data-flag="@X" onclick="openSidebar('20_Rapid Developer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\68_Phone Home.png" id="68_Phone Home" data-flag="@X" onclick="openSidebar('68_Phone Home',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\104_Null Revival.png" id="104_Null Revival" data-flag="@X" onclick="openSidebar('104_Null Revival',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\150_Newshounds.png" id="150_Newshounds" data-flag="@X" onclick="openSidebar('150_Newshounds',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\180_Evolution Driver.png" id="180_Evolution Driver" data-flag="@X" onclick="openSidebar('180_Evolution Driver',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\29_Spark Studier.png" id="29_Spark Studier" data-flag="@X" onclick="openSidebar('29_Spark Studier',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\69_Pinnacle of Divergence.png" id="69_Pinnacle of Divergence" data-flag="@X" onclick="openSidebar('69_Pinnacle of Divergence',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\108_Plague Researcher.png" id="108_Plague Researcher" data-flag="@X" onclick="openSidebar('108_Plague Researcher',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\151_Optional Tentacles.png" id="151_Optional Tentacles" data-flag="@X" onclick="openSidebar('151_Optional Tentacles',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\182_Field Operator.png" id="182_Field Operator" data-flag="@X" onclick="openSidebar('182_Field Operator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\35_Threshold Warden.png" id="35_Threshold Warden" data-flag="@X" onclick="openSidebar('35_Threshold Warden',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\70_Project Tech.png" id="70_Project Tech" data-flag="@X" onclick="openSidebar('70_Project Tech',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\114_Spark Extraction.png" id="114_Spark Extraction" data-flag="@X" onclick="openSidebar('114_Spark Extraction',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\155_Restless Seeking.png" id="155_Restless Seeking" data-flag="@X" onclick="openSidebar('155_Restless Seeking',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\184_Haze Lurker.png" id="184_Haze Lurker" data-flag="@X" onclick="openSidebar('184_Haze Lurker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\36_Transport Master.png" id="36_Transport Master" data-flag="@X" onclick="openSidebar('36_Transport Master',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\72_Puzzleform.png" id="72_Puzzleform" data-flag="@X" onclick="openSidebar('72_Puzzleform',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\115_Spark Siphoner.png" id="115_Spark Siphoner" data-flag="@X" onclick="openSidebar('115_Spark Siphoner',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\156_Self-Catalyzer.png" id="156_Self-Catalyzer" data-flag="@X" onclick="openSidebar('156_Self-Catalyzer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\185_Hydrofarming.png" id="185_Hydrofarming" data-flag="@X" onclick="openSidebar('185_Hydrofarming',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\37_Unquestioned Authority.png" id="37_Unquestioned Authority" data-flag="@X" onclick="openSidebar('37_Unquestioned Authority',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\76_Take as Evidence.png" id="76_Take as Evidence" data-flag="@X" onclick="openSidebar('76_Take as Evidence',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\116_Spree Slasher.png" id="116_Spree Slasher" data-flag="@X" onclick="openSidebar('116_Spree Slasher',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\158_Slow Burn.png" id="158_Slow Burn" data-flag="@X" onclick="openSidebar('158_Slow Burn',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\188_Intelligent Life.png" id="188_Intelligent Life" data-flag="@X" onclick="openSidebar('188_Intelligent Life',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\38_Unrealized Flying Object.png" id="38_Unrealized Flying Object" data-flag="@X" onclick="openSidebar('38_Unrealized Flying Object',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\81_Void Prober.png" id="81_Void Prober" data-flag="@X" onclick="openSidebar('81_Void Prober',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\119_Taboo Experimentation.png" id="119_Taboo Experimentation" data-flag="@X" onclick="openSidebar('119_Taboo Experimentation',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\159_Strike from the Record.png" id="159_Strike from the Record" data-flag="@X" onclick="openSidebar('159_Strike from the Record',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\191_Living Lichen.png" id="191_Living Lichen" data-flag="@X" onclick="openSidebar('191_Living Lichen',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\39_Unseen Guardian.png" id="39_Unseen Guardian" data-flag="@X" onclick="openSidebar('39_Unseen Guardian',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\82_Want to Believe.png" id="82_Want to Believe" data-flag="@X" onclick="openSidebar('82_Want to Believe',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\121_Waste Analyst.png" id="121_Waste Analyst" data-flag="@X" onclick="openSidebar('121_Waste Analyst',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\160_Superconductor.png" id="160_Superconductor" data-flag="@X" onclick="openSidebar('160_Superconductor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\202_Strange Carnivorous Predator.png" id="202_Strange Carnivorous Predator" data-flag="@X" onclick="openSidebar('202_Strange Carnivorous Predator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\3_Anomalous Awakener.png" id="3_Anomalous Awakener" data-flag="@X" onclick="openSidebar('3_Anomalous Awakener',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\42_Abduct.png" id="42_Abduct" data-flag="@X" onclick="openSidebar('42_Abduct',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\123_What Lurks in Shadows.png" id="123_What Lurks in Shadows" data-flag="@X" onclick="openSidebar('123_What Lurks in Shadows',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\125_Analyze the Remains.png" id="125_Analyze the Remains" data-flag="@X" onclick="openSidebar('125_Analyze the Remains',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\168_Biomaximizer.png" id="168_Biomaximizer" data-flag="@X" onclick="openSidebar('168_Biomaximizer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\5_Break Facilitator.png" id="5_Break Facilitator" data-flag="@X" onclick="openSidebar('5_Break Facilitator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\44_Artful Dodge.png" id="44_Artful Dodge" data-flag="@X" onclick="openSidebar('44_Artful Dodge',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\84_Breakthrough Subject.png" id="84_Breakthrough Subject" data-flag="@X" onclick="openSidebar('84_Breakthrough Subject',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\127_Bioverdiversity.png" id="127_Bioverdiversity" data-flag="@X" onclick="openSidebar('127_Bioverdiversity',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\170_Blend In.png" id="170_Blend In" data-flag="@X" onclick="openSidebar('170_Blend In',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\8_Doomed Analyst.png" id="8_Doomed Analyst" data-flag="@X" onclick="openSidebar('8_Doomed Analyst',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\45_Background Check.png" id="45_Background Check" data-flag="@X" onclick="openSidebar('45_Background Check',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\85_Creator of Formulas.png" id="85_Creator of Formulas" data-flag="@X" onclick="openSidebar('85_Creator of Formulas',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\129_Bloodcurler.png" id="129_Bloodcurler" data-flag="@X" onclick="openSidebar('129_Bloodcurler',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\172_Chittering Tyrano.png" id="172_Chittering Tyrano" data-flag="@X" onclick="openSidebar('172_Chittering Tyrano',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\14_Meticulous Assistant.png" id="14_Meticulous Assistant" data-flag="@X" onclick="openSidebar('14_Meticulous Assistant',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\48_Cover Identity.png" id="48_Cover Identity" data-flag="@X" onclick="openSidebar('48_Cover Identity',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\86_Crypt Cleaner.png" id="86_Crypt Cleaner" data-flag="@X" onclick="openSidebar('86_Crypt Cleaner',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\131_Carnage Spawn.png" id="131_Carnage Spawn" data-flag="@X" onclick="openSidebar('131_Carnage Spawn',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\175_Commune with the Unnatural.png" id="175_Commune with the Unnatural" data-flag="@X" onclick="openSidebar('175_Commune with the Unnatural',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\17_New Gear.png" id="17_New Gear" data-flag="@X" onclick="openSidebar('17_New Gear',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\49_Cryoexamination.png" id="49_Cryoexamination" data-flag="@X" onclick="openSidebar('49_Cryoexamination',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\87_Dissect.png" id="87_Dissect" data-flag="@X" onclick="openSidebar('87_Dissect',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\134_Destructive Tampering.png" id="134_Destructive Tampering" data-flag="@X" onclick="openSidebar('134_Destructive Tampering',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\177_Creatures from Worlds Beyond.png" id="177_Creatures from Worlds Beyond" data-flag="@X" onclick="openSidebar('177_Creatures from Worlds Beyond',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\18_Odd Ox.png" id="18_Odd Ox" data-flag="@X" onclick="openSidebar('18_Odd Ox',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\51_Disturbance Monitor.png" id="51_Disturbance Monitor" data-flag="@X" onclick="openSidebar('51_Disturbance Monitor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\89_Double-Agency.png" id="89_Double-Agency" data-flag="@X" onclick="openSidebar('89_Double-Agency',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\135_Dilligent Droid.png" id="135_Dilligent Droid" data-flag="@X" onclick="openSidebar('135_Dilligent Droid',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\187_Influence of the Beyond.png" id="187_Influence of the Beyond" data-flag="@X" onclick="openSidebar('187_Influence of the Beyond',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\19_Omnipresent Watch.png" id="19_Omnipresent Watch" data-flag="@X" onclick="openSidebar('19_Omnipresent Watch',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\53_First Contact.png" id="53_First Contact" data-flag="@X" onclick="openSidebar('53_First Contact',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\91_Evil Sky.png" id="91_Evil Sky" data-flag="@X" onclick="openSidebar('91_Evil Sky',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\138_Field Testing.png" id="138_Field Testing" data-flag="@X" onclick="openSidebar('138_Field Testing',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\189_Interplanar Expert.png" id="189_Interplanar Expert" data-flag="@X" onclick="openSidebar('189_Interplanar Expert',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\21_Reallocate.png" id="21_Reallocate" data-flag="@X" onclick="openSidebar('21_Reallocate',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\58_Inconspicuous Amphin.png" id="58_Inconspicuous Amphin" data-flag="@X" onclick="openSidebar('58_Inconspicuous Amphin',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\93_Extravital Organs.png" id="93_Extravital Organs" data-flag="@X" onclick="openSidebar('93_Extravital Organs',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\140_Illuminating Flame.png" id="140_Illuminating Flame" data-flag="@X" onclick="openSidebar('140_Illuminating Flame',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\192_Master of Symbiosis.png" id="192_Master of Symbiosis" data-flag="@X" onclick="openSidebar('192_Master of Symbiosis',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\22_Recharge.png" id="22_Recharge" data-flag="@X" onclick="openSidebar('22_Recharge',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\60_Investigative Journalist.png" id="60_Investigative Journalist" data-flag="@X" onclick="openSidebar('60_Investigative Journalist',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\95_Hapless Victim.png" id="95_Hapless Victim" data-flag="@X" onclick="openSidebar('95_Hapless Victim',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\141_Inner Beast.png" id="141_Inner Beast" data-flag="@X" onclick="openSidebar('141_Inner Beast',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\193_Might of the Many.png" id="193_Might of the Many" data-flag="@X" onclick="openSidebar('193_Might of the Many',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\23_Recovery Agent.png" id="23_Recovery Agent" data-flag="@X" onclick="openSidebar('23_Recovery Agent',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\61_Lab Results.png" id="61_Lab Results" data-flag="@X" onclick="openSidebar('61_Lab Results',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\97_Interrogate.png" id="97_Interrogate" data-flag="@X" onclick="openSidebar('97_Interrogate',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\144_Knobbleboar.png" id="144_Knobbleboar" data-flag="@X" onclick="openSidebar('144_Knobbleboar',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\195_Outland Beast Tracker.png" id="195_Outland Beast Tracker" data-flag="@X" onclick="openSidebar('195_Outland Beast Tracker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\24_Relentless Reporter.png" id="24_Relentless Reporter" data-flag="@X" onclick="openSidebar('24_Relentless Reporter',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\62_Lurking Anomaly.png" id="62_Lurking Anomaly" data-flag="@X" onclick="openSidebar('62_Lurking Anomaly',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\101_Mindless Masses.png" id="101_Mindless Masses" data-flag="@X" onclick="openSidebar('101_Mindless Masses',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\146_Living Furnace.png" id="146_Living Furnace" data-flag="@X" onclick="openSidebar('146_Living Furnace',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\196_Overgrown Mass.png" id="196_Overgrown Mass" data-flag="@X" onclick="openSidebar('196_Overgrown Mass',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\25_Researcher's Assistant.png" id="25_Researchers Assistant" data-flag="@X" onclick="openSidebar('25_Researchers Assistant',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\66_Organic Automation.png" id="66_Organic Automation" data-flag="@X" onclick="openSidebar('66_Organic Automation',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\103_Nightmare Stalker.png" id="103_Nightmare Stalker" data-flag="@X" onclick="openSidebar('103_Nightmare Stalker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\149_Mechanized Infantry Batallion.png" id="149_Mechanized Infantry Batallion" data-flag="@X" onclick="openSidebar('149_Mechanized Infantry Batallion',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\197_Overgrowth Researchers.png" id="197_Overgrowth Researchers" data-flag="@X" onclick="openSidebar('197_Overgrowth Researchers',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\26_Room for Two.png" id="26_Room for Two" data-flag="@X" onclick="openSidebar('26_Room for Two',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\67_Paper Trail.png" id="67_Paper Trail" data-flag="@X" onclick="openSidebar('67_Paper Trail',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\109_Rastafel's Menaces.png" id="109_Rastafels Menaces" data-flag="@X" onclick="openSidebar('109_Rastafels Menaces',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\152_Paranoid Droid.png" id="152_Paranoid Droid" data-flag="@X" onclick="openSidebar('152_Paranoid Droid',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\198_Overgrowth Spasms.png" id="198_Overgrowth Spasms" data-flag="@X" onclick="openSidebar('198_Overgrowth Spasms',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\27_Security Procedures.png" id="27_Security Procedures" data-flag="@X" onclick="openSidebar('27_Security Procedures',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\71_Prospective Detective.png" id="71_Prospective Detective" data-flag="@X" onclick="openSidebar('71_Prospective Detective',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\111_Recover Assets.png" id="111_Recover Assets" data-flag="@X" onclick="openSidebar('111_Recover Assets',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\154_Rapid Development.png" id="154_Rapid Development" data-flag="@X" onclick="openSidebar('154_Rapid Development',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\199_Reverse Engineering.png" id="199_Reverse Engineering" data-flag="@X" onclick="openSidebar('199_Reverse Engineering',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\30_Splinterflock.png" id="30_Splinterflock" data-flag="@X" onclick="openSidebar('30_Splinterflock',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\74_Records Auditor.png" id="74_Records Auditor" data-flag="@X" onclick="openSidebar('74_Records Auditor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\117_Standard Specimen.png" id="117_Standard Specimen" data-flag="@X" onclick="openSidebar('117_Standard Specimen',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\157_Shifting Allegiance.png" id="157_Shifting Allegiance" data-flag="@X" onclick="openSidebar('157_Shifting Allegiance',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\200_Simulated Terrain.png" id="200_Simulated Terrain" data-flag="@X" onclick="openSidebar('200_Simulated Terrain',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\31_Stored in the Archives.png" id="31_Stored in the Archives" data-flag="@X" onclick="openSidebar('31_Stored in the Archives',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\75_Slimy Shellsnap.png" id="75_Slimy Shellsnap" data-flag="@X" onclick="openSidebar('75_Slimy Shellsnap',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\118_Superior Skill.png" id="118_Superior Skill" data-flag="@X" onclick="openSidebar('118_Superior Skill',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\161_Tools of the Trade.png" id="161_Tools of the Trade" data-flag="@X" onclick="openSidebar('161_Tools of the Trade',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\201_Sporeflayer.png" id="201_Sporeflayer" data-flag="@X" onclick="openSidebar('201_Sporeflayer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\33_Taskbot Gatherer.png" id="33_Taskbot Gatherer" data-flag="@X" onclick="openSidebar('33_Taskbot Gatherer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\78_Tireless Researcher.png" id="78_Tireless Researcher" data-flag="@X" onclick="openSidebar('78_Tireless Researcher',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\120_Toxin Tester.png" id="120_Toxin Tester" data-flag="@X" onclick="openSidebar('120_Toxin Tester',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\162_Top Agent.png" id="162_Top Agent" data-flag="@X" onclick="openSidebar('162_Top Agent',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\204_Threshold Stalker.png" id="204_Threshold Stalker" data-flag="@X" onclick="openSidebar('204_Threshold Stalker',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\34_Taskbot Savior.png" id="34_Taskbot Savior" data-flag="@X" onclick="openSidebar('34_Taskbot Savior',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\80_Unmanned Carrier.png" id="80_Unmanned Carrier" data-flag="@X" onclick="openSidebar('80_Unmanned Carrier',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\122_Weed Out.png" id="122_Weed Out" data-flag="@X" onclick="openSidebar('122_Weed Out',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\164_Verminate.png" id="164_Verminate" data-flag="@X" onclick="openSidebar('164_Verminate',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\205_Typical Pet.png" id="205_Typical Pet" data-flag="@X" onclick="openSidebar('205_Typical Pet',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\124_Willing Volunteers.png" id="124_Willing Volunteers" data-flag="@X" onclick="openSidebar('124_Willing Volunteers',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\212_On the Case.png" id="212_On the Case" data-flag="@X" onclick="openSidebar('212_On the Case',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\218_Samara, Containment Proctor.png" id="218_Samara, Containment Proctor" data-flag="@X" onclick="openSidebar('218_Samara, Containment Proctor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\220_What Lurks Among Men.png" id="220_What Lurks Among Men" data-flag="@X" onclick="openSidebar('220_What Lurks Among Men',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\210_Escaped Abomination.png" id="210_Escaped Abomination" data-flag="@X" onclick="openSidebar('210_Escaped Abomination',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\219_Tamrin, Veteran Agent.png" id="219_Tamrin, Veteran Agent" data-flag="@X" onclick="openSidebar('219_Tamrin, Veteran Agent',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\213_Pitfall Engineer.png" id="213_Pitfall Engineer" data-flag="@X" onclick="openSidebar('213_Pitfall Engineer',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\211_Exceptional Experiment.png" id="211_Exceptional Experiment" data-flag="@X" onclick="openSidebar('211_Exceptional Experiment',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\217_Riftmender.png" id="217_Riftmender" data-flag="@X" onclick="openSidebar('217_Riftmender',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\208_Dispassionate Experimentor.png" id="208_Dispassionate Experimentor" data-flag="@X" onclick="openSidebar('208_Dispassionate Experimentor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\209_Endless Aliases.png" id="209_Endless Aliases" data-flag="@X" onclick="openSidebar('209_Endless Aliases',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\214_The Progenitor-Mutant.png" id="214_The Progenitor-Mutant" data-flag="@X" onclick="openSidebar('214_The Progenitor-Mutant',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\207_Bot Depot.png" id="207_Bot Depot" data-flag="@X" onclick="openSidebar('207_Bot Depot',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\216_Retromaniac.png" id="216_Retromaniac" data-flag="@X" onclick="openSidebar('216_Retromaniac',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\215_Protoplasm.png" id="215_Protoplasm" data-flag="@X" onclick="openSidebar('215_Protoplasm',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\234_Parallel Door.png" id="234_Parallel Door" data-flag="@X" onclick="openSidebar('234_Parallel Door',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\235_Planeswalking Augmentation.png" id="235_Planeswalking Augmentation" data-flag="@X" onclick="openSidebar('235_Planeswalking Augmentation',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\221_Bottled Lightning.png" id="221_Bottled Lightning" data-flag="@X" onclick="openSidebar('221_Bottled Lightning',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\228_Cosmos Delver.png" id="228_Cosmos Delver" data-flag="@X" onclick="openSidebar('228_Cosmos Delver',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\231_Memory Editor.png" id="231_Memory Editor" data-flag="@X" onclick="openSidebar('231_Memory Editor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\232_Multiplying Multiplier.png" id="232_Multiplying Multiplier" data-flag="@X" onclick="openSidebar('232_Multiplying Multiplier',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\236_Standard-Issue Crossbow.png" id="236_Standard-Issue Crossbow" data-flag="@X" onclick="openSidebar('236_Standard-Issue Crossbow',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\237_Strange Monolith.png" id="237_Strange Monolith" data-flag="@X" onclick="openSidebar('237_Strange Monolith',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\239_Typical Taskbot.png" id="239_Typical Taskbot" data-flag="@X" onclick="openSidebar('239_Typical Taskbot',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\222_Buzzing Drone.png" id="222_Buzzing Drone" data-flag="@X" onclick="openSidebar('222_Buzzing Drone',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\223_Conspicuous Evidence.png" id="223_Conspicuous Evidence" data-flag="@X" onclick="openSidebar('223_Conspicuous Evidence',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\224_Conspicuous Meal.png" id="224_Conspicuous Meal" data-flag="@X" onclick="openSidebar('224_Conspicuous Meal',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\225_Conspicuous Sample.png" id="225_Conspicuous Sample" data-flag="@X" onclick="openSidebar('225_Conspicuous Sample',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\226_Conspicuous Taskbot.png" id="226_Conspicuous Taskbot" data-flag="@X" onclick="openSidebar('226_Conspicuous Taskbot',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\227_Conspicuous Wealth.png" id="227_Conspicuous Wealth" data-flag="@X" onclick="openSidebar('227_Conspicuous Wealth',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\229_Display Visor.png" id="229_Display Visor" data-flag="@X" onclick="openSidebar('229_Display Visor',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\230_Forward Scout.png" id="230_Forward Scout" data-flag="@X" onclick="openSidebar('230_Forward Scout',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\233_Ordinary Operator.png" id="233_Ordinary Operator" data-flag="@X" onclick="openSidebar('233_Ordinary Operator',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\238_Traveling Taskbot.png" id="238_Traveling Taskbot" data-flag="@X" onclick="openSidebar('238_Traveling Taskbot',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\244_Area 99 — Archives.png" id="244_Area 99 — Archives" data-flag="@X" onclick="openSidebar('244_Area 99 — Archives',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\242_Area 16 — Laboratories.png" id="242_Area 16 — Laboratories" data-flag="@X" onclick="openSidebar('242_Area 16 — Laboratories',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\241_Area 3 — Interrogation.png" id="241_Area 3 — Interrogation" data-flag="@X" onclick="openSidebar('241_Area 3 — Interrogation',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\243_Area 53 — Armory.png" id="243_Area 53 — Armory" data-flag="@X" onclick="openSidebar('243_Area 53 — Armory',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\240_Area 0 — Threshold.png" id="240_Area 0 — Threshold" data-flag="@X" onclick="openSidebar('240_Area 0 — Threshold',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\247_Interplanar Extraction Labs.png" id="247_Interplanar Extraction Labs" data-flag="@X" onclick="openSidebar('247_Interplanar Extraction Labs',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\245_Crime Scene.png" id="245_Crime Scene" data-flag="@X" onclick="openSidebar('245_Crime Scene',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\246_Emergence Zone.png" id="246_Emergence Zone" data-flag="@X" onclick="openSidebar('246_Emergence Zone',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\248_Testing Grounds.png" id="248_Testing Grounds" data-flag="@X" onclick="openSidebar('248_Testing Grounds',false)"></div>
+			<div class="container"><img alt="sets\MYD-files\img\249_Warped Landscape.png" id="249_Warped Landscape" data-flag="@X" onclick="openSidebar('249_Warped Landscape',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>

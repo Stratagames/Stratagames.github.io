@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/DWE-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>DWE visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/DWE-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CHF-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DWE-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/NLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/S23-files/icon.png" />
+		<img class="preload-hidden" src="/sets/WBR-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CHF-spoiler"><img src="sets/CHF-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="DWE-spoiler"><img src="sets/DWE-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYD-spoiler"><img src="sets/MYD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="NLD-spoiler"><img src="sets/NLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="S23-spoiler"><img src="sets/S23-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="WBR-spoiler"><img src="sets/WBR-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/DWE-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\DWE-files\img\4_Angel of Sanctity.png" id="4_Angel of Sanctity" data-flag="@X" onclick="openSidebar('4_Angel of Sanctity',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\52_Famine, the Third Horseman.png" id="52_Famine, the Third Horseman" data-flag="@X" onclick="openSidebar('52_Famine, the Third Horseman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\86_Artos, Seeker of Salvation.png" id="86_Artos, Seeker of Salvation" data-flag="@X" onclick="openSidebar('86_Artos, Seeker of Salvation',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\133_Delia Bladeheart.png" id="133_Delia Bladeheart" data-flag="@X" onclick="openSidebar('133_Delia Bladeheart',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\180_Force of Extinction.png" id="180_Force of Extinction" data-flag="@X" onclick="openSidebar('180_Force of Extinction',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\7_Conquest, the First Horseman.png" id="7_Conquest, the First Horseman" data-flag="@X" onclick="openSidebar('7_Conquest, the First Horseman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\57_Fractalmancer.png" id="57_Fractalmancer" data-flag="@X" onclick="openSidebar('57_Fractalmancer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\93_Death, the Final Horseman.png" id="93_Death, the Final Horseman" data-flag="@X" onclick="openSidebar('93_Death, the Final Horseman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\141_Glorious End.png" id="141_Glorious End" data-flag="@X" onclick="openSidebar('141_Glorious End',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\189_Pestilence, the Fourth Horseman.png" id="189_Pestilence, the Fourth Horseman" data-flag="@X" onclick="openSidebar('189_Pestilence, the Fourth Horseman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\11_Delve the Unraveled.png" id="11_Delve the Unraveled" data-flag="@X" onclick="openSidebar('11_Delve the Unraveled',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\45_The Ceaseless Famine.png" id="45_The Ceaseless Famine" data-flag="@X" onclick="openSidebar('45_The Ceaseless Famine',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\122_Terror of the Catacombs.png" id="122_Terror of the Catacombs" data-flag="@X" onclick="openSidebar('122_Terror of the Catacombs',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\165_War, the Second Horseman.png" id="165_War, the Second Horseman" data-flag="@X" onclick="openSidebar('165_War, the Second Horseman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\169_Adapt.png" id="169_Adapt" data-flag="@X" onclick="openSidebar('169_Adapt',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\13_Feyrouse, Beacon of Defiance.png" id="13_Feyrouse, Beacon of Defiance" data-flag="@X" onclick="openSidebar('13_Feyrouse, Beacon of Defiance',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\48_Cyclonic Tempest.png" id="48_Cyclonic Tempest" data-flag="@X" onclick="openSidebar('48_Cyclonic Tempest',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\96_Demon of Deepest Regrets.png" id="96_Demon of Deepest Regrets" data-flag="@X" onclick="openSidebar('96_Demon of Deepest Regrets',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\143_Guttering Flame.png" id="143_Guttering Flame" data-flag="@X" onclick="openSidebar('143_Guttering Flame',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\175_Colossal Ally.png" id="175_Colossal Ally" data-flag="@X" onclick="openSidebar('175_Colossal Ally',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\14_The Final Conquest.png" id="14_The Final Conquest" data-flag="@X" onclick="openSidebar('14_The Final Conquest',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\51_Epoch Sculpting.png" id="51_Epoch Sculpting" data-flag="@X" onclick="openSidebar('51_Epoch Sculpting',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\99_Dress.png" id="99_Dress" data-flag="@X" onclick="openSidebar('99_Dress',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\147_Jelzidry, Chaos Conductor.png" id="147_Jelzidry, Chaos Conductor" data-flag="@X" onclick="openSidebar('147_Jelzidry, Chaos Conductor',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\176_Cunning Reclamation.png" id="176_Cunning Reclamation" data-flag="@X" onclick="openSidebar('176_Cunning Reclamation',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\16_Greater Wildhorn.png" id="16_Greater Wildhorn" data-flag="@X" onclick="openSidebar('16_Greater Wildhorn',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\61_Lost.png" id="61_Lost" data-flag="@X" onclick="openSidebar('61_Lost',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\100_Forerunner of Death.png" id="100_Forerunner of Death" data-flag="@X" onclick="openSidebar('100_Forerunner of Death',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\150_Maddening Haze.png" id="150_Maddening Haze" data-flag="@X" onclick="openSidebar('150_Maddening Haze',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\177_Degredation Sage.png" id="177_Degredation Sage" data-flag="@X" onclick="openSidebar('177_Degredation Sage',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\23_Lafre, Head of Outreach.png" id="23_Lafre, Head of Outreach" data-flag="@X" onclick="openSidebar('23_Lafre, Head of Outreach',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\63_Now and Never.png" id="63_Now and Never" data-flag="@X" onclick="openSidebar('63_Now and Never',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\107_Immutable Crux.png" id="107_Immutable Crux" data-flag="@X" onclick="openSidebar('107_Immutable Crux',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\153_Moment.png" id="153_Moment" data-flag="@X" onclick="openSidebar('153_Moment',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\178_Escape to the Woods.png" id="178_Escape to the Woods" data-flag="@X" onclick="openSidebar('178_Escape to the Woods',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\31_Outreach Routeleader.png" id="31_Outreach Routeleader" data-flag="@X" onclick="openSidebar('31_Outreach Routeleader',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\64_Owlwatch Warden.png" id="64_Owlwatch Warden" data-flag="@X" onclick="openSidebar('64_Owlwatch Warden',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\109_The March of Death.png" id="109_The March of Death" data-flag="@X" onclick="openSidebar('109_The March of Death',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\155_The Path of War.png" id="155_The Path of War" data-flag="@X" onclick="openSidebar('155_The Path of War',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\182_The Grasp of Pestilence.png" id="182_The Grasp of Pestilence" data-flag="@X" onclick="openSidebar('182_The Grasp of Pestilence',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\32_Path of Conquest.png" id="32_Path of Conquest" data-flag="@X" onclick="openSidebar('32_Path of Conquest',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\65_Patient Rebuilding.png" id="65_Patient Rebuilding" data-flag="@X" onclick="openSidebar('65_Patient Rebuilding',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\113_Necrotic Betrayal.png" id="113_Necrotic Betrayal" data-flag="@X" onclick="openSidebar('113_Necrotic Betrayal',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\157_Ruinous Confidant.png" id="157_Ruinous Confidant" data-flag="@X" onclick="openSidebar('157_Ruinous Confidant',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\192_Primal Outbreak.png" id="192_Primal Outbreak" data-flag="@X" onclick="openSidebar('192_Primal Outbreak',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\35_Quick.png" id="35_Quick" data-flag="@X" onclick="openSidebar('35_Quick',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\66_Pelix, Starlight Oracle.png" id="66_Pelix, Starlight Oracle" data-flag="@X" onclick="openSidebar('66_Pelix, Starlight Oracle',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\115_Rin Midor, Miasma Expert.png" id="115_Rin Midor, Miasma Expert" data-flag="@X" onclick="openSidebar('115_Rin Midor, Miasma Expert',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\162_Star of Extinction.png" id="162_Star of Extinction" data-flag="@X" onclick="openSidebar('162_Star of Extinction',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\199_Slymel, Primal Invoker.png" id="199_Slymel, Primal Invoker" data-flag="@X" onclick="openSidebar('199_Slymel, Primal Invoker',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\41_Unleashed Afterlife.png" id="41_Unleashed Afterlife" data-flag="@X" onclick="openSidebar('41_Unleashed Afterlife',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\71_Rite of Replication.png" id="71_Rite of Replication" data-flag="@X" onclick="openSidebar('71_Rite of Replication',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\117_Seek Salvation.png" id="117_Seek Salvation" data-flag="@X" onclick="openSidebar('117_Seek Salvation',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\167_Xanpef, Paradox Fragment.png" id="167_Xanpef, Paradox Fragment" data-flag="@X" onclick="openSidebar('167_Xanpef, Paradox Fragment',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\209_Xul Xet, Gigantimancer.png" id="209_Xul Xet, Gigantimancer" data-flag="@X" onclick="openSidebar('209_Xul Xet, Gigantimancer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\9_Craftrig Rescuer.png" id="9_Craftrig Rescuer" data-flag="@X" onclick="openSidebar('9_Craftrig Rescuer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\44_Ancestral Animus.png" id="44_Ancestral Animus" data-flag="@X" onclick="openSidebar('44_Ancestral Animus',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\118_Soemo, the Moon Prophet.png" id="118_Soemo, the Moon Prophet" data-flag="@X" onclick="openSidebar('118_Soemo, the Moon Prophet',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\168_Zaika, Student of Delia.png" id="168_Zaika, Student of Delia" data-flag="@X" onclick="openSidebar('168_Zaika, Student of Delia',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\170_Advocate Invoker.png" id="170_Advocate Invoker" data-flag="@X" onclick="openSidebar('170_Advocate Invoker',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\12_Fates Willing.png" id="12_Fates Willing" data-flag="@X" onclick="openSidebar('12_Fates Willing',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\49_Decoator Crab.png" id="49_Decoator Crab" data-flag="@X" onclick="openSidebar('49_Decoator Crab',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\85_Answer.png" id="85_Answer" data-flag="@X" onclick="openSidebar('85_Answer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\127_Act on Instinct.png" id="127_Act on Instinct" data-flag="@X" onclick="openSidebar('127_Act on Instinct',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\171_Break the Mold.png" id="171_Break the Mold" data-flag="@X" onclick="openSidebar('171_Break the Mold',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\15_Forlorn Priest.png" id="15_Forlorn Priest" data-flag="@X" onclick="openSidebar('15_Forlorn Priest',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\54_Flash Frost.png" id="54_Flash Frost" data-flag="@X" onclick="openSidebar('54_Flash Frost',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\87_Bearer of Agony.png" id="87_Bearer of Agony" data-flag="@X" onclick="openSidebar('87_Bearer of Agony',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\128_Alliance Firestarter.png" id="128_Alliance Firestarter" data-flag="@X" onclick="openSidebar('128_Alliance Firestarter',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\172_Budding Remnant.png" id="172_Budding Remnant" data-flag="@X" onclick="openSidebar('172_Budding Remnant',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\19_Heightseeker Wildhorn.png" id="19_Heightseeker Wildhorn" data-flag="@X" onclick="openSidebar('19_Heightseeker Wildhorn',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\58_Guiding Voices.png" id="58_Guiding Voices" data-flag="@X" onclick="openSidebar('58_Guiding Voices',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\92_Corrupted Savior.png" id="92_Corrupted Savior" data-flag="@X" onclick="openSidebar('92_Corrupted Savior',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\129_Alliance Officer.png" id="129_Alliance Officer" data-flag="@X" onclick="openSidebar('129_Alliance Officer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\173_Built.png" id="173_Built" data-flag="@X" onclick="openSidebar('173_Built',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\26_Militant Showman.png" id="26_Militant Showman" data-flag="@X" onclick="openSidebar('26_Militant Showman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\67_Portalmaster Vanguard.png" id="67_Portalmaster Vanguard" data-flag="@X" onclick="openSidebar('67_Portalmaster Vanguard',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\102_Grim Diabloist.png" id="102_Grim Diabloist" data-flag="@X" onclick="openSidebar('102_Grim Diabloist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\131_Blast.png" id="131_Blast" data-flag="@X" onclick="openSidebar('131_Blast',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\186_Obliteration Troll.png" id="186_Obliteration Troll" data-flag="@X" onclick="openSidebar('186_Obliteration Troll',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\27_Nameless Martyr.png" id="27_Nameless Martyr" data-flag="@X" onclick="openSidebar('27_Nameless Martyr',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\69_Recategorize.png" id="69_Recategorize" data-flag="@X" onclick="openSidebar('69_Recategorize',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\104_Hallowed Soulsealer.png" id="104_Hallowed Soulsealer" data-flag="@X" onclick="openSidebar('104_Hallowed Soulsealer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\132_Burning Champion.png" id="132_Burning Champion" data-flag="@X" onclick="openSidebar('132_Burning Champion',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\187_Opportunistic Ooze.png" id="187_Opportunistic Ooze" data-flag="@X" onclick="openSidebar('187_Opportunistic Ooze',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\28_Next.png" id="28_Next" data-flag="@X" onclick="openSidebar('28_Next',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\73_Scholar of the Lost Troves.png" id="73_Scholar of the Lost Troves" data-flag="@X" onclick="openSidebar('73_Scholar of the Lost Troves',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\114_Piercing of the Day.png" id="114_Piercing of the Day" data-flag="@X" onclick="openSidebar('114_Piercing of the Day',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\134_Devastation of War.png" id="134_Devastation of War" data-flag="@X" onclick="openSidebar('134_Devastation of War',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\198_Sifter Wurm.png" id="198_Sifter Wurm" data-flag="@X" onclick="openSidebar('198_Sifter Wurm',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\34_Purveyor of the Wastes.png" id="34_Purveyor of the Wastes" data-flag="@X" onclick="openSidebar('34_Purveyor of the Wastes',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\79_Swelling Surge.png" id="79_Swelling Surge" data-flag="@X" onclick="openSidebar('79_Swelling Surge',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\116_Scavenger's Charm.png" id="116_Scavengers Charm" data-flag="@X" onclick="openSidebar('116_Scavengers Charm',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\139_Frightful Compatriot.png" id="139_Frightful Compatriot" data-flag="@X" onclick="openSidebar('139_Frightful Compatriot',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\202_Spore Bear.png" id="202_Spore Bear" data-flag="@X" onclick="openSidebar('202_Spore Bear',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\38_Sinking Prison.png" id="38_Sinking Prison" data-flag="@X" onclick="openSidebar('38_Sinking Prison',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\81_True.png" id="81_True" data-flag="@X" onclick="openSidebar('81_True',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\120_Starvation's Embrace.png" id="120_Starvations Embrace" data-flag="@X" onclick="openSidebar('120_Starvations Embrace',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\144_Hound of War.png" id="144_Hound of War" data-flag="@X" onclick="openSidebar('144_Hound of War',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\204_Survivor's Tenacity.png" id="204_Survivors Tenacity" data-flag="@X" onclick="openSidebar('204_Survivors Tenacity',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\40_Survivor's Stampede.png" id="40_Survivors Stampede" data-flag="@X" onclick="openSidebar('40_Survivors Stampede',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\82_Unbearable Secrets.png" id="82_Unbearable Secrets" data-flag="@X" onclick="openSidebar('82_Unbearable Secrets',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\123_Tormenting Nightmares.png" id="123_Tormenting Nightmares" data-flag="@X" onclick="openSidebar('123_Tormenting Nightmares',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\152_Melting Point.png" id="152_Melting Point" data-flag="@X" onclick="openSidebar('152_Melting Point',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\207_Violent Mutation.png" id="207_Violent Mutation" data-flag="@X" onclick="openSidebar('207_Violent Mutation',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\42_Voidgaze.png" id="42_Voidgaze" data-flag="@X" onclick="openSidebar('42_Voidgaze',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\84_Wailing Husk.png" id="84_Wailing Husk" data-flag="@X" onclick="openSidebar('84_Wailing Husk',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\125_Willowroot Ritualist.png" id="125_Willowroot Ritualist" data-flag="@X" onclick="openSidebar('125_Willowroot Ritualist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\154_Otherworldly Occultist.png" id="154_Otherworldly Occultist" data-flag="@X" onclick="openSidebar('154_Otherworldly Occultist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\208_Witness of the End.png" id="208_Witness of the End" data-flag="@X" onclick="openSidebar('208_Witness of the End',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\3_Acolyte of Amplification.png" id="3_Acolyte of Amplification" data-flag="@X" onclick="openSidebar('3_Acolyte of Amplification',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\46_Consuming Flood.png" id="46_Consuming Flood" data-flag="@X" onclick="openSidebar('46_Consuming Flood',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\126_With a Vengeance.png" id="126_With a Vengeance" data-flag="@X" onclick="openSidebar('126_With a Vengeance',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\163_Uncontrollable Forces.png" id="163_Uncontrollable Forces" data-flag="@X" onclick="openSidebar('163_Uncontrollable Forces',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\174_Campsite Ambush.png" id="174_Campsite Ambush" data-flag="@X" onclick="openSidebar('174_Campsite Ambush',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\5_Bounty Hunter.png" id="5_Bounty Hunter" data-flag="@X" onclick="openSidebar('5_Bounty Hunter',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\47_Curio Inspector.png" id="47_Curio Inspector" data-flag="@X" onclick="openSidebar('47_Curio Inspector',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\88_Beg for Mercy.png" id="88_Beg for Mercy" data-flag="@X" onclick="openSidebar('88_Beg for Mercy',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\130_Ashen Instincts.png" id="130_Ashen Instincts" data-flag="@X" onclick="openSidebar('130_Ashen Instincts',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\179_Flora Fender.png" id="179_Flora Fender" data-flag="@X" onclick="openSidebar('179_Flora Fender',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\6_Conquer Adversity.png" id="6_Conquer Adversity" data-flag="@X" onclick="openSidebar('6_Conquer Adversity',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\50_Driftcloak.png" id="50_Driftcloak" data-flag="@X" onclick="openSidebar('50_Driftcloak',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\89_Blood Rager.png" id="89_Blood Rager" data-flag="@X" onclick="openSidebar('89_Blood Rager',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\135_Disaster Channeler.png" id="135_Disaster Channeler" data-flag="@X" onclick="openSidebar('135_Disaster Channeler',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\181_Gardener of Abandon.png" id="181_Gardener of Abandon" data-flag="@X" onclick="openSidebar('181_Gardener of Abandon',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\8_Conviction.png" id="8_Conviction" data-flag="@X" onclick="openSidebar('8_Conviction',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\53_Famine's Gaze.png" id="53_Famines Gaze" data-flag="@X" onclick="openSidebar('53_Famines Gaze',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\90_Bloodstorm.png" id="90_Bloodstorm" data-flag="@X" onclick="openSidebar('90_Bloodstorm',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\136_Disastimancer.png" id="136_Disastimancer" data-flag="@X" onclick="openSidebar('136_Disastimancer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\183_Gratuitous Grasp.png" id="183_Gratuitous Grasp" data-flag="@X" onclick="openSidebar('183_Gratuitous Grasp',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\10_Defiant Strike.png" id="10_Defiant Strike" data-flag="@X" onclick="openSidebar('10_Defiant Strike',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\55_Floodrange Scavengers.png" id="55_Floodrange Scavengers" data-flag="@X" onclick="openSidebar('55_Floodrange Scavengers',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\91_Confront Death.png" id="91_Confront Death" data-flag="@X" onclick="openSidebar('91_Confront Death',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\137_Dismantling Pulse.png" id="137_Dismantling Pulse" data-flag="@X" onclick="openSidebar('137_Dismantling Pulse',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\184_Harried Hunter.png" id="184_Harried Hunter" data-flag="@X" onclick="openSidebar('184_Harried Hunter',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\17_Hand of Conquest.png" id="17_Hand of Conquest" data-flag="@X" onclick="openSidebar('17_Hand of Conquest',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\56_Forewarning Figure.png" id="56_Forewarning Figure" data-flag="@X" onclick="openSidebar('56_Forewarning Figure',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\94_Death's Embrace.png" id="94_Deaths Embrace" data-flag="@X" onclick="openSidebar('94_Deaths Embrace',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\138_Fragmented Warlord.png" id="138_Fragmented Warlord" data-flag="@X" onclick="openSidebar('138_Fragmented Warlord',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\185_Might Upon Might.png" id="185_Might Upon Might" data-flag="@X" onclick="openSidebar('185_Might Upon Might',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\18_Hardened Scrounger.png" id="18_Hardened Scrounger" data-flag="@X" onclick="openSidebar('18_Hardened Scrounger',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\59_Hoard Knowledge.png" id="59_Hoard Knowledge" data-flag="@X" onclick="openSidebar('59_Hoard Knowledge',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\95_Defiant Warden.png" id="95_Defiant Warden" data-flag="@X" onclick="openSidebar('95_Defiant Warden',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\140_Gleeful Sadist.png" id="140_Gleeful Sadist" data-flag="@X" onclick="openSidebar('140_Gleeful Sadist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\188_Pathogenic Mists.png" id="188_Pathogenic Mists" data-flag="@X" onclick="openSidebar('188_Pathogenic Mists',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\20_Hushing Spirit.png" id="20_Hushing Spirit" data-flag="@X" onclick="openSidebar('20_Hushing Spirit',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\60_Iced In.png" id="60_Iced In" data-flag="@X" onclick="openSidebar('60_Iced In',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\97_Doomed Rider.png" id="97_Doomed Rider" data-flag="@X" onclick="openSidebar('97_Doomed Rider',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\142_Gored Cyclops.png" id="142_Gored Cyclops" data-flag="@X" onclick="openSidebar('142_Gored Cyclops',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\190_Pestilence's Keep.png" id="190_Pestilences Keep" data-flag="@X" onclick="openSidebar('190_Pestilences Keep',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\21_Inspired Footman.png" id="21_Inspired Footman" data-flag="@X" onclick="openSidebar('21_Inspired Footman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\62_Memory Torrent.png" id="62_Memory Torrent" data-flag="@X" onclick="openSidebar('62_Memory Torrent',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\98_Dreadful Disintigration.png" id="98_Dreadful Disintigration" data-flag="@X" onclick="openSidebar('98_Dreadful Disintigration',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\145_Inspiration of Example.png" id="145_Inspiration of Example" data-flag="@X" onclick="openSidebar('145_Inspiration of Example',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\191_Preying Mantis.png" id="191_Preying Mantis" data-flag="@X" onclick="openSidebar('191_Preying Mantis',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\22_Join the Cause.png" id="22_Join the Cause" data-flag="@X" onclick="openSidebar('22_Join the Cause',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\68_Privileged Escort.png" id="68_Privileged Escort" data-flag="@X" onclick="openSidebar('68_Privileged Escort',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\101_Grim Apostle.png" id="101_Grim Apostle" data-flag="@X" onclick="openSidebar('101_Grim Apostle',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\146_Ionic Outburst.png" id="146_Ionic Outburst" data-flag="@X" onclick="openSidebar('146_Ionic Outburst',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\193_Ravenous Kurgecroc.png" id="193_Ravenous Kurgecroc" data-flag="@X" onclick="openSidebar('193_Ravenous Kurgecroc',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\24_Lone Guardsman.png" id="24_Lone Guardsman" data-flag="@X" onclick="openSidebar('24_Lone Guardsman',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\70_Rimereader Oracle.png" id="70_Rimereader Oracle" data-flag="@X" onclick="openSidebar('70_Rimereader Oracle',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\103_Grim Loyalist.png" id="103_Grim Loyalist" data-flag="@X" onclick="openSidebar('103_Grim Loyalist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\148_Liberating Blow.png" id="148_Liberating Blow" data-flag="@X" onclick="openSidebar('148_Liberating Blow',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\194_Renovator Colossus.png" id="194_Renovator Colossus" data-flag="@X" onclick="openSidebar('194_Renovator Colossus',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\25_Luminous Rebuke.png" id="25_Luminous Rebuke" data-flag="@X" onclick="openSidebar('25_Luminous Rebuke',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\72_Rookie Mistake.png" id="72_Rookie Mistake" data-flag="@X" onclick="openSidebar('72_Rookie Mistake',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\105_Hooded Reaper.png" id="105_Hooded Reaper" data-flag="@X" onclick="openSidebar('105_Hooded Reaper',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\149_Living Campfire.png" id="149_Living Campfire" data-flag="@X" onclick="openSidebar('149_Living Campfire',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\195_Retrogenic Cultivation.png" id="195_Retrogenic Cultivation" data-flag="@X" onclick="openSidebar('195_Retrogenic Cultivation',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\29_Noble Outrider.png" id="29_Noble Outrider" data-flag="@X" onclick="openSidebar('29_Noble Outrider',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\74_Scourge of the Floodrange.png" id="74_Scourge of the Floodrange" data-flag="@X" onclick="openSidebar('74_Scourge of the Floodrange',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\106_Hopes Become Ashes.png" id="106_Hopes Become Ashes" data-flag="@X" onclick="openSidebar('106_Hopes Become Ashes',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\151_Magma Slinger.png" id="151_Magma Slinger" data-flag="@X" onclick="openSidebar('151_Magma Slinger',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\196_Ruin Rummagers.png" id="196_Ruin Rummagers" data-flag="@X" onclick="openSidebar('196_Ruin Rummagers',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\30_Outreach Captain.png" id="30_Outreach Captain" data-flag="@X" onclick="openSidebar('30_Outreach Captain',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\75_Seaborn Supporter.png" id="75_Seaborn Supporter" data-flag="@X" onclick="openSidebar('75_Seaborn Supporter',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\108_Insurgent Bloodlord.png" id="108_Insurgent Bloodlord" data-flag="@X" onclick="openSidebar('108_Insurgent Bloodlord',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\156_Reckless Hammerskull.png" id="156_Reckless Hammerskull" data-flag="@X" onclick="openSidebar('156_Reckless Hammerskull',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\197_Scavenger's Trek.png" id="197_Scavengers Trek" data-flag="@X" onclick="openSidebar('197_Scavengers Trek',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\33_Provisions Specialist.png" id="33_Provisions Specialist" data-flag="@X" onclick="openSidebar('33_Provisions Specialist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\76_Spined Megalodon.png" id="76_Spined Megalodon" data-flag="@X" onclick="openSidebar('76_Spined Megalodon',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\110_Midnight Negotiations.png" id="110_Midnight Negotiations" data-flag="@X" onclick="openSidebar('110_Midnight Negotiations',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\158_Scion of Brimstone.png" id="158_Scion of Brimstone" data-flag="@X" onclick="openSidebar('158_Scion of Brimstone',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\200_Snarlskin Packleader.png" id="200_Snarlskin Packleader" data-flag="@X" onclick="openSidebar('200_Snarlskin Packleader',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\36_Rodent Ruination.png" id="36_Rodent Ruination" data-flag="@X" onclick="openSidebar('36_Rodent Ruination',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\77_Studious Exemplar.png" id="77_Studious Exemplar" data-flag="@X" onclick="openSidebar('77_Studious Exemplar',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\111_Mistblade Opportunist.png" id="111_Mistblade Opportunist" data-flag="@X" onclick="openSidebar('111_Mistblade Opportunist',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\159_Seismic Outburst.png" id="159_Seismic Outburst" data-flag="@X" onclick="openSidebar('159_Seismic Outburst',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\201_Spikemaw Mercenary.png" id="201_Spikemaw Mercenary" data-flag="@X" onclick="openSidebar('201_Spikemaw Mercenary',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\37_Shield Charge.png" id="37_Shield Charge" data-flag="@X" onclick="openSidebar('37_Shield Charge',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\78_Succumbed Gilleon.png" id="78_Succumbed Gilleon" data-flag="@X" onclick="openSidebar('78_Succumbed Gilleon',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\112_Monstrous Shadow.png" id="112_Monstrous Shadow" data-flag="@X" onclick="openSidebar('112_Monstrous Shadow',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\160_Sorrow's Release.png" id="160_Sorrows Release" data-flag="@X" onclick="openSidebar('160_Sorrows Release',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\203_Surge of Wildwood.png" id="203_Surge of Wildwood" data-flag="@X" onclick="openSidebar('203_Surge of Wildwood',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\39_Skybound Savior.png" id="39_Skybound Savior" data-flag="@X" onclick="openSidebar('39_Skybound Savior',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\80_Thought Collapse.png" id="80_Thought Collapse" data-flag="@X" onclick="openSidebar('80_Thought Collapse',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\119_Soul's Guidance.png" id="119_Souls Guidance" data-flag="@X" onclick="openSidebar('119_Souls Guidance',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\161_Spark of War.png" id="161_Spark of War" data-flag="@X" onclick="openSidebar('161_Spark of War',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\205_Tendril of Ruination.png" id="205_Tendril of Ruination" data-flag="@X" onclick="openSidebar('205_Tendril of Ruination',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\43_Weary Inspiration.png" id="43_Weary Inspiration" data-flag="@X" onclick="openSidebar('43_Weary Inspiration',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\83_Vanish from Sight.png" id="83_Vanish from Sight" data-flag="@X" onclick="openSidebar('83_Vanish from Sight',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\121_Swarmlord Locust.png" id="121_Swarmlord Locust" data-flag="@X" onclick="openSidebar('121_Swarmlord Locust',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\164_Violent War Cry.png" id="164_Violent War Cry" data-flag="@X" onclick="openSidebar('164_Violent War Cry',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\206_Titanic Emergence.png" id="206_Titanic Emergence" data-flag="@X" onclick="openSidebar('206_Titanic Emergence',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\124_Unwavering Slayer.png" id="124_Unwavering Slayer" data-flag="@X" onclick="openSidebar('124_Unwavering Slayer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\166_Wildpaw Domesitcator.png" id="166_Wildpaw Domesitcator" data-flag="@X" onclick="openSidebar('166_Wildpaw Domesitcator',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\221_Noctus, Shaper of Stars.png" id="221_Noctus, Shaper of Stars" data-flag="@X" onclick="openSidebar('221_Noctus, Shaper of Stars',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\216_Eh'Tharaesed, Who Saw All.png" id="216_EhTharaesed, Who Saw All" data-flag="@X" onclick="openSidebar('216_EhTharaesed, Who Saw All',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\219_Gunijo, the Executioner.png" id="219_Gunijo, the Executioner" data-flag="@X" onclick="openSidebar('219_Gunijo, the Executioner',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\225_Released Hellraiser.png" id="225_Released Hellraiser" data-flag="@X" onclick="openSidebar('225_Released Hellraiser',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\226_Resourceful Officer.png" id="226_Resourceful Officer" data-flag="@X" onclick="openSidebar('226_Resourceful Officer',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\220_Nick of Time.png" id="220_Nick of Time" data-flag="@X" onclick="openSidebar('220_Nick of Time',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\215_Corrupted Gilleon.png" id="215_Corrupted Gilleon" data-flag="@X" onclick="openSidebar('215_Corrupted Gilleon',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\228_Spawn of Cruelty.png" id="228_Spawn of Cruelty" data-flag="@X" onclick="openSidebar('228_Spawn of Cruelty',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\234_Fate.png" id="234_Fate" data-flag="@X" onclick="openSidebar('234_Fate',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\231_Cling.png" id="231_Cling" data-flag="@X" onclick="openSidebar('231_Cling',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\214_Charitable Patron.png" id="214_Charitable Patron" data-flag="@X" onclick="openSidebar('214_Charitable Patron',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\238_Neglect.png" id="238_Neglect" data-flag="@X" onclick="openSidebar('238_Neglect',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\233_Doomed.png" id="233_Doomed" data-flag="@X" onclick="openSidebar('233_Doomed',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\235_Force.png" id="235_Force" data-flag="@X" onclick="openSidebar('235_Force',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\217_Er-Corress, Oblivion Priest.png" id="217_Er-Corress, Oblivion Priest" data-flag="@X" onclick="openSidebar('217_Er-Corress, Oblivion Priest',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\212_Caljak, Shadow of the End.png" id="212_Caljak, Shadow of the End" data-flag="@X" onclick="openSidebar('212_Caljak, Shadow of the End',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\223_Phopus, Mist Sage.png" id="223_Phopus, Mist Sage" data-flag="@X" onclick="openSidebar('223_Phopus, Mist Sage',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\218_Fevered Visions.png" id="218_Fevered Visions" data-flag="@X" onclick="openSidebar('218_Fevered Visions',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\211_Betrayer of Light.png" id="211_Betrayer of Light" data-flag="@X" onclick="openSidebar('211_Betrayer of Light',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\224_Reformed Mercenary.png" id="224_Reformed Mercenary" data-flag="@X" onclick="openSidebar('224_Reformed Mercenary',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\227_Sower of Sorrows.png" id="227_Sower of Sorrows" data-flag="@X" onclick="openSidebar('227_Sower of Sorrows',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\229_Weeping Spring.png" id="229_Weeping Spring" data-flag="@X" onclick="openSidebar('229_Weeping Spring',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\213_Catalytic Vial.png" id="213_Catalytic Vial" data-flag="@X" onclick="openSidebar('213_Catalytic Vial',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\222_Outreach Exemplar.png" id="222_Outreach Exemplar" data-flag="@X" onclick="openSidebar('222_Outreach Exemplar',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\239_Secrets.png" id="239_Secrets" data-flag="@X" onclick="openSidebar('239_Secrets',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\230_Bone.png" id="230_Bone" data-flag="@X" onclick="openSidebar('230_Bone',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\237_Live.png" id="237_Live" data-flag="@X" onclick="openSidebar('237_Live',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\232_Dare.png" id="232_Dare" data-flag="@X" onclick="openSidebar('232_Dare',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\236_Friends.png" id="236_Friends" data-flag="@X" onclick="openSidebar('236_Friends',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\210_Beginning.png" id="210_Beginning" data-flag="@X" onclick="openSidebar('210_Beginning',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\2_The Final Arrival.png" id="2_The Final Arrival" data-flag="@X" onclick="openSidebar('2_The Final Arrival',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\1_Boneborne Amalgam.png" id="1_Boneborne Amalgam" data-flag="@X" onclick="openSidebar('1_Boneborne Amalgam',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\241_Conduit of Calamity.png" id="241_Conduit of Calamity" data-flag="@X" onclick="openSidebar('241_Conduit of Calamity',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\243_Engulfed Relic.png" id="243_Engulfed Relic" data-flag="@X" onclick="openSidebar('243_Engulfed Relic',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\246_Replica Effigy.png" id="246_Replica Effigy" data-flag="@X" onclick="openSidebar('246_Replica Effigy',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\248_Soul-Guide Lantern.png" id="248_Soul-Guide Lantern" data-flag="@X" onclick="openSidebar('248_Soul-Guide Lantern',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\240_Animated Farmhand.png" id="240_Animated Farmhand" data-flag="@X" onclick="openSidebar('240_Animated Farmhand',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\242_Crumbling Kite.png" id="242_Crumbling Kite" data-flag="@X" onclick="openSidebar('242_Crumbling Kite',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\244_Honored Heirloom.png" id="244_Honored Heirloom" data-flag="@X" onclick="openSidebar('244_Honored Heirloom',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\245_Meteorite.png" id="245_Meteorite" data-flag="@X" onclick="openSidebar('245_Meteorite',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\247_Ruined Golem.png" id="247_Ruined Golem" data-flag="@X" onclick="openSidebar('247_Ruined Golem',false)"></div>
+			<div class="container"><img alt="sets\DWE-files\img\249_Trusty Axe.png" id="249_Trusty Axe" data-flag="@X" onclick="openSidebar('249_Trusty Axe',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>

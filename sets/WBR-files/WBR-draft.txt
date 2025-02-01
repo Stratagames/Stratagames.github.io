@@ -1,0 +1,2709 @@
+﻿[CustomCards]
+	[	{
+			"name": "Knowledge from Beyond",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/66_Knowledge from Beyond.png"
+			}
+		},
+		{
+			"name": "Contemplate",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Sorcery",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/53_Contemplate.png"
+			}
+		},
+		{
+			"name": "Cloud Curtain",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/52_Cloud Curtain.png"
+			}
+		},
+		{
+			"name": "Farlands Breezecaller",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/60_Farlands Breezecaller.png"
+			}
+		},
+		{
+			"name": "Frost Manifest",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Elemental ",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/63_Frost Manifest.png"
+			}
+		},
+		{
+			"name": "Explosive Winter",
+			"rarity": "common",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/59_Explosive Winter.png"
+			}
+		},
+		{
+			"name": "Spirit Wings",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/79_Spirit Wings.png"
+			}
+		},
+		{
+			"name": "Reimagine",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/78_Reimagine.png"
+			}
+		},
+		{
+			"name": "Plagued Thoughtbuilder",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/76_Plagued Thoughtbuilder.png"
+			}
+		},
+		{
+			"name": "Imaginary Snake",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Enchantment Creature — Snake Reflection ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/192_Imaginary Snake.png"
+			}
+		},
+		{
+			"name": "Runepelt Bear",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bear ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/207_Runepelt Bear.png"
+			}
+		},
+		{
+			"name": "Nascent Sapling",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Treefolk Wizard ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/198_Nascent Sapling.png"
+			}
+		},
+		{
+			"name": "Dreamlight Druid",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Fox Druid ",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/185_Dreamlight Druid.png"
+			}
+		},
+		{
+			"name": "Whisperer of the Woods",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/216_Whisperer of the Woods.png"
+			}
+		},
+		{
+			"name": "Mossy Stoneguard",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/197_Mossy Stoneguard.png"
+			}
+		},
+		{
+			"name": "Lifeweaver Treefolk",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/194_Lifeweaver Treefolk.png"
+			}
+		},
+		{
+			"name": "Flufftail Guide",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Squirrel Scout ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/187_Flufftail Guide.png"
+			}
+		},
+		{
+			"name": "Lucid Dreamwalker",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Centaur Druid ",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/195_Lucid Dreamwalker.png"
+			}
+		},
+		{
+			"name": "Grazing Beetlebeast",
+			"rarity": "common",
+			"mana_cost": "{5}{G}",
+			"type": "Creature — Insect Beast ",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/190_Grazing Beetlebeast.png"
+			}
+		},
+		{
+			"name": "Colossal Greatwoods",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Treefolk Giant ",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/183_Colossal Greatwoods.png"
+			}
+		},
+		{
+			"name": "Arbor Strike",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/176_Arbor Strike.png"
+			}
+		},
+		{
+			"name": "Tower Over Treetops",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/213_Tower Over Treetops.png"
+			}
+		},
+		{
+			"name": "Inner Strength",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/193_Inner Strength.png"
+			}
+		},
+		{
+			"name": "Maker's Contemplation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/196_Maker's Contemplation.png"
+			}
+		},
+		{
+			"name": "Waking Reverie",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/215_Waking Reverie.png"
+			}
+		},
+		{
+			"name": "Shifting Forest",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/208_Shifting Forest.png"
+			}
+		},
+		{
+			"name": "Growth Mindset",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/191_Growth Mindset.png"
+			}
+		},
+		{
+			"name": "Return to Fantasy",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/205_Return to Fantasy.png"
+			}
+		},
+		{
+			"name": "Homage to Life",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/240_Homage to Life.png"
+			}
+		},
+		{
+			"name": "Luminous Familiar",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Enchantment Creature — Cat Reflection ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/26_Luminous Familiar.png"
+			}
+		},
+		{
+			"name": "Willing Cordoneer",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Hyena Soldier ",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/45_Willing Cordoneer.png"
+			}
+		},
+		{
+			"name": "Intrepid Hare",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Rabbit Scout ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/23_Intrepid Hare.png"
+			}
+		},
+		{
+			"name": "Vigil Hawkwarden",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Orc Ranger ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/43_Vigil Hawkwarden.png"
+			}
+		},
+		{
+			"name": "Dreamcatcher Mage",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment Creature — Wizard Reflection ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/17_Dreamcatcher Mage.png"
+			}
+		},
+		{
+			"name": "Orbshaper Students",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/29_Orbshaper Students.png"
+			}
+		},
+		{
+			"name": "Ancestral Strix",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Elemental Bird ",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/6_Ancestral Strix.png"
+			}
+		},
+		{
+			"name": "Quest for Acorns",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/31_Quest for Acorns.png"
+			}
+		},
+		{
+			"name": "Boneblade Hunter",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/9_Boneblade Hunter.png"
+			}
+		},
+		{
+			"name": "Soul Searching",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/38_Soul Searching.png"
+			}
+		},
+		{
+			"name": "Cloudwing Griff",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Enchantment Creature — Griffin Reflection ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/14_Cloudwing Griff.png"
+			}
+		},
+		{
+			"name": "Venerated Chimera",
+			"rarity": "common",
+			"mana_cost": "{4}{W}{W}",
+			"type": "Creature — Chimera ",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/42_Venerated Chimera.png"
+			}
+		},
+		{
+			"name": "Rend the Lucid",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/33_Rend the Lucid.png"
+			}
+		},
+		{
+			"name": "Tragic Slumber",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/40_Tragic Slumber.png"
+			}
+		},
+		{
+			"name": "Creation's Favor",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/16_Creation's Favor.png"
+			}
+		},
+		{
+			"name": "Conjure Safety",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/15_Conjure Safety.png"
+			}
+		},
+		{
+			"name": "Cloak of Reprise",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/13_Cloak of Reprise.png"
+			}
+		},
+		{
+			"name": "Tap into Transience",
+			"rarity": "common",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/39_Tap into Transience.png"
+			}
+		},
+		{
+			"name": "Shattering Declaration",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/37_Shattering Declaration.png"
+			}
+		},
+		{
+			"name": "Homage to Majesty",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/241_Homage to Majesty.png"
+			}
+		},
+		{
+			"name": "Reflection",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Enchantment Creature — Reflection ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/1_Reflection.png"
+			}
+		},
+		{
+			"name": "Squirrel",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Token Creature — Squirrel ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/2_Squirrel.png"
+			}
+		},
+		{
+			"name": "Pillar of the Rebloom",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/237_Pillar of the Rebloom.png"
+			}
+		},
+		{
+			"name": "Grim Stalker",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/146_Grim Stalker.png"
+			}
+		},
+		{
+			"name": "Rattle the Cattle",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/159_Rattle the Cattle.png"
+			}
+		},
+		{
+			"name": "Readied Blademaster",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/160_Readied Blademaster.png"
+			}
+		},
+		{
+			"name": "Terrorized Terrorizer",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/168_Terrorized Terrorizer.png"
+			}
+		},
+		{
+			"name": "Flourishing Flock",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Citizen ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/143_Flourishing Flock.png"
+			}
+		},
+		{
+			"name": "Goblin Architect",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Goblin Wizard ",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/145_Goblin Architect.png"
+			}
+		},
+		{
+			"name": "Ire Razer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/154_Ire Razer.png"
+			}
+		},
+		{
+			"name": "Orcish Javelineer",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Orc Soldier ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/156_Orcish Javelineer.png"
+			}
+		},
+		{
+			"name": "Aberrant Ogre",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Ogre Warrior ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/132_Aberrant Ogre.png"
+			}
+		},
+		{
+			"name": "Imminent Storm",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/150_Imminent Storm.png"
+			}
+		},
+		{
+			"name": "Incanted Bombardment",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Instant",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/151_Incanted Bombardment.png"
+			}
+		},
+		{
+			"name": "Panicked State",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/157_Panicked State.png"
+			}
+		},
+		{
+			"name": "Take the Offensive",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/167_Take the Offensive.png"
+			}
+		},
+		{
+			"name": "Relay Racket",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/162_Relay Racket.png"
+			}
+		},
+		{
+			"name": "Furcated Fury",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/144_Furcated Fury.png"
+			}
+		},
+		{
+			"name": "Surge of Glory",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Instant",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/166_Surge of Glory.png"
+			}
+		},
+		{
+			"name": "Hazardous Blast",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/148_Hazardous Blast.png"
+			}
+		},
+		{
+			"name": "Wall of Roses",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Plant Wall ",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/173_Wall of Roses.png"
+			}
+		},
+		{
+			"name": "Homage to Indulgence",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/239_Homage to Indulgence.png"
+			}
+		},
+		{
+			"name": "Flying Mantis",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Insect ",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/62_Flying Mantis.png"
+			}
+		},
+		{
+			"name": "Starlight Navigator",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Advisor ",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/83_Starlight Navigator.png"
+			}
+		},
+		{
+			"name": "Star Seeker",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Nomad ",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/81_Star Seeker.png"
+			}
+		},
+		{
+			"name": "Canine Accomplice",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Wolf Reflection ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/51_Canine Accomplice.png"
+			}
+		},
+		{
+			"name": "Parasomnia",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Sorcery",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/75_Parasomnia.png"
+			}
+		},
+		{
+			"name": "Starbog Bullfrog",
+			"rarity": "common",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Enchantment Creature — Frog Reflection ",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/82_Starbog Bullfrog.png"
+			}
+		},
+		{
+			"name": "Warped Reflection",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment Creature — Nightmare Reflection ",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/88_Warped Reflection.png"
+			}
+		},
+		{
+			"name": "Star Capture",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/80_Star Capture.png"
+			}
+		},
+		{
+			"name": "Accumulating Flaws",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Instant",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/47_Accumulating Flaws.png"
+			}
+		},
+		{
+			"name": "Negate",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/74_Negate.png"
+			}
+		},
+		{
+			"name": "Nightmare",
+			"rarity": "special",
+			"mana_cost": "",
+			"type": "Token Creature — Nightmare ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/3_Nightmare.png"
+			}
+		},
+		{
+			"name": "Horseshoe Starshell",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Creature — Crab Spirit ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/224_Horseshoe Starshell.png"
+			}
+		},
+		{
+			"name": "Eternity Watcher",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{B}",
+			"type": "Creature — Nightmare Bird ",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/220_Eternity Watcher.png"
+			}
+		},
+		{
+			"name": "Thought Ravager",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/231_Thought Ravager.png"
+			}
+		},
+		{
+			"name": "Revealer of Bounty",
+			"rarity": "uncommon",
+			"mana_cost": "{G}{W}",
+			"type": "Creature",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/228_Revealer of Bounty.png"
+			}
+		},
+		{
+			"name": "Herald of Glory",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{B}",
+			"type": "Creature — Human Warlock ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/222_Herald of Glory.png"
+			}
+		},
+		{
+			"name": "Hellion Catalyzer",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/221_Hellion Catalyzer.png"
+			}
+		},
+		{
+			"name": "Ancent Lumberknot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/217_Ancent Lumberknot.png"
+			}
+		},
+		{
+			"name": "Timescape Tactician",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Cat Warrior ",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/232_Timescape Tactician.png"
+			}
+		},
+		{
+			"name": "Keeper of Legacy",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Creature — Elf Druid ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/225_Keeper of Legacy.png"
+			}
+		},
+		{
+			"name": "Unwilling Ingredient",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Frog ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/130_Unwilling Ingredient.png"
+			}
+		},
+		{
+			"name": "Feardrinker",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/103_Feardrinker.png"
+			}
+		},
+		{
+			"name": "Reaping Gorgon",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Gorgon Rogue ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/118_Reaping Gorgon.png"
+			}
+		},
+		{
+			"name": "Dreadfeeder Vulture",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Bird ",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/98_Dreadfeeder Vulture.png"
+			}
+		},
+		{
+			"name": "Trauma Seeder",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Nightmare Treefolk ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/128_Trauma Seeder.png"
+			}
+		},
+		{
+			"name": "Dreamrobber Boggart",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Goblin Warlock ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/100_Dreamrobber Boggart.png"
+			}
+		},
+		{
+			"name": "Festering Wildroach",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Insect ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/104_Festering Wildroach.png"
+			}
+		},
+		{
+			"name": "Malevolent Imperial",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Ogre Noble ",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/110_Malevolent Imperial.png"
+			}
+		},
+		{
+			"name": "Stubborn Lumberkin",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Treefolk Beast ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/124_Stubborn Lumberkin.png"
+			}
+		},
+		{
+			"name": "Deathsower Treefolk",
+			"rarity": "common",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/94_Deathsower Treefolk.png"
+			}
+		},
+		{
+			"name": "Jarred Awake",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Instant",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/108_Jarred Awake.png"
+			}
+		},
+		{
+			"name": "Dead Weight",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/93_Dead Weight.png"
+			}
+		},
+		{
+			"name": "Nightmarish Culling",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Instant",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/111_Nightmarish Culling.png"
+			}
+		},
+		{
+			"name": "Demuse",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/96_Demuse.png"
+			}
+		},
+		{
+			"name": "Delusions of Power",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/95_Delusions of Power.png"
+			}
+		},
+		{
+			"name": "Raise Dread",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/116_Raise Dread.png"
+			}
+		},
+		{
+			"name": "Obliviate Identity",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/114_Obliviate Identity.png"
+			}
+		},
+		{
+			"name": "Nightmarish Vigor",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/112_Nightmarish Vigor.png"
+			}
+		},
+		{
+			"name": "Subtle Strike",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/125_Subtle Strike.png"
+			}
+		},
+		{
+			"name": "Homage to Mystery",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/242_Homage to Mystery.png"
+			}
+		},
+		{
+			"name": "Gnarled Spawn",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Creature — Treefolk Horror ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/105_Gnarled Spawn.png"
+			}
+		},
+		{
+			"name": "Nightveil Pathmaker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Elf Warrior Rogue ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/113_Nightveil Pathmaker.png"
+			}
+		},
+		{
+			"name": "Winding Recluse",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Snake Warrior ",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/131_Winding Recluse.png"
+			}
+		},
+		{
+			"name": "Tainted Simian",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Ape Mutant Horror ",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/127_Tainted Simian.png"
+			}
+		},
+		{
+			"name": "Rustbark Shell",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Treefolk Nightmare ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/121_Rustbark Shell.png"
+			}
+		},
+		{
+			"name": "Scourge of Knottridge",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Creature — Treefolk Troll Nightmare ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/122_Scourge of Knottridge.png"
+			}
+		},
+		{
+			"name": "Cobaash, the Boggart Prince",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Legendary Creature — Goblin Noble ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/90_Cobaash, the Boggart Prince.png"
+			}
+		},
+		{
+			"name": "Grasp of the Nightking",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/106_Grasp of the Nightking.png"
+			}
+		},
+		{
+			"name": "Rakish Revival",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Sorcery",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/117_Rakish Revival.png"
+			}
+		},
+		{
+			"name": "Impending End",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/107_Impending End.png"
+			}
+		},
+		{
+			"name": "Unnerving Mutation",
+			"rarity": "uncommon",
+			"mana_cost": "{B}",
+			"type": "Instant",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/129_Unnerving Mutation.png"
+			}
+		},
+		{
+			"name": "Spiteful Countenance",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/123_Spiteful Countenance.png"
+			}
+		},
+		{
+			"name": "Call the Nightmares",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/89_Call the Nightmares.png"
+			}
+		},
+		{
+			"name": "Bright-Eyed Scout",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Creature — Squirrel ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/180_Bright-Eyed Scout.png"
+			}
+		},
+		{
+			"name": "Abstract Arbor",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment Creature — Treefolk Reflection ",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/174_Abstract Arbor.png"
+			}
+		},
+		{
+			"name": "Friendly Fir",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/188_Friendly Fir.png"
+			}
+		},
+		{
+			"name": "Parading Bouquet",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Plant Archer ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/199_Parading Bouquet.png"
+			}
+		},
+		{
+			"name": "Rockbreaker Rhino",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Rhino ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/206_Rockbreaker Rhino.png"
+			}
+		},
+		{
+			"name": "Ramhead Crasher",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/202_Ramhead Crasher.png"
+			}
+		},
+		{
+			"name": "Bloomweft Behemoth",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}{G}",
+			"type": "Creature — Treefolk ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/177_Bloomweft Behemoth.png"
+			}
+		},
+		{
+			"name": "Chronognawer",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Nightmare Snail ",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/182_Chronognawer.png"
+			}
+		},
+		{
+			"name": "Bushwhack",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Sorcery",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/181_Bushwhack.png"
+			}
+		},
+		{
+			"name": "Bramblebark Awakens",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/178_Bramblebark Awakens.png"
+			}
+		},
+		{
+			"name": "Strength From the Heart",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}",
+			"type": "Sorcery",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/211_Strength From the Heart.png"
+			}
+		},
+		{
+			"name": "Poisoned Dogma",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/200_Poisoned Dogma.png"
+			}
+		},
+		{
+			"name": "Rebloom",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{G}",
+			"type": "Instant",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/203_Rebloom.png"
+			}
+		},
+		{
+			"name": "Fathom Encroacher",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Nightmare Squid ",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/61_Fathom Encroacher.png"
+			}
+		},
+		{
+			"name": "Minstrel of Bemusement",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Human Bard ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/73_Minstrel of Bemusement.png"
+			}
+		},
+		{
+			"name": "Heretical Devotee",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Nightmare Shaman ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/64_Heretical Devotee.png"
+			}
+		},
+		{
+			"name": "Aeon Drifter",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Enchantment Creature — Jellyfish Reflection ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/48_Aeon Drifter.png"
+			}
+		},
+		{
+			"name": "Lake Monstrosity",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}{U}",
+			"type": "Creature — Nightmare Leviathan ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/67_Lake Monstrosity.png"
+			}
+		},
+		{
+			"name": "Lost Dreamseeker",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment Creature — Dwarf Reflection ",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/71_Lost Dreamseeker.png"
+			}
+		},
+		{
+			"name": "Inner Self",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/65_Inner Self.png"
+			}
+		},
+		{
+			"name": "Stolen Knowledge",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/84_Stolen Knowledge.png"
+			}
+		},
+		{
+			"name": "Wake Up",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/87_Wake Up.png"
+			}
+		},
+		{
+			"name": "Learn Through Repetition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/68_Learn Through Repetition.png"
+			}
+		},
+		{
+			"name": "Dreamwoven Arcana",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/57_Dreamwoven Arcana.png"
+			}
+		},
+		{
+			"name": "Dreamwalk",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/56_Dreamwalk.png"
+			}
+		},
+		{
+			"name": "Living Inquiry",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/70_Living Inquiry.png"
+			}
+		},
+		{
+			"name": "Angel of Guiding Light",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Enchantment Creature — Angel Reflection ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/7_Angel of Guiding Light.png"
+			}
+		},
+		{
+			"name": "Blank",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}",
+			"type": "Instant",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/8_Blank.png"
+			}
+		},
+		{
+			"name": "Farwalker Herd",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Goat Nomad ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/21_Farwalker Herd.png"
+			}
+		},
+		{
+			"name": "Loyal Realmguard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Dog Knight ",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/25_Loyal Realmguard.png"
+			}
+		},
+		{
+			"name": "Breathe Life",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/11_Breathe Life.png"
+			}
+		},
+		{
+			"name": "Wooly Hermit",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Creature — Yeti Cleric ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/46_Wooly Hermit.png"
+			}
+		},
+		{
+			"name": "Mirror Trap",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Enchantment",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/27_Mirror Trap.png"
+			}
+		},
+		{
+			"name": "Chittering Burrower",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Squirrel ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/12_Chittering Burrower.png"
+			}
+		},
+		{
+			"name": "Gallant Bonebreaker",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/22_Gallant Bonebreaker.png"
+			}
+		},
+		{
+			"name": "Runaround Entangler",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Rabbit Soldier ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/34_Runaround Entangler.png"
+			}
+		},
+		{
+			"name": "Uplift",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/41_Uplift.png"
+			}
+		},
+		{
+			"name": "Light Overwhelming",
+			"rarity": "uncommon",
+			"mana_cost": "{W}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/24_Light Overwhelming.png"
+			}
+		},
+		{
+			"name": "Branchwefting",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/10_Branchwefting.png"
+			}
+		},
+		{
+			"name": "Incautious Benefactor",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/152_Incautious Benefactor.png"
+			}
+		},
+		{
+			"name": "Fellowful Artisan",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{R}",
+			"type": "Creature — Dwarf Warrior ",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/141_Fellowful Artisan.png"
+			}
+		},
+		{
+			"name": "Crazed Curator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elf Artificer ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/136_Crazed Curator.png"
+			}
+		},
+		{
+			"name": "Brimskin Surlicant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}{R}",
+			"type": "Creature — Nightmare Beast ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/134_Brimskin Surlicant.png"
+			}
+		},
+		{
+			"name": "Blazingplate Monitor",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Lizard Beast ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/133_Blazingplate Monitor.png"
+			}
+		},
+		{
+			"name": "Splinterhorn Pugilist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Creature — Minotaur Barbarian ",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/164_Splinterhorn Pugilist.png"
+			}
+		},
+		{
+			"name": "Voltaic Manifestation",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Enchantment",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/172_Voltaic Manifestation.png"
+			}
+		},
+		{
+			"name": "Static Strangle",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/165_Static Strangle.png"
+			}
+		},
+		{
+			"name": "Unfathomable Stoke",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{R}",
+			"type": "Sorcery",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/171_Unfathomable Stoke.png"
+			}
+		},
+		{
+			"name": "Incredulous Revelation",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/153_Incredulous Revelation.png"
+			}
+		},
+		{
+			"name": "Tyranical Reignition",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/170_Tyranical Reignition.png"
+			}
+		},
+		{
+			"name": "Dreamers' Determination",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Enchantment",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/137_Dreamers' Determination.png"
+			}
+		},
+		{
+			"name": "Rise and Raze",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/163_Rise and Raze.png"
+			}
+		},
+		{
+			"name": "Rumination Golem",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Enchantment Creature — Golem Reflection ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/4_Rumination Golem.png"
+			}
+		},
+		{
+			"name": "Dream Servant",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Creature — Elemental Construct ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/1_Dream Servant.png"
+			}
+		},
+		{
+			"name": "Hueheft Giant",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Creature — Giant ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/3_Hueheft Giant.png"
+			}
+		},
+		{
+			"name": "Nightsnare",
+			"rarity": "uncommon",
+			"mana_cost": "{6}",
+			"type": "Artifact",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/236_Nightsnare.png"
+			}
+		},
+		{
+			"name": "Nostalgic Vista",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/243_Nostalgic Vista.png"
+			}
+		},
+		{
+			"name": "Horizon Elemental",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/223_Horizon Elemental.png"
+			}
+		},
+		{
+			"name": "Coalwing Snapper",
+			"rarity": "common",
+			"mana_cost": "{4}{R}",
+			"type": "Creature — Dragon ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/135_Coalwing Snapper.png"
+			}
+		},
+		{
+			"name": "Abscond Fate",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Instant",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/5_Abscond Fate.png"
+			}
+		},
+		{
+			"name": "Behold Creation",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/50_Behold Creation.png"
+			}
+		},
+		{
+			"name": "Paranoia Clutcher",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Nightmare Eye ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/115_Paranoia Clutcher.png"
+			}
+		},
+		{
+			"name": "Compounded Nightmares",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Nightmare Horror ",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/91_Compounded Nightmares.png"
+			}
+		},
+		{
+			"name": "Plunge into Eternity",
+			"rarity": "mythic",
+			"mana_cost": "{X}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/158_Plunge into Eternity.png"
+			}
+		},
+		{
+			"name": "Bramblebark, Worldweaver",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Planeswalker — Bramblebark ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/179_Bramblebark, Worldweaver.png"
+			}
+		},
+		{
+			"name": "The Dewfather",
+			"rarity": "mythic",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Elemental ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/184_The Dewfather.png"
+			}
+		},
+		{
+			"name": "Orthuz, the Dreamcleaver",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Legendary Planeswalker — Orthuz ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/227_Orthuz, the Dreamcleaver.png"
+			}
+		},
+		{
+			"name": "Kulos, Bard of The Skids",
+			"rarity": "mythic",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Legendary Planeswalker — Kulos ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/226_Kulos, Bard of The Skids.png"
+			}
+		},
+		{
+			"name": "Wrathwood Hellkite",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{G}",
+			"type": "Creature — Treefolk Dragon ",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/235_Wrathwood Hellkite.png"
+			}
+		},
+		{
+			"name": "HAL, Impartial Observer",
+			"rarity": "rare",
+			"mana_cost": "{3}",
+			"type": "Legendary Planeswalker — HAL ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/2_HAL, Impartial Observer.png"
+			}
+		},
+		{
+			"name": "Northwalk Owl",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Creature — Bird ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/28_Northwalk Owl.png"
+			}
+		},
+		{
+			"name": "Scurrytide",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/35_Scurrytide.png"
+			}
+		},
+		{
+			"name": "Emanation of Angels",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Sorcery",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/18_Emanation of Angels.png"
+			}
+		},
+		{
+			"name": "Recollection of Order",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/32_Recollection of Order.png"
+			}
+		},
+		{
+			"name": "Vetoad",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Frog ",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/85_Vetoad.png"
+			}
+		},
+		{
+			"name": "Dreamspeak Augur",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Satyr Wizard ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/55_Dreamspeak Augur.png"
+			}
+		},
+		{
+			"name": "The Masked",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Nightmare ",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/72_The Masked.png"
+			}
+		},
+		{
+			"name": "Ambitious Vision",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/49_Ambitious Vision.png"
+			}
+		},
+		{
+			"name": "Limitless Creativity",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/69_Limitless Creativity.png"
+			}
+		},
+		{
+			"name": "Emanation of Reflections",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/58_Emanation of Reflections.png"
+			}
+		},
+		{
+			"name": "Recollection of Study",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/77_Recollection of Study.png"
+			}
+		},
+		{
+			"name": "Direrot, Poisoned Oak",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Treefolk ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/97_Direrot, Poisoned Oak.png"
+			}
+		},
+		{
+			"name": "Reculmination of Orthuz",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/120_Reculmination of Orthuz.png"
+			}
+		},
+		{
+			"name": "Emanation of Torments",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Sorcery",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/102_Emanation of Torments.png"
+			}
+		},
+		{
+			"name": "Recollection of Deceit",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/119_Recollection of Deceit.png"
+			}
+		},
+		{
+			"name": "Habrim, the Redeemer",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}",
+			"type": "Legendary Creature — Chimera ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/147_Habrim, the Redeemer.png"
+			}
+		},
+		{
+			"name": "Durged, Troubled Dreamer",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Legendary Creature — Goblin Shaman ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/138_Durged, Troubled Dreamer.png"
+			}
+		},
+		{
+			"name": "Lightning Blade Paladin",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Human Knight Shaman ",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/155_Lightning Blade Paladin.png"
+			}
+		},
+		{
+			"name": "Firemane Feline",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elemental Cat ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/142_Firemane Feline.png"
+			}
+		},
+		{
+			"name": "Ecstatic Beauty",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/139_Ecstatic Beauty.png"
+			}
+		},
+		{
+			"name": "Emanation of Ire",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Sorcery",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/140_Emanation of Ire.png"
+			}
+		},
+		{
+			"name": "Recollection of Passion",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/161_Recollection of Passion.png"
+			}
+		},
+		{
+			"name": "Galetop Greatwurm",
+			"rarity": "rare",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Wurm ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/189_Galetop Greatwurm.png"
+			}
+		},
+		{
+			"name": "Splinterhide Bane",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Nightmare Beast ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/209_Splinterhide Bane.png"
+			}
+		},
+		{
+			"name": "Anachronistic Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}{G}",
+			"type": "Creature — Hydra ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/175_Anachronistic Hydra.png"
+			}
+		},
+		{
+			"name": "Terramogrify",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/212_Terramogrify.png"
+			}
+		},
+		{
+			"name": "Emanation of Evolution",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Sorcery",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/186_Emanation of Evolution.png"
+			}
+		},
+		{
+			"name": "Recollection of Growth",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/204_Recollection of Growth.png"
+			}
+		},
+		{
+			"name": "Corelia, Trinket Sleuth",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{B}",
+			"type": "Legendary Creature — Bird Noble ",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/218_Corelia, Trinket Sleuth.png"
+			}
+		},
+		{
+			"name": "Dolla, Reflective Overseer",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Legendary Creature — Elf Wizard Noble ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/219_Dolla, Reflective Overseer.png"
+			}
+		},
+		{
+			"name": "Silvertail, Veteran Oakguard",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Legendary Creature — Squirrel Warrior ",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/229_Silvertail, Veteran Oakguard.png"
+			}
+		},
+		{
+			"name": "Sphinx of the Unending",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{R}",
+			"type": "Legendary Creature — Sphinx ",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/230_Sphinx of the Unending.png"
+			}
+		},
+		{
+			"name": "Turroy, the Companioneer",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{U}",
+			"type": "Legendary Creature — Phelddagrif ",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/234_Turroy, the Companioneer.png"
+			}
+		},
+		{
+			"name": "Tulvish, Idol of Abundance",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Legendary Creature — Bear Archon ",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/233_Tulvish, Idol of Abundance.png"
+			}
+		},
+		{
+			"name": "Peacebringer",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Knight ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/30_Peacebringer.png"
+			}
+		},
+		{
+			"name": "Endless Horizons",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/19_Endless Horizons.png"
+			}
+		},
+		{
+			"name": "Ephemeral Elk",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elk ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/20_Ephemeral Elk.png"
+			}
+		},
+		{
+			"name": "Dream Killer",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Creature — Nightmare Assassin ",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/99_Dream Killer.png"
+			}
+		},
+		{
+			"name": "Drown in Agony",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/101_Drown in Agony.png"
+			}
+		},
+		{
+			"name": "Legendname, Ambitious Vision",
+			"rarity": "mythic",
+			"mana_cost": "{B}{B}{B}{B}",
+			"type": "Creature — Avatar",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/109_Legendname, Ambitious Vision.png"
+			}
+		},
+		{
+			"name": "Vision of Life",
+			"rarity": "mythic",
+			"mana_cost": "{G}{G}{G}{G}",
+			"type": "Creature — Avatar",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/214_Vision of Life.png"
+			}
+		},
+		{
+			"name": "Vision of Order",
+			"rarity": "mythic",
+			"mana_cost": "{U}{U}{U}{U}",
+			"type": "Creature — Avatar",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/86_Vision of Order.png"
+			}
+		},
+		{
+			"name": "Triscan, Passionate Vision",
+			"rarity": "mythic",
+			"mana_cost": "{R}{R}{R}{R}",
+			"type": "Legendary Creature — Avatar",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/169_Triscan, Passionate Vision.png"
+			}
+		},
+		{
+			"name": "Vision of Strength",
+			"rarity": "mythic",
+			"mana_cost": "{W}{W}{W}{W}",
+			"type": "Creature — Avatar",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/44_Vision of Strength.png"
+			}
+		},
+		{
+			"name": "Homage to Antiquity",
+			"rarity": "common",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/238_Homage to Antiquity.png"
+			}
+		},
+		{
+			"name": "Shaping the Dawn Gates",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/36_Shaping the Dawn Gates.png"
+			}
+		},
+		{
+			"name": "Deciphering the Great Truth",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/54_Deciphering the Great Truth.png"
+			}
+		},
+		{
+			"name": "Crossing the Rubicon",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/92_Crossing the Rubicon.png"
+			}
+		},
+		{
+			"name": "Igniting the Aster",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/149_Igniting the Aster.png"
+			}
+		},
+		{
+			"name": "Sprouting the Father Tree",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Enchantment — Saga ",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/210_Sprouting the Father Tree.png"
+			}
+		},
+		{
+			"name": "Succumb to Oblivion",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/126_Succumb to Oblivion.png"
+			}
+		},
+		{
+			"name": "Ralvus, Wild Vengeance",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Treefolk Druid ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/WBR-files/img/201_Ralvus, Wild Vengeance.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Compounded Nightmares
+		2 HAL, Impartial Observer
+		2 Northwalk Owl
+		2 Scurrytide
+		2 Emanation of Angels
+		2 Recollection of Order
+		2 Vetoad
+		2 Dreamspeak Augur
+		2 The Masked
+		2 Ambitious Vision
+		2 Limitless Creativity
+		2 Emanation of Reflections
+		2 Recollection of Study
+		2 Direrot, Poisoned Oak
+		2 Reculmination of Orthuz
+		2 Emanation of Torments
+		2 Recollection of Deceit
+		2 Habrim, the Redeemer
+		2 Durged, Troubled Dreamer
+		2 Lightning Blade Paladin
+		2 Firemane Feline
+		2 Ecstatic Beauty
+		2 Emanation of Ire
+		2 Recollection of Passion
+		2 Galetop Greatwurm
+		2 Splinterhide Bane
+		2 Anachronistic Hydra
+		2 Terramogrify
+		2 Emanation of Evolution
+		2 Recollection of Growth
+		2 Corelia, Trinket Sleuth
+		2 Dolla, Reflective Overseer
+		2 Silvertail, Veteran Oakguard
+		2 Sphinx of the Unending
+		2 Turroy, the Companioneer
+		2 Tulvish, Idol of Abundance
+		2 Peacebringer
+		2 Endless Horizons
+		2 Ephemeral Elk
+		2 Dream Killer
+		2 Drown in Agony
+		2 Shaping the Dawn Gates
+		2 Deciphering the Great Truth
+		2 Crossing the Rubicon
+		2 Igniting the Aster
+		2 Sprouting the Father Tree
+		2 Ralvus, Wild Vengeance
+		1 Abscond Fate
+		1 Behold Creation
+		1 Paranoia Clutcher
+		1 Plunge into Eternity
+		1 Bramblebark, Worldweaver
+		1 The Dewfather
+		1 Orthuz, the Dreamcleaver
+		1 Kulos, Bard of The Skids
+		1 Wrathwood Hellkite
+		1 Legendname, Ambitious Vision
+		1 Vision of Life
+		1 Vision of Order
+		1 Triscan, Passionate Vision
+		1 Vision of Strength
+		1 Succumb to Oblivion
+		[UncommonSlot(3)]
+	9 Shifting Forest
+		9 Horseshoe Starshell
+		9 Eternity Watcher
+		9 Thought Ravager
+		9 Revealer of Bounty
+		9 Herald of Glory
+		9 Hellion Catalyzer
+		9 Ancent Lumberknot
+		9 Timescape Tactician
+		9 Keeper of Legacy
+		9 Gnarled Spawn
+		9 Nightveil Pathmaker
+		9 Winding Recluse
+		9 Tainted Simian
+		9 Rustbark Shell
+		9 Scourge of Knottridge
+		9 Cobaash, the Boggart Prince
+		9 Grasp of the Nightking
+		9 Rakish Revival
+		9 Impending End
+		9 Unnerving Mutation
+		9 Spiteful Countenance
+		9 Call the Nightmares
+		9 Bright-Eyed Scout
+		9 Abstract Arbor
+		9 Friendly Fir
+		9 Parading Bouquet
+		9 Rockbreaker Rhino
+		9 Ramhead Crasher
+		9 Bloomweft Behemoth
+		9 Chronognawer
+		9 Bramblebark Awakens
+		9 Strength From the Heart
+		9 Poisoned Dogma
+		9 Rebloom
+		9 Fathom Encroacher
+		9 Minstrel of Bemusement
+		9 Heretical Devotee
+		9 Aeon Drifter
+		9 Lake Monstrosity
+		9 Lost Dreamseeker
+		9 Inner Self
+		9 Stolen Knowledge
+		9 Wake Up
+		9 Learn Through Repetition
+		9 Dreamwoven Arcana
+		9 Dreamwalk
+		9 Living Inquiry
+		9 Angel of Guiding Light
+		9 Blank
+		9 Farwalker Herd
+		9 Loyal Realmguard
+		9 Breathe Life
+		9 Wooly Hermit
+		9 Mirror Trap
+		9 Chittering Burrower
+		9 Gallant Bonebreaker
+		9 Runaround Entangler
+		9 Uplift
+		9 Light Overwhelming
+		9 Branchwefting
+		9 Incautious Benefactor
+		9 Fellowful Artisan
+		9 Crazed Curator
+		9 Brimskin Surlicant
+		9 Blazingplate Monitor
+		9 Splinterhorn Pugilist
+		9 Voltaic Manifestation
+		9 Static Strangle
+		9 Unfathomable Stoke
+		9 Incredulous Revelation
+		9 Tyranical Reignition
+		9 Dreamers' Determination
+		9 Rise and Raze
+		9 Rumination Golem
+		9 Dream Servant
+		9 Hueheft Giant
+		9 Nightsnare
+		9 Nostalgic Vista
+		9 Horizon Elemental
+		[CommonSlot(12)]
+	30 Knowledge from Beyond
+		30 Contemplate
+		30 Cloud Curtain
+		30 Farlands Breezecaller
+		30 Frost Manifest
+		30 Explosive Winter
+		30 Spirit Wings
+		30 Reimagine
+		30 Plagued Thoughtbuilder
+		30 Imaginary Snake
+		30 Runepelt Bear
+		30 Nascent Sapling
+		30 Dreamlight Druid
+		30 Whisperer of the Woods
+		30 Mossy Stoneguard
+		30 Lifeweaver Treefolk
+		30 Flufftail Guide
+		30 Lucid Dreamwalker
+		30 Grazing Beetlebeast
+		30 Colossal Greatwoods
+		30 Arbor Strike
+		30 Tower Over Treetops
+		30 Inner Strength
+		30 Maker's Contemplation
+		30 Waking Reverie
+		30 Growth Mindset
+		30 Return to Fantasy
+		30 Homage to Life
+		30 Luminous Familiar
+		30 Willing Cordoneer
+		30 Intrepid Hare
+		30 Vigil Hawkwarden
+		30 Dreamcatcher Mage
+		30 Orbshaper Students
+		30 Ancestral Strix
+		30 Quest for Acorns
+		30 Boneblade Hunter
+		30 Soul Searching
+		30 Cloudwing Griff
+		30 Venerated Chimera
+		30 Rend the Lucid
+		30 Tragic Slumber
+		30 Creation's Favor
+		30 Conjure Safety
+		30 Cloak of Reprise
+		30 Tap into Transience
+		30 Shattering Declaration
+		30 Homage to Majesty
+		30 Pillar of the Rebloom
+		30 Grim Stalker
+		30 Rattle the Cattle
+		30 Readied Blademaster
+		30 Terrorized Terrorizer
+		30 Flourishing Flock
+		30 Goblin Architect
+		30 Ire Razer
+		30 Orcish Javelineer
+		30 Aberrant Ogre
+		30 Imminent Storm
+		30 Incanted Bombardment
+		30 Panicked State
+		30 Take the Offensive
+		30 Relay Racket
+		30 Furcated Fury
+		30 Surge of Glory
+		30 Hazardous Blast
+		30 Wall of Roses
+		30 Homage to Indulgence
+		30 Flying Mantis
+		30 Starlight Navigator
+		30 Star Seeker
+		30 Canine Accomplice
+		30 Parasomnia
+		30 Starbog Bullfrog
+		30 Warped Reflection
+		30 Star Capture
+		30 Accumulating Flaws
+		30 Negate
+		30 Unwilling Ingredient
+		30 Feardrinker
+		30 Reaping Gorgon
+		30 Dreadfeeder Vulture
+		30 Trauma Seeder
+		30 Dreamrobber Boggart
+		30 Festering Wildroach
+		30 Malevolent Imperial
+		30 Stubborn Lumberkin
+		30 Deathsower Treefolk
+		30 Jarred Awake
+		30 Dead Weight
+		30 Nightmarish Culling
+		30 Demuse
+		30 Delusions of Power
+		30 Raise Dread
+		30 Obliviate Identity
+		30 Nightmarish Vigor
+		30 Subtle Strike
+		30 Homage to Mystery
+		30 Bushwhack
+		30 Coalwing Snapper
+		30 Homage to Antiquity
+		

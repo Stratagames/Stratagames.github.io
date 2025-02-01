@@ -1,0 +1,2745 @@
+﻿[CustomCards]
+	[	{
+			"name": "Charitable Patron",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{U}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "214",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/214_Charitable Patron.png"
+			}
+		},
+		{
+			"name": "Corrupted Gilleon",
+			"rarity": "uncommon",
+			"mana_cost": "{U}{B}",
+			"type": "Creature — Merfolk Horror ",
+			"collector_number": "215",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/215_Corrupted Gilleon.png"
+			}
+		},
+		{
+			"name": "Spawn of Cruelty",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{R}",
+			"type": "Creature — Devil ",
+			"collector_number": "228",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/228_Spawn of Cruelty.png"
+			}
+		},
+		{
+			"name": "Released Hellraiser",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}{G}",
+			"type": "Creature — Devil Beast ",
+			"collector_number": "225",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/225_Released Hellraiser.png"
+			}
+		},
+		{
+			"name": "Resourceful Officer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "226",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/226_Resourceful Officer.png"
+			}
+		},
+		{
+			"name": "Reformed Mercenary",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{B}",
+			"type": "Creature — Human Mercenary Ally ",
+			"collector_number": "224",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/224_Reformed Mercenary.png"
+			}
+		},
+		{
+			"name": "Weeping Spring",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{U}",
+			"type": "Enchantment",
+			"collector_number": "229",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/229_Weeping Spring.png"
+			}
+		},
+		{
+			"name": "Catalytic Vial",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Artifact",
+			"collector_number": "213",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/213_Catalytic Vial.png"
+			}
+		},
+		{
+			"name": "Friends",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R/W}",
+			"type": "Sorcery",
+			"collector_number": "236",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/236_Friends.png"
+			}
+		},
+		{
+			"name": "Sower of Sorrows",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}{G}",
+			"type": "Creature — Dryad ",
+			"collector_number": "227",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/227_Sower of Sorrows.png"
+			}
+		},
+		{
+			"name": "Inspired Footman",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Soldier Ally ",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/21_Inspired Footman.png"
+			}
+		},
+		{
+			"name": "Hardened Scrounger",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Rogue Cleric ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/18_Hardened Scrounger.png"
+			}
+		},
+		{
+			"name": "Hushing Spirit",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Spirit ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/20_Hushing Spirit.png"
+			}
+		},
+		{
+			"name": "Lone Guardsman",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/24_Lone Guardsman.png"
+			}
+		},
+		{
+			"name": "Weary Inspiration",
+			"rarity": "common",
+			"mana_cost": "{5}{W}",
+			"type": "Sorcery",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/43_Weary Inspiration.png"
+			}
+		},
+		{
+			"name": "Noble Outrider",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Human Scout ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/29_Noble Outrider.png"
+			}
+		},
+		{
+			"name": "Bounty Hunter",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Bird Rogue ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/5_Bounty Hunter.png"
+			}
+		},
+		{
+			"name": "Provisions Specialist",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Dwarf Peasant Ally ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/33_Provisions Specialist.png"
+			}
+		},
+		{
+			"name": "Rodent Ruination",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/36_Rodent Ruination.png"
+			}
+		},
+		{
+			"name": "Acolyte of Amplification",
+			"rarity": "common",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Human Monk ",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/3_Acolyte of Amplification.png"
+			}
+		},
+		{
+			"name": "Skybound Savior",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Bird Cleric ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/39_Skybound Savior.png"
+			}
+		},
+		{
+			"name": "Outreach Captain",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Elf Soldier Ally ",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/30_Outreach Captain.png"
+			}
+		},
+		{
+			"name": "Sinking Prison",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Instant — Calamity ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/38_Sinking Prison.png"
+			}
+		},
+		{
+			"name": "Hand of Conquest",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/17_Hand of Conquest.png"
+			}
+		},
+		{
+			"name": "Luminous Rebuke",
+			"rarity": "common",
+			"mana_cost": "{4}{W}",
+			"type": "Instant",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/25_Luminous Rebuke.png"
+			}
+		},
+		{
+			"name": "Shield Charge",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Instant",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/37_Shield Charge.png"
+			}
+		},
+		{
+			"name": "Conviction",
+			"rarity": "common",
+			"mana_cost": "{1}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/8_Conviction.png"
+			}
+		},
+		{
+			"name": "Conquer Adversity",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Sorcery",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/6_Conquer Adversity.png"
+			}
+		},
+		{
+			"name": "Join the Cause",
+			"rarity": "common",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/22_Join the Cause.png"
+			}
+		},
+		{
+			"name": "Curio Inspector",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Creature — Dwarf Artificer ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/47_Curio Inspector.png"
+			}
+		},
+		{
+			"name": "Floodrange Scavengers",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Merfolk Shaman ",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/55_Floodrange Scavengers.png"
+			}
+		},
+		{
+			"name": "Rimereader Oracle",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Bird Wizard ",
+			"collector_number": "70",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/70_Rimereader Oracle.png"
+			}
+		},
+		{
+			"name": "Privileged Escort",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Human Noble ",
+			"collector_number": "68",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/68_Privileged Escort.png"
+			}
+		},
+		{
+			"name": "Seaborn Supporter",
+			"rarity": "common",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Ally ",
+			"collector_number": "75",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/75_Seaborn Supporter.png"
+			}
+		},
+		{
+			"name": "Forewarning Figure",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Horror ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/56_Forewarning Figure.png"
+			}
+		},
+		{
+			"name": "Studious Exemplar",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Bird Ally ",
+			"collector_number": "77",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/77_Studious Exemplar.png"
+			}
+		},
+		{
+			"name": "Succumbed Gilleon",
+			"rarity": "common",
+			"mana_cost": "{4}{U}",
+			"type": "Creature — Zombie Merfolk Horror ",
+			"collector_number": "78",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/78_Succumbed Gilleon.png"
+			}
+		},
+		{
+			"name": "Spined Megalodon",
+			"rarity": "common",
+			"mana_cost": "{5}{U}{U}",
+			"type": "Creature — Shark ",
+			"collector_number": "76",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/76_Spined Megalodon.png"
+			}
+		},
+		{
+			"name": "Scourge of the Floodrange",
+			"rarity": "common",
+			"mana_cost": "{5}{U}",
+			"type": "Creature — Serpent ",
+			"collector_number": "74",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/74_Scourge of the Floodrange.png"
+			}
+		},
+		{
+			"name": "Thought Collapse",
+			"rarity": "common",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "80",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/80_Thought Collapse.png"
+			}
+		},
+		{
+			"name": "Famine's Gaze",
+			"rarity": "common",
+			"mana_cost": "{X}{U}",
+			"type": "Instant",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/53_Famine's Gaze.png"
+			}
+		},
+		{
+			"name": "Iced In",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/60_Iced In.png"
+			}
+		},
+		{
+			"name": "Hoard Knowledge",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/59_Hoard Knowledge.png"
+			}
+		},
+		{
+			"name": "Memory Torrent",
+			"rarity": "common",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/62_Memory Torrent.png"
+			}
+		},
+		{
+			"name": "Vanish from Sight",
+			"rarity": "common",
+			"mana_cost": "{3}{U}",
+			"type": "Instant",
+			"collector_number": "83",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/83_Vanish from Sight.png"
+			}
+		},
+		{
+			"name": "Driftcloak",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/50_Driftcloak.png"
+			}
+		},
+		{
+			"name": "Rookie Mistake",
+			"rarity": "common",
+			"mana_cost": "{U}",
+			"type": "Instant",
+			"collector_number": "72",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/72_Rookie Mistake.png"
+			}
+		},
+		{
+			"name": "Consuming Flood",
+			"rarity": "common",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/46_Consuming Flood.png"
+			}
+		},
+		{
+			"name": "Preying Mantis",
+			"rarity": "common",
+			"mana_cost": "{G}",
+			"type": "Creature — Insect ",
+			"collector_number": "191",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/191_Preying Mantis.png"
+			}
+		},
+		{
+			"name": "Ruin Rummagers",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Human Scout Ally ",
+			"collector_number": "196",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/196_Ruin Rummagers.png"
+			}
+		},
+		{
+			"name": "Spikemaw Mercenary",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Lizard Mercenary ",
+			"collector_number": "201",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/201_Spikemaw Mercenary.png"
+			}
+		},
+		{
+			"name": "Gardener of Abandon",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Human Shaman ",
+			"collector_number": "181",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/181_Gardener of Abandon.png"
+			}
+		},
+		{
+			"name": "Flora Fender",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Orc Ranger ",
+			"collector_number": "179",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/179_Flora Fender.png"
+			}
+		},
+		{
+			"name": "Harried Hunter",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Satyr Scout Ally ",
+			"collector_number": "184",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/184_Harried Hunter.png"
+			}
+		},
+		{
+			"name": "Titanic Emergence",
+			"rarity": "common",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "206",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/206_Titanic Emergence.png"
+			}
+		},
+		{
+			"name": "Snarlskin Packleader",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Beast ",
+			"collector_number": "200",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/200_Snarlskin Packleader.png"
+			}
+		},
+		{
+			"name": "Campsite Ambush",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "174",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/174_Campsite Ambush.png"
+			}
+		},
+		{
+			"name": "Might Upon Might",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "185",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/185_Might Upon Might.png"
+			}
+		},
+		{
+			"name": "Pathogenic Mists",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Instant",
+			"collector_number": "188",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/188_Pathogenic Mists.png"
+			}
+		},
+		{
+			"name": "Scavenger's Trek",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "197",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/197_Scavenger's Trek.png"
+			}
+		},
+		{
+			"name": "Surge of Wildwood",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "203",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/203_Surge of Wildwood.png"
+			}
+		},
+		{
+			"name": "Gratuitous Grasp",
+			"rarity": "common",
+			"mana_cost": "{X}{G}",
+			"type": "Instant",
+			"collector_number": "183",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/183_Gratuitous Grasp.png"
+			}
+		},
+		{
+			"name": "Retrogenic Cultivation",
+			"rarity": "common",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "195",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/195_Retrogenic Cultivation.png"
+			}
+		},
+		{
+			"name": "Pestilence's Keep",
+			"rarity": "common",
+			"mana_cost": "{2}{G}",
+			"type": "Sorcery",
+			"collector_number": "190",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/190_Pestilence's Keep.png"
+			}
+		},
+		{
+			"name": "Animated Farmhand",
+			"rarity": "common",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Scarecrow Ally ",
+			"collector_number": "240",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/240_Animated Farmhand.png"
+			}
+		},
+		{
+			"name": "Crumbling Kite",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact Creature — Construct ",
+			"collector_number": "242",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/242_Crumbling Kite.png"
+			}
+		},
+		{
+			"name": "Ruined Golem",
+			"rarity": "common",
+			"mana_cost": "{7}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "247",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/247_Ruined Golem.png"
+			}
+		},
+		{
+			"name": "Trusty Axe",
+			"rarity": "common",
+			"mana_cost": "{4}",
+			"type": "Artifact — Equipment ",
+			"collector_number": "249",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/249_Trusty Axe.png"
+			}
+		},
+		{
+			"name": "Meteorite",
+			"rarity": "common",
+			"mana_cost": "{5}",
+			"type": "Artifact",
+			"collector_number": "245",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/245_Meteorite.png"
+			}
+		},
+		{
+			"name": "Honored Heirloom",
+			"rarity": "common",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "244",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/244_Honored Heirloom.png"
+			}
+		},
+		{
+			"name": "Scavenger's Charm",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "116",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/116_Scavenger's Charm.png"
+			}
+		},
+		{
+			"name": "Willowroot Ritualist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Cleric Ally ",
+			"collector_number": "125",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/125_Willowroot Ritualist.png"
+			}
+		},
+		{
+			"name": "Bearer of Agony",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Ally ",
+			"collector_number": "87",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/87_Bearer of Agony.png"
+			}
+		},
+		{
+			"name": "Hallowed Soulsealer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Bird Cleric ",
+			"collector_number": "104",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/104_Hallowed Soulsealer.png"
+			}
+		},
+		{
+			"name": "Grim Diabloist",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Ogre Warlock Ally ",
+			"collector_number": "102",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/102_Grim Diabloist.png"
+			}
+		},
+		{
+			"name": "Corrupted Savior",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Angel Horror ",
+			"collector_number": "92",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/92_Corrupted Savior.png"
+			}
+		},
+		{
+			"name": "Starvation's Embrace",
+			"rarity": "uncommon",
+			"mana_cost": "{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "120",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/120_Starvation's Embrace.png"
+			}
+		},
+		{
+			"name": "With a Vengeance",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "126",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/126_With a Vengeance.png"
+			}
+		},
+		{
+			"name": "Piercing of the Day",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{B}",
+			"type": "Enchantment",
+			"collector_number": "114",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/114_Piercing of the Day.png"
+			}
+		},
+		{
+			"name": "Violent Mutation",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "207",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/207_Violent Mutation.png"
+			}
+		},
+		{
+			"name": "Sifter Wurm",
+			"rarity": "uncommon",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Wurm ",
+			"collector_number": "198",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/198_Sifter Wurm.png"
+			}
+		},
+		{
+			"name": "Advocate Invoker",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Creature — Insect Ally ",
+			"collector_number": "170",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/170_Advocate Invoker.png"
+			}
+		},
+		{
+			"name": "Budding Remnant",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Artifact",
+			"collector_number": "172",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/172_Budding Remnant.png"
+			}
+		},
+		{
+			"name": "Answer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "85",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/85_Answer.png"
+			}
+		},
+		{
+			"name": "Built",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Instant",
+			"collector_number": "173",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/173_Built.png"
+			}
+		},
+		{
+			"name": "Tormenting Nightmares",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "123",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/123_Tormenting Nightmares.png"
+			}
+		},
+		{
+			"name": "Break the Mold",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{G}",
+			"type": "Enchantment",
+			"collector_number": "171",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/171_Break the Mold.png"
+			}
+		},
+		{
+			"name": "Conduit of Calamity",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Artifact Creature — Golem ",
+			"collector_number": "241",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/241_Conduit of Calamity.png"
+			}
+		},
+		{
+			"name": "Replica Effigy",
+			"rarity": "uncommon",
+			"mana_cost": "{3}",
+			"type": "Artifact Creature — Golem Ally ",
+			"collector_number": "246",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/246_Replica Effigy.png"
+			}
+		},
+		{
+			"name": "Boneborne Amalgam",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{2}",
+			"type": "Creature — Shapeshifter ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/1_Boneborne Amalgam.png"
+			}
+		},
+		{
+			"name": "Soul-Guide Lantern",
+			"rarity": "uncommon",
+			"mana_cost": "{1}",
+			"type": "Artifact",
+			"collector_number": "248",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/248_Soul-Guide Lantern.png"
+			}
+		},
+		{
+			"name": "Engulfed Relic",
+			"rarity": "uncommon",
+			"mana_cost": "{4}",
+			"type": "Artifact",
+			"collector_number": "243",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/243_Engulfed Relic.png"
+			}
+		},
+		{
+			"name": "Lafre, Head of Outreach",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Legendary Creature — Human Ally ",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/23_Lafre, Head of Outreach.png"
+			}
+		},
+		{
+			"name": "Greater Wildhorn",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Goat Beast ",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/16_Greater Wildhorn.png"
+			}
+		},
+		{
+			"name": "Feyrouse, Beacon of Defiance",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}",
+			"type": "Legendary Creature — Human Soldier Ally ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/13_Feyrouse, Beacon of Defiance.png"
+			}
+		},
+		{
+			"name": "Outreach Routeleader",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier Ally ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/31_Outreach Routeleader.png"
+			}
+		},
+		{
+			"name": "Immutable Crux",
+			"rarity": "rare",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "107",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/107_Immutable Crux.png"
+			}
+		},
+		{
+			"name": "Path of Conquest",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Enchantment",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/32_Path of Conquest.png"
+			}
+		},
+		{
+			"name": "The Final Conquest",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Legendary Enchantment",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/14_The Final Conquest.png"
+			}
+		},
+		{
+			"name": "Owlwatch Warden",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/64_Owlwatch Warden.png"
+			}
+		},
+		{
+			"name": "Now and Never",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/63_Now and Never.png"
+			}
+		},
+		{
+			"name": "Pelix, Starlight Oracle",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Legendary Creature — Bird Wizard ",
+			"collector_number": "66",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/66_Pelix, Starlight Oracle.png"
+			}
+		},
+		{
+			"name": "Patient Rebuilding",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Enchantment",
+			"collector_number": "65",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/65_Patient Rebuilding.png"
+			}
+		},
+		{
+			"name": "The Ceaseless Famine",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}",
+			"type": "Legendary Enchantment",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/45_The Ceaseless Famine.png"
+			}
+		},
+		{
+			"name": "Cyclonic Tempest",
+			"rarity": "rare",
+			"mana_cost": "{3}{U}{U}",
+			"type": "Instant — Calamity ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/48_Cyclonic Tempest.png"
+			}
+		},
+		{
+			"name": "Rin Midor, Miasma Expert",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Warlock Ally ",
+			"collector_number": "115",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/115_Rin Midor, Miasma Expert.png"
+			}
+		},
+		{
+			"name": "Demon of Deepest Regrets",
+			"rarity": "rare",
+			"mana_cost": "{B}{B}",
+			"type": "Creature — Demon ",
+			"collector_number": "96",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/96_Demon of Deepest Regrets.png"
+			}
+		},
+		{
+			"name": "Soemo, the Moon Prophet",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Legendary Creature — Human Shaman ",
+			"collector_number": "118",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/118_Soemo, the Moon Prophet.png"
+			}
+		},
+		{
+			"name": "Forerunner of Death",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Creature — Skeleton Warlock ",
+			"collector_number": "100",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/100_Forerunner of Death.png"
+			}
+		},
+		{
+			"name": "Delve the Unraveled",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/11_Delve the Unraveled.png"
+			}
+		},
+		{
+			"name": "Seek Salvation",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "117",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/117_Seek Salvation.png"
+			}
+		},
+		{
+			"name": "The March of Death",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "109",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/109_The March of Death.png"
+			}
+		},
+		{
+			"name": "Jelzidry, Chaos Conductor",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Creature — Goblin Shaman Ally ",
+			"collector_number": "147",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/147_Jelzidry, Chaos Conductor.png"
+			}
+		},
+		{
+			"name": "Ruinous Confidant",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard  ",
+			"collector_number": "157",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/157_Ruinous Confidant.png"
+			}
+		},
+		{
+			"name": "Zaika, Student of Delia",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Legendary Creature — Goblin Ally ",
+			"collector_number": "168",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/168_Zaika, Student of Delia.png"
+			}
+		},
+		{
+			"name": "Guttering Flame",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Phoenix ",
+			"collector_number": "143",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/143_Guttering Flame.png"
+			}
+		},
+		{
+			"name": "Xanpef, Paradox Fragment",
+			"rarity": "rare",
+			"mana_cost": "{2}{R}",
+			"type": "Legendary Creature — Elemental ",
+			"collector_number": "167",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/167_Xanpef, Paradox Fragment.png"
+			}
+		},
+		{
+			"name": "The Path of War",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}",
+			"type": "Legendary Enchantment",
+			"collector_number": "155",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/155_The Path of War.png"
+			}
+		},
+		{
+			"name": "Star of Extinction",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "162",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/162_Star of Extinction.png"
+			}
+		},
+		{
+			"name": "Force of Extinction",
+			"rarity": "mythic",
+			"mana_cost": "{6}{G}{G}",
+			"type": "Creature — Wurm ",
+			"collector_number": "180",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/180_Force of Extinction.png"
+			}
+		},
+		{
+			"name": "Slymel, Primal Invoker",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Legendary Creature — Insect Monk ",
+			"collector_number": "199",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/199_Slymel, Primal Invoker.png"
+			}
+		},
+		{
+			"name": "Degredation Sage",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Creature — Elf Shaman ",
+			"collector_number": "177",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/177_Degredation Sage.png"
+			}
+		},
+		{
+			"name": "Escape to the Woods",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment",
+			"collector_number": "178",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/178_Escape to the Woods.png"
+			}
+		},
+		{
+			"name": "Cunning Reclamation",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}",
+			"type": "Sorcery",
+			"collector_number": "176",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/176_Cunning Reclamation.png"
+			}
+		},
+		{
+			"name": "The Grasp of Pestilence",
+			"rarity": "rare",
+			"mana_cost": "{G}",
+			"type": "Legendary Enchantment",
+			"collector_number": "182",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/182_The Grasp of Pestilence.png"
+			}
+		},
+		{
+			"name": "Unleashed Afterlife",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/41_Unleashed Afterlife.png"
+			}
+		},
+		{
+			"name": "Rite of Replication",
+			"rarity": "rare",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Instant",
+			"collector_number": "71",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/71_Rite of Replication.png"
+			}
+		},
+		{
+			"name": "Necrotic Betrayal",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "113",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/113_Necrotic Betrayal.png"
+			}
+		},
+		{
+			"name": "Primal Outbreak",
+			"rarity": "rare",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "192",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/192_Primal Outbreak.png"
+			}
+		},
+		{
+			"name": "Quick",
+			"rarity": "rare",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/35_Quick.png"
+			}
+		},
+		{
+			"name": "Lost",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Instant",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/61_Lost.png"
+			}
+		},
+		{
+			"name": "Dress",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "99",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/99_Dress.png"
+			}
+		},
+		{
+			"name": "Moment",
+			"rarity": "rare",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "153",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/153_Moment.png"
+			}
+		},
+		{
+			"name": "Adapt",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}",
+			"type": "Sorcery",
+			"collector_number": "169",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/169_Adapt.png"
+			}
+		},
+		{
+			"name": "Er-Corress, Oblivion Priest",
+			"rarity": "rare",
+			"mana_cost": "{W}{B}",
+			"type": "Legendary Creature — Cleric ",
+			"collector_number": "217",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/217_Er-Corress, Oblivion Priest.png"
+			}
+		},
+		{
+			"name": "Artos, Seeker of Salvation",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Legendary Planeswalker — Artos ",
+			"collector_number": "86",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/86_Artos, Seeker of Salvation.png"
+			}
+		},
+		{
+			"name": "Angel of Sanctity",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Creature — Angel ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/4_Angel of Sanctity.png"
+			}
+		},
+		{
+			"name": "Fractalmancer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}{U}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/57_Fractalmancer.png"
+			}
+		},
+		{
+			"name": "Terror of the Catacombs",
+			"rarity": "mythic",
+			"mana_cost": "{3}{B}{B}",
+			"type": "Creature — Skeleton Dragon ",
+			"collector_number": "122",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/122_Terror of the Catacombs.png"
+			}
+		},
+		{
+			"name": "Delia Bladeheart",
+			"rarity": "mythic",
+			"mana_cost": "{1}{R}{R}",
+			"type": "Legendary Planeswalker — Bladeheart ",
+			"collector_number": "133",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/133_Delia Bladeheart.png"
+			}
+		},
+		{
+			"name": "Xul Xet, Gigantimancer",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}",
+			"type": "Legendary Creature — Lizard Shaman ",
+			"collector_number": "209",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/209_Xul Xet, Gigantimancer.png"
+			}
+		},
+		{
+			"name": "The Final Arrival",
+			"rarity": "mythic",
+			"mana_cost": "{15}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/2_The Final Arrival.png"
+			}
+		},
+		{
+			"name": "Beginning",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{U}{B}{R}{G}",
+			"type": "Sorcery",
+			"collector_number": "210",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/210_Beginning.png"
+			}
+		},
+		{
+			"name": "Glorious End",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}",
+			"type": "Instant",
+			"collector_number": "141",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/141_Glorious End.png"
+			}
+		},
+		{
+			"name": "Gunijo, the Executioner",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Warrior ",
+			"collector_number": "219",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/219_Gunijo, the Executioner.png"
+			}
+		},
+		{
+			"name": "Force",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W/U}",
+			"type": "Instant",
+			"collector_number": "235",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/235_Force.png"
+			}
+		},
+		{
+			"name": "Neglect",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U/B}",
+			"type": "Instant",
+			"collector_number": "238",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/238_Neglect.png"
+			}
+		},
+		{
+			"name": "Doomed",
+			"rarity": "uncommon",
+			"mana_cost": "{B/R}",
+			"type": "Instant",
+			"collector_number": "233",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/233_Doomed.png"
+			}
+		},
+		{
+			"name": "Fate",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R/G}",
+			"type": "Sorcery",
+			"collector_number": "234",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/234_Fate.png"
+			}
+		},
+		{
+			"name": "Cling",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G/W}",
+			"type": "Instant",
+			"collector_number": "231",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/231_Cling.png"
+			}
+		},
+		{
+			"name": "Secrets",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W/B}",
+			"type": "Sorcery",
+			"collector_number": "239",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/239_Secrets.png"
+			}
+		},
+		{
+			"name": "Bone",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{B/G}",
+			"type": "Sorcery",
+			"collector_number": "230",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/230_Bone.png"
+			}
+		},
+		{
+			"name": "Live",
+			"rarity": "uncommon",
+			"mana_cost": "{G/U}",
+			"type": "Instant",
+			"collector_number": "237",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/237_Live.png"
+			}
+		},
+		{
+			"name": "Dare",
+			"rarity": "uncommon",
+			"mana_cost": "{U/R}",
+			"type": "Sorcery",
+			"collector_number": "232",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/232_Dare.png"
+			}
+		},
+		{
+			"name": "Outreach Exemplar",
+			"rarity": "uncommon",
+			"mana_cost": "{R}{W}",
+			"type": "Creature — Human Soldier Ally ",
+			"collector_number": "222",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/222_Outreach Exemplar.png"
+			}
+		},
+		{
+			"name": "Grim Apostle",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Creature — Skeleton Cleric ",
+			"collector_number": "101",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/101_Grim Apostle.png"
+			}
+		},
+		{
+			"name": "Mistblade Opportunist",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Assassin ",
+			"collector_number": "111",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/111_Mistblade Opportunist.png"
+			}
+		},
+		{
+			"name": "Grim Loyalist",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Creature — Human Soldier Ally ",
+			"collector_number": "103",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/103_Grim Loyalist.png"
+			}
+		},
+		{
+			"name": "Swarmlord Locust",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Insect Horror ",
+			"collector_number": "121",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/121_Swarmlord Locust.png"
+			}
+		},
+		{
+			"name": "Defiant Warden",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Vampire Cleric Ally ",
+			"collector_number": "95",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/95_Defiant Warden.png"
+			}
+		},
+		{
+			"name": "Blood Rager",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "89",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/89_Blood Rager.png"
+			}
+		},
+		{
+			"name": "Doomed Rider",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Elf Soldier ",
+			"collector_number": "97",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/97_Doomed Rider.png"
+			}
+		},
+		{
+			"name": "Unwavering Slayer",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Creature — Human Warrior Ally ",
+			"collector_number": "124",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/124_Unwavering Slayer.png"
+			}
+		},
+		{
+			"name": "Insurgent Bloodlord",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Creature — Vampire ",
+			"collector_number": "108",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/108_Insurgent Bloodlord.png"
+			}
+		},
+		{
+			"name": "Hooded Reaper",
+			"rarity": "common",
+			"mana_cost": "{6}{B}",
+			"type": "Creature — Avatar Horror ",
+			"collector_number": "105",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/105_Hooded Reaper.png"
+			}
+		},
+		{
+			"name": "Death's Embrace",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "94",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/94_Death's Embrace.png"
+			}
+		},
+		{
+			"name": "Bloodstorm",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant — Calamity ",
+			"collector_number": "90",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/90_Bloodstorm.png"
+			}
+		},
+		{
+			"name": "Beg for Mercy",
+			"rarity": "common",
+			"mana_cost": "{B}",
+			"type": "Sorcery",
+			"collector_number": "88",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/88_Beg for Mercy.png"
+			}
+		},
+		{
+			"name": "Dreadful Disintigration",
+			"rarity": "common",
+			"mana_cost": "{2}{B}",
+			"type": "Sorcery",
+			"collector_number": "98",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/98_Dreadful Disintigration.png"
+			}
+		},
+		{
+			"name": "Midnight Negotiations",
+			"rarity": "common",
+			"mana_cost": "{3}{B}",
+			"type": "Instant",
+			"collector_number": "110",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/110_Midnight Negotiations.png"
+			}
+		},
+		{
+			"name": "Soul's Guidance",
+			"rarity": "common",
+			"mana_cost": "{4}{B}",
+			"type": "Sorcery",
+			"collector_number": "119",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/119_Soul's Guidance.png"
+			}
+		},
+		{
+			"name": "Hopes Become Ashes",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Sorcery",
+			"collector_number": "106",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/106_Hopes Become Ashes.png"
+			}
+		},
+		{
+			"name": "Confront Death",
+			"rarity": "common",
+			"mana_cost": "{1}{B}",
+			"type": "Instant",
+			"collector_number": "91",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/91_Confront Death.png"
+			}
+		},
+		{
+			"name": "Monstrous Shadow",
+			"rarity": "common",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "112",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/112_Monstrous Shadow.png"
+			}
+		},
+		{
+			"name": "Tendril of Ruination",
+			"rarity": "common",
+			"mana_cost": "{4}{G}",
+			"type": "Creature — Horror ",
+			"collector_number": "205",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/205_Tendril of Ruination.png"
+			}
+		},
+		{
+			"name": "Ravenous Kurgecroc",
+			"rarity": "common",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Crocodile Beast ",
+			"collector_number": "193",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/193_Ravenous Kurgecroc.png"
+			}
+		},
+		{
+			"name": "Renovator Colossus",
+			"rarity": "common",
+			"mana_cost": "{5}{G}{G}",
+			"type": "Creature — Elemental ",
+			"collector_number": "194",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/194_Renovator Colossus.png"
+			}
+		},
+		{
+			"name": "Gleeful Sadist",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Creature — Devil ",
+			"collector_number": "140",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/140_Gleeful Sadist.png"
+			}
+		},
+		{
+			"name": "Magma Slinger",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard Ally ",
+			"collector_number": "151",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/151_Magma Slinger.png"
+			}
+		},
+		{
+			"name": "Scion of Brimstone",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Devil ",
+			"collector_number": "158",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/158_Scion of Brimstone.png"
+			}
+		},
+		{
+			"name": "Disaster Channeler",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Wizard ",
+			"collector_number": "135",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/135_Disaster Channeler.png"
+			}
+		},
+		{
+			"name": "Living Campfire",
+			"rarity": "common",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Elemental Ally ",
+			"collector_number": "149",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/149_Living Campfire.png"
+			}
+		},
+		{
+			"name": "Wildpaw Domesitcator",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Elf Ally ",
+			"collector_number": "166",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/166_Wildpaw Domesitcator.png"
+			}
+		},
+		{
+			"name": "Reckless Hammerskull",
+			"rarity": "common",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Dinosaur ",
+			"collector_number": "156",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/156_Reckless Hammerskull.png"
+			}
+		},
+		{
+			"name": "Disastimancer",
+			"rarity": "common",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Devil Wizard ",
+			"collector_number": "136",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/136_Disastimancer.png"
+			}
+		},
+		{
+			"name": "Fragmented Warlord",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Human Warrior ",
+			"collector_number": "138",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/138_Fragmented Warlord.png"
+			}
+		},
+		{
+			"name": "Gored Cyclops",
+			"rarity": "common",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Cyclops ",
+			"collector_number": "142",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/142_Gored Cyclops.png"
+			}
+		},
+		{
+			"name": "Ionic Outburst",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "146",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/146_Ionic Outburst.png"
+			}
+		},
+		{
+			"name": "Seismic Outburst",
+			"rarity": "common",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Sorcery",
+			"collector_number": "159",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/159_Seismic Outburst.png"
+			}
+		},
+		{
+			"name": "Dismantling Pulse",
+			"rarity": "common",
+			"mana_cost": "{R}",
+			"type": "Sorcery",
+			"collector_number": "137",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/137_Dismantling Pulse.png"
+			}
+		},
+		{
+			"name": "Inspiration of Example",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "145",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/145_Inspiration of Example.png"
+			}
+		},
+		{
+			"name": "Sorrow's Release",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "160",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/160_Sorrow's Release.png"
+			}
+		},
+		{
+			"name": "Ashen Instincts",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "130",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/130_Ashen Instincts.png"
+			}
+		},
+		{
+			"name": "Spark of War",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "161",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/161_Spark of War.png"
+			}
+		},
+		{
+			"name": "Violent War Cry",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "164",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/164_Violent War Cry.png"
+			}
+		},
+		{
+			"name": "Liberating Blow",
+			"rarity": "common",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "148",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/148_Liberating Blow.png"
+			}
+		},
+		{
+			"name": "Maddening Haze",
+			"rarity": "rare",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "150",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/150_Maddening Haze.png"
+			}
+		},
+		{
+			"name": "Colossal Ally",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Creature — Troll Druid Ally ",
+			"collector_number": "175",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/175_Colossal Ally.png"
+			}
+		},
+		{
+			"name": "Eh'Tharaesed, Who Saw All",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{B}",
+			"type": "Legendary Creature — Wizard ",
+			"collector_number": "216",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/216_Eh'Tharaesed, Who Saw All.png"
+			}
+		},
+		{
+			"name": "Decoator Crab",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Creature — Crab ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/49_Decoator Crab.png"
+			}
+		},
+		{
+			"name": "Ancestral Animus",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Creature — Spirit ",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/44_Ancestral Animus.png"
+			}
+		},
+		{
+			"name": "Guiding Voices",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Merfolk Rogue Ally ",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/58_Guiding Voices.png"
+			}
+		},
+		{
+			"name": "Portalmaster Vanguard",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{U}",
+			"type": "Creature — Human Wizard Soldier ",
+			"collector_number": "67",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/67_Portalmaster Vanguard.png"
+			}
+		},
+		{
+			"name": "Scholar of the Lost Troves",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Creature — Bird Wizard Ally ",
+			"collector_number": "73",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/73_Scholar of the Lost Troves.png"
+			}
+		},
+		{
+			"name": "Wailing Husk",
+			"rarity": "uncommon",
+			"mana_cost": "{X}{U}{U}",
+			"type": "Creature — Zombie Soldier ",
+			"collector_number": "84",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/84_Wailing Husk.png"
+			}
+		},
+		{
+			"name": "Unbearable Secrets",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Enchantment",
+			"collector_number": "82",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/82_Unbearable Secrets.png"
+			}
+		},
+		{
+			"name": "Swelling Surge",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}{U}",
+			"type": "Instant",
+			"collector_number": "79",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/79_Swelling Surge.png"
+			}
+		},
+		{
+			"name": "Recategorize",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Sorcery",
+			"collector_number": "69",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/69_Recategorize.png"
+			}
+		},
+		{
+			"name": "Flash Frost",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Instant — Calamity ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/54_Flash Frost.png"
+			}
+		},
+		{
+			"name": "True",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Sorcery",
+			"collector_number": "81",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/81_True.png"
+			}
+		},
+		{
+			"name": "Epoch Sculpting",
+			"rarity": "rare",
+			"mana_cost": "{U}",
+			"type": "Enchantment",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/51_Epoch Sculpting.png"
+			}
+		},
+		{
+			"name": "Forlorn Priest",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Creature — Human Cleric Ally ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/15_Forlorn Priest.png"
+			}
+		},
+		{
+			"name": "Craftrig Rescuer",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Creature — Dwarf Artificer Ally ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/9_Craftrig Rescuer.png"
+			}
+		},
+		{
+			"name": "Heightseeker Wildhorn",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}{W}",
+			"type": "Creature — Goat Beast ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/19_Heightseeker Wildhorn.png"
+			}
+		},
+		{
+			"name": "Nameless Martyr",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Human Soldier ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/27_Nameless Martyr.png"
+			}
+		},
+		{
+			"name": "Survivor's Stampede",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}{W}",
+			"type": "Sorcery",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/40_Survivor's Stampede.png"
+			}
+		},
+		{
+			"name": "Purveyor of the Wastes",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{W}",
+			"type": "Creature — Bird Horror ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/34_Purveyor of the Wastes.png"
+			}
+		},
+		{
+			"name": "Militant Showman",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}{W}",
+			"type": "Creature — Azra Warrior Ally ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/26_Militant Showman.png"
+			}
+		},
+		{
+			"name": "Voidgaze",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{W}",
+			"type": "Instant",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/42_Voidgaze.png"
+			}
+		},
+		{
+			"name": "Fates Willing",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/12_Fates Willing.png"
+			}
+		},
+		{
+			"name": "Next",
+			"rarity": "uncommon",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/28_Next.png"
+			}
+		},
+		{
+			"name": "Conquest, the First Horseman",
+			"rarity": "mythic",
+			"mana_cost": "{5}{W}{W}",
+			"type": "Legendary Creature — Avatar Knight ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/7_Conquest, the First Horseman.png"
+			}
+		},
+		{
+			"name": "Famine, the Third Horseman",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}",
+			"type": "Legendary Creature — Avatar Knight ",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/52_Famine, the Third Horseman.png"
+			}
+		},
+		{
+			"name": "Death, the Final Horseman",
+			"rarity": "mythic",
+			"mana_cost": "{5}{B}{B}",
+			"type": "Legendary Creature — Avatar Knight ",
+			"collector_number": "93",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/93_Death, the Final Horseman.png"
+			}
+		},
+		{
+			"name": "War, the Second Horseman",
+			"rarity": "mythic",
+			"mana_cost": "{5}{R}{R}",
+			"type": "Legendary Creature — Avatar Knight ",
+			"collector_number": "165",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/165_War, the Second Horseman.png"
+			}
+		},
+		{
+			"name": "Pestilence, the Fourth Horseman",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Legendary Creature — Avatar Knight ",
+			"collector_number": "189",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/189_Pestilence, the Fourth Horseman.png"
+			}
+		},
+		{
+			"name": "Betrayer of Light",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{W}",
+			"type": "Creature — Angel Cleric ",
+			"collector_number": "211",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/211_Betrayer of Light.png"
+			}
+		},
+		{
+			"name": "Fevered Visions",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}{R}",
+			"type": "Enchantment",
+			"collector_number": "218",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/218_Fevered Visions.png"
+			}
+		},
+		{
+			"name": "Phopus, Mist Sage",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{U}",
+			"type": "Legendary Creature — Human Wizard ",
+			"collector_number": "223",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/223_Phopus, Mist Sage.png"
+			}
+		},
+		{
+			"name": "Nick of Time",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Instant",
+			"collector_number": "220",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/220_Nick of Time.png"
+			}
+		},
+		{
+			"name": "Caljak, Shadow of the End",
+			"rarity": "rare",
+			"mana_cost": "{B}{G}",
+			"type": "Legendary Creature — Rogue ",
+			"collector_number": "212",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/212_Caljak, Shadow of the End.png"
+			}
+		},
+		{
+			"name": "Noctus, Shaper of Stars",
+			"rarity": "mythic",
+			"mana_cost": "{2}{W}{U}",
+			"type": "Legendary Planeswalker — Noctus ",
+			"collector_number": "221",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/221_Noctus, Shaper of Stars.png"
+			}
+		},
+		{
+			"name": "Opportunistic Ooze",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Ooze ",
+			"collector_number": "187",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/187_Opportunistic Ooze.png"
+			}
+		},
+		{
+			"name": "Spore Bear",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Fungus Bear ",
+			"collector_number": "202",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/202_Spore Bear.png"
+			}
+		},
+		{
+			"name": "Obliteration Troll",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Creature — Troll Ally ",
+			"collector_number": "186",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/186_Obliteration Troll.png"
+			}
+		},
+		{
+			"name": "Witness of the End",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{G}{G}",
+			"type": "Creature — Elf Shaman Ally ",
+			"collector_number": "208",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/208_Witness of the End.png"
+			}
+		},
+		{
+			"name": "Survivor's Tenacity",
+			"rarity": "uncommon",
+			"mana_cost": "{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "204",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/204_Survivor's Tenacity.png"
+			}
+		},
+		{
+			"name": "Hound of War",
+			"rarity": "uncommon",
+			"mana_cost": "{R}",
+			"type": "Creature — Demon Dog ",
+			"collector_number": "144",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/144_Hound of War.png"
+			}
+		},
+		{
+			"name": "Otherworldly Occultist",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Human Warlock Ally ",
+			"collector_number": "154",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/154_Otherworldly Occultist.png"
+			}
+		},
+		{
+			"name": "Alliance Firestarter",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Creature — Human Ally ",
+			"collector_number": "128",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/128_Alliance Firestarter.png"
+			}
+		},
+		{
+			"name": "Burning Champion",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}",
+			"type": "Creature — Human Berserker ",
+			"collector_number": "132",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/132_Burning Champion.png"
+			}
+		},
+		{
+			"name": "Alliance Officer",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Dwarf Soldier Ally ",
+			"collector_number": "129",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/129_Alliance Officer.png"
+			}
+		},
+		{
+			"name": "Frightful Compatriot",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}{R}",
+			"type": "Creature — Lizard Warrior Ally ",
+			"collector_number": "139",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/139_Frightful Compatriot.png"
+			}
+		},
+		{
+			"name": "Uncontrollable Forces",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Sorcery",
+			"collector_number": "163",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/163_Uncontrollable Forces.png"
+			}
+		},
+		{
+			"name": "Devastation of War",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery — Calamity ",
+			"collector_number": "134",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/134_Devastation of War.png"
+			}
+		},
+		{
+			"name": "Act on Instinct",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "127",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/127_Act on Instinct.png"
+			}
+		},
+		{
+			"name": "Melting Point",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "152",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/152_Melting Point.png"
+			}
+		},
+		{
+			"name": "Blast",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Instant",
+			"collector_number": "131",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/131_Blast.png"
+			}
+		},
+		{
+			"name": "Defiant Strike",
+			"rarity": "common",
+			"mana_cost": "{W}",
+			"type": "Instant",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/DWE-files/img/10_Defiant Strike.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Lafre, Head of Outreach
+		2 Greater Wildhorn
+		2 Feyrouse, Beacon of Defiance
+		2 Outreach Routeleader
+		2 Immutable Crux
+		2 Path of Conquest
+		2 The Final Conquest
+		2 Owlwatch Warden
+		2 Now and Never
+		2 Pelix, Starlight Oracle
+		2 Patient Rebuilding
+		2 The Ceaseless Famine
+		2 Cyclonic Tempest
+		2 Rin Midor, Miasma Expert
+		2 Demon of Deepest Regrets
+		2 Soemo, the Moon Prophet
+		2 Forerunner of Death
+		2 Delve the Unraveled
+		2 Seek Salvation
+		2 The March of Death
+		2 Jelzidry, Chaos Conductor
+		2 Ruinous Confidant
+		2 Zaika, Student of Delia
+		2 Guttering Flame
+		2 Xanpef, Paradox Fragment
+		2 The Path of War
+		2 Star of Extinction
+		2 Slymel, Primal Invoker
+		2 Degredation Sage
+		2 Escape to the Woods
+		2 Cunning Reclamation
+		2 The Grasp of Pestilence
+		2 Unleashed Afterlife
+		2 Rite of Replication
+		2 Necrotic Betrayal
+		2 Primal Outbreak
+		2 Quick
+		2 Lost
+		2 Dress
+		2 Moment
+		2 Adapt
+		2 Er-Corress, Oblivion Priest
+		2 Xul Xet, Gigantimancer
+		2 Gunijo, the Executioner
+		2 Maddening Haze
+		2 Colossal Ally
+		2 Eh'Tharaesed, Who Saw All
+		2 Epoch Sculpting
+		2 Betrayer of Light
+		2 Fevered Visions
+		2 Phopus, Mist Sage
+		2 Nick of Time
+		2 Caljak, Shadow of the End
+		1 Force of Extinction
+		1 Artos, Seeker of Salvation
+		1 Angel of Sanctity
+		1 Fractalmancer
+		1 Terror of the Catacombs
+		1 Delia Bladeheart
+		1 The Final Arrival
+		1 Beginning
+		1 Glorious End
+		1 Conquest, the First Horseman
+		1 Famine, the Third Horseman
+		1 Death, the Final Horseman
+		1 War, the Second Horseman
+		1 Pestilence, the Fourth Horseman
+		1 Noctus, Shaper of Stars
+		[UncommonSlot(3)]
+	9 Charitable Patron
+		9 Corrupted Gilleon
+		9 Spawn of Cruelty
+		9 Released Hellraiser
+		9 Resourceful Officer
+		9 Reformed Mercenary
+		9 Weeping Spring
+		9 Catalytic Vial
+		9 Friends
+		9 Sower of Sorrows
+		9 Sinking Prison
+		9 Scavenger's Charm
+		9 Willowroot Ritualist
+		9 Bearer of Agony
+		9 Hallowed Soulsealer
+		9 Grim Diabloist
+		9 Corrupted Savior
+		9 Starvation's Embrace
+		9 With a Vengeance
+		9 Piercing of the Day
+		9 Violent Mutation
+		9 Sifter Wurm
+		9 Advocate Invoker
+		9 Budding Remnant
+		9 Answer
+		9 Built
+		9 Tormenting Nightmares
+		9 Break the Mold
+		9 Conduit of Calamity
+		9 Replica Effigy
+		9 Boneborne Amalgam
+		9 Soul-Guide Lantern
+		9 Engulfed Relic
+		9 Force
+		9 Neglect
+		9 Doomed
+		9 Fate
+		9 Cling
+		9 Secrets
+		9 Bone
+		9 Live
+		9 Dare
+		9 Outreach Exemplar
+		9 Decoator Crab
+		9 Ancestral Animus
+		9 Guiding Voices
+		9 Portalmaster Vanguard
+		9 Scholar of the Lost Troves
+		9 Wailing Husk
+		9 Unbearable Secrets
+		9 Swelling Surge
+		9 Recategorize
+		9 Flash Frost
+		9 True
+		9 Forlorn Priest
+		9 Craftrig Rescuer
+		9 Heightseeker Wildhorn
+		9 Nameless Martyr
+		9 Survivor's Stampede
+		9 Purveyor of the Wastes
+		9 Militant Showman
+		9 Voidgaze
+		9 Fates Willing
+		9 Next
+		9 Opportunistic Ooze
+		9 Spore Bear
+		9 Obliteration Troll
+		9 Witness of the End
+		9 Survivor's Tenacity
+		9 Hound of War
+		9 Otherworldly Occultist
+		9 Alliance Firestarter
+		9 Burning Champion
+		9 Alliance Officer
+		9 Frightful Compatriot
+		9 Uncontrollable Forces
+		9 Devastation of War
+		9 Act on Instinct
+		9 Melting Point
+		9 Blast
+		[CommonSlot(12)]
+	30 Inspired Footman
+		30 Hardened Scrounger
+		30 Hushing Spirit
+		30 Lone Guardsman
+		30 Weary Inspiration
+		30 Noble Outrider
+		30 Bounty Hunter
+		30 Provisions Specialist
+		30 Rodent Ruination
+		30 Acolyte of Amplification
+		30 Skybound Savior
+		30 Outreach Captain
+		30 Hand of Conquest
+		30 Luminous Rebuke
+		30 Shield Charge
+		30 Conviction
+		30 Conquer Adversity
+		30 Join the Cause
+		30 Curio Inspector
+		30 Floodrange Scavengers
+		30 Rimereader Oracle
+		30 Privileged Escort
+		30 Seaborn Supporter
+		30 Forewarning Figure
+		30 Studious Exemplar
+		30 Succumbed Gilleon
+		30 Spined Megalodon
+		30 Scourge of the Floodrange
+		30 Thought Collapse
+		30 Famine's Gaze
+		30 Iced In
+		30 Hoard Knowledge
+		30 Memory Torrent
+		30 Vanish from Sight
+		30 Driftcloak
+		30 Rookie Mistake
+		30 Consuming Flood
+		30 Preying Mantis
+		30 Ruin Rummagers
+		30 Spikemaw Mercenary
+		30 Gardener of Abandon
+		30 Flora Fender
+		30 Harried Hunter
+		30 Titanic Emergence
+		30 Snarlskin Packleader
+		30 Campsite Ambush
+		30 Might Upon Might
+		30 Pathogenic Mists
+		30 Scavenger's Trek
+		30 Surge of Wildwood
+		30 Gratuitous Grasp
+		30 Retrogenic Cultivation
+		30 Pestilence's Keep
+		30 Animated Farmhand
+		30 Crumbling Kite
+		30 Ruined Golem
+		30 Trusty Axe
+		30 Meteorite
+		30 Honored Heirloom
+		30 Grim Apostle
+		30 Mistblade Opportunist
+		30 Grim Loyalist
+		30 Swarmlord Locust
+		30 Defiant Warden
+		30 Blood Rager
+		30 Doomed Rider
+		30 Unwavering Slayer
+		30 Insurgent Bloodlord
+		30 Hooded Reaper
+		30 Death's Embrace
+		30 Bloodstorm
+		30 Beg for Mercy
+		30 Dreadful Disintigration
+		30 Midnight Negotiations
+		30 Soul's Guidance
+		30 Hopes Become Ashes
+		30 Confront Death
+		30 Monstrous Shadow
+		30 Tendril of Ruination
+		30 Ravenous Kurgecroc
+		30 Renovator Colossus
+		30 Gleeful Sadist
+		30 Magma Slinger
+		30 Scion of Brimstone
+		30 Disaster Channeler
+		30 Living Campfire
+		30 Wildpaw Domesitcator
+		30 Reckless Hammerskull
+		30 Disastimancer
+		30 Fragmented Warlord
+		30 Gored Cyclops
+		30 Ionic Outburst
+		30 Seismic Outburst
+		30 Dismantling Pulse
+		30 Inspiration of Example
+		30 Sorrow's Release
+		30 Ashen Instincts
+		30 Spark of War
+		30 Violent War Cry
+		30 Liberating Blow
+		30 Defiant Strike
+		

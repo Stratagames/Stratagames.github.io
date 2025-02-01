@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/CHF-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>CHF visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/CHF-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CHF-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DWE-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/NLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/S23-files/icon.png" />
+		<img class="preload-hidden" src="/sets/WBR-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CHF-spoiler"><img src="sets/CHF-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="DWE-spoiler"><img src="sets/DWE-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYD-spoiler"><img src="sets/MYD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="NLD-spoiler"><img src="sets/NLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="S23-spoiler"><img src="sets/S23-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="WBR-spoiler"><img src="sets/WBR-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/CHF-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\CHF-files\img\17_And Enough to Share.png" id="17_And Enough to Share" data-flag="@X" onclick="openSidebar('17_And Enough to Share',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\54_And Repeat Step One.png" id="54_And Repeat Step One" data-flag="@X" onclick="openSidebar('54_And Repeat Step One',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\94_And Served Exactly as Requested.png" id="94_And Served Exactly as Requested" data-flag="@X" onclick="openSidebar('94_And Served Exactly as Requested',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\131_And a Dessert To Go.png" id="131_And a Dessert To Go" data-flag="@X" onclick="openSidebar('131_And a Dessert To Go',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\171_And Including a Special Surpise.png" id="171_And Including a Special Surpise" data-flag="@X" onclick="openSidebar('171_And Including a Special Surpise',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\49_Sustainable Food Source.png" id="49_Sustainable Food Source" data-flag="@X" onclick="openSidebar('49_Sustainable Food Source',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\82_Sinzer, Seafood Surprise.png" id="82_Sinzer, Seafood Surprise" data-flag="@X" onclick="openSidebar('82_Sinzer, Seafood Surprise',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\107_Ghost-Story Group.png" id="107_Ghost-Story Group" data-flag="@X" onclick="openSidebar('107_Ghost-Story Group',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\142_Culdona Reaper.png" id="142_Culdona Reaper" data-flag="@X" onclick="openSidebar('142_Culdona Reaper',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\195_Oakenmaul, the Apex.png" id="195_Oakenmaul, the Apex" data-flag="@X" onclick="openSidebar('195_Oakenmaul, the Apex',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\22_Baker's Dozen.png" id="22_Bakers Dozen" data-flag="@X" onclick="openSidebar('22_Bakers Dozen',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\57_Ars, Technical Critic.png" id="57_Ars, Technical Critic" data-flag="@X" onclick="openSidebar('57_Ars, Technical Critic',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\92_Aged to Perfection.png" id="92_Aged to Perfection" data-flag="@X" onclick="openSidebar('92_Aged to Perfection',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\133_And Kicked Up a Notch.png" id="133_And Kicked Up a Notch" data-flag="@X" onclick="openSidebar('133_And Kicked Up a Notch',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\172_And Made Premium.png" id="172_And Made Premium" data-flag="@X" onclick="openSidebar('172_And Made Premium',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\26_Clear the Table.png" id="26_Clear the Table" data-flag="@X" onclick="openSidebar('26_Clear the Table',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\59_Bakery Bunch.png" id="59_Bakery Bunch" data-flag="@X" onclick="openSidebar('59_Bakery Bunch',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\99_Chef's Shadow.png" id="99_Chefs Shadow" data-flag="@X" onclick="openSidebar('99_Chefs Shadow',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\135_Berth, Practical Critic.png" id="135_Berth, Practical Critic" data-flag="@X" onclick="openSidebar('135_Berth, Practical Critic',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\174_Arietta, Who Caters to All_back.png" alt="sets\CHF-files\img\174_Arietta, Who Caters to All_front.png" id="174_Arietta, Who Caters to All" data-flag="@XD" onclick="openSidebar('174_Arietta, Who Caters to All',false)"><button class="flip-btn" onclick="imgFlip(174_Arietta, Who Caters to All)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\29_Enchanting Temptress.png" id="29_Enchanting Temptress" data-flag="@X" onclick="openSidebar('29_Enchanting Temptress',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\63_Cass, Impressionable Prodigy_back.png" alt="sets\CHF-files\img\63_Cass, Impressionable Prodigy_front.png" id="63_Cass, Impressionable Prodigy" data-flag="@XD" onclick="openSidebar('63_Cass, Impressionable Prodigy',false)"><button class="flip-btn" onclick="imgFlip(63_Cass, Impressionable Prodigy)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\102_Corentine, Indulgent Critic.png" id="102_Corentine, Indulgent Critic" data-flag="@X" onclick="openSidebar('102_Corentine, Indulgent Critic',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\136_Bloodlash.png" id="136_Bloodlash" data-flag="@X" onclick="openSidebar('136_Bloodlash',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\176_Battlechef Lieutenant.png" id="176_Battlechef Lieutenant" data-flag="@X" onclick="openSidebar('176_Battlechef Lieutenant',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\37_Jax, Charming Critic.png" id="37_Jax, Charming Critic" data-flag="@X" onclick="openSidebar('37_Jax, Charming Critic',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\66_Cuprising.png" id="66_Cuprising" data-flag="@X" onclick="openSidebar('66_Cuprising',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\105_Demon of Endless Appetite.png" id="105_Demon of Endless Appetite" data-flag="@X" onclick="openSidebar('105_Demon of Endless Appetite',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\145_Food Fight.png" id="145_Food Fight" data-flag="@X" onclick="openSidebar('145_Food Fight',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\178_Blossoming Season.png" id="178_Blossoming Season" data-flag="@X" onclick="openSidebar('178_Blossoming Season',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\43_Selected Specially.png" id="43_Selected Specially" data-flag="@X" onclick="openSidebar('43_Selected Specially',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\67_Doubled Up.png" id="67_Doubled Up" data-flag="@X" onclick="openSidebar('67_Doubled Up',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\112_Josue Moreau_back.png" alt="sets\CHF-files\img\112_Josue Moreau_front.png" id="112_Josue Moreau" data-flag="@XD" onclick="openSidebar('112_Josue Moreau',false)"><button class="flip-btn" onclick="imgFlip(112_Josue Moreau)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\147_Goblin Brewmaster.png" id="147_Goblin Brewmaster" data-flag="@X" onclick="openSidebar('147_Goblin Brewmaster',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\184_Effa, Verdurous Critic.png" id="184_Effa, Verdurous Critic" data-flag="@X" onclick="openSidebar('184_Effa, Verdurous Critic',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\44_Selveth, Decorated Chef_back.png" alt="sets\CHF-files\img\44_Selveth, Decorated Chef_front.png" id="44_Selveth, Decorated Chef" data-flag="@XD" onclick="openSidebar('44_Selveth, Decorated Chef',false)"><button class="flip-btn" onclick="imgFlip(44_Selveth, Decorated Chef)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\76_Overwhelming Wave.png" id="76_Overwhelming Wave" data-flag="@X" onclick="openSidebar('76_Overwhelming Wave',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\115_Meatery Master.png" id="115_Meatery Master" data-flag="@X" onclick="openSidebar('115_Meatery Master',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\148_Greasefire Phoenix.png" id="148_Greasefire Phoenix" data-flag="@X" onclick="openSidebar('148_Greasefire Phoenix',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\187_Gigantifier Jelly.png" id="187_Gigantifier Jelly" data-flag="@X" onclick="openSidebar('187_Gigantifier Jelly',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\50_Sweet Dreams.png" id="50_Sweet Dreams" data-flag="@X" onclick="openSidebar('50_Sweet Dreams',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\79_Sanity Amplifier.png" id="79_Sanity Amplifier" data-flag="@X" onclick="openSidebar('79_Sanity Amplifier',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\117_One Minute Remaining.png" id="117_One Minute Remaining" data-flag="@X" onclick="openSidebar('117_One Minute Remaining',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\154_Kobbit, Burly Butcher_back.png" alt="sets\CHF-files\img\154_Kobbit, Burly Butcher_front.png" id="154_Kobbit, Burly Butcher" data-flag="@XD" onclick="openSidebar('154_Kobbit, Burly Butcher',false)"><button class="flip-btn" onclick="imgFlip(154_Kobbit, Burly Butcher)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\197_Revel in Dishes.png" id="197_Revel in Dishes" data-flag="@X" onclick="openSidebar('197_Revel in Dishes',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\52_Veteran Competitor.png" id="52_Veteran Competitor" data-flag="@X" onclick="openSidebar('52_Veteran Competitor',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\84_Snipcaster Mage.png" id="84_Snipcaster Mage" data-flag="@X" onclick="openSidebar('84_Snipcaster Mage',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\130_You Are What You Eat.png" id="130_You Are What You Eat" data-flag="@X" onclick="openSidebar('130_You Are What You Eat',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\157_Prepmage Adept.png" id="157_Prepmage Adept" data-flag="@X" onclick="openSidebar('157_Prepmage Adept',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\204_Thragtusk.png" id="204_Thragtusk" data-flag="@X" onclick="openSidebar('204_Thragtusk',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\14_Against All Odds.png" id="14_Against All Odds" data-flag="@X" onclick="openSidebar('14_Against All Odds',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\56_And with the Recipe Provided.png" id="56_And with the Recipe Provided" data-flag="@X" onclick="openSidebar('56_And with the Recipe Provided',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\93_And Paired with a Sampler.png" id="93_And Paired with a Sampler" data-flag="@X" onclick="openSidebar('93_And Paired with a Sampler',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\134_And Sliced Up.png" id="134_And Sliced Up" data-flag="@X" onclick="openSidebar('134_And Sliced Up',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\173_And Yesterday's Leftovers.png" id="173_And Yesterdays Leftovers" data-flag="@X" onclick="openSidebar('173_And Yesterdays Leftovers',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\15_All that Simmers.png" id="15_All that Simmers" data-flag="@X" onclick="openSidebar('15_All that Simmers',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\61_Blur Leopard.png" id="61_Blur Leopard" data-flag="@X" onclick="openSidebar('61_Blur Leopard',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\98_Candy Keeper.png" id="98_Candy Keeper" data-flag="@X" onclick="openSidebar('98_Candy Keeper',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\140_Char to a Crisp.png" id="140_Char to a Crisp" data-flag="@X" onclick="openSidebar('140_Char to a Crisp',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\175_Battlechef Contestant.png" id="175_Battlechef Contestant" data-flag="@X" onclick="openSidebar('175_Battlechef Contestant',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\16_Ancestral Guide.png" id="16_Ancestral Guide" data-flag="@X" onclick="openSidebar('16_Ancestral Guide',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\65_Clumsy Cook.png" id="65_Clumsy Cook" data-flag="@X" onclick="openSidebar('65_Clumsy Cook',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\100_Chupacabra Devourer.png" id="100_Chupacabra Devourer" data-flag="@X" onclick="openSidebar('100_Chupacabra Devourer',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\146_Giant Cindermaw.png" id="146_Giant Cindermaw" data-flag="@X" onclick="openSidebar('146_Giant Cindermaw',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\180_Cakery Crew.png" id="180_Cakery Crew" data-flag="@X" onclick="openSidebar('180_Cakery Crew',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\19_And Preserved for Later.png" id="19_And Preserved for Later" data-flag="@X" onclick="openSidebar('19_And Preserved for Later',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\69_Exotics Vendor.png" id="69_Exotics Vendor" data-flag="@X" onclick="openSidebar('69_Exotics Vendor',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\101_Citrus Sucker.png" id="101_Citrus Sucker" data-flag="@X" onclick="openSidebar('101_Citrus Sucker',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\155_Molten Rock.png" id="155_Molten Rock" data-flag="@X" onclick="openSidebar('155_Molten Rock',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\185_Feisty Cub.png" id="185_Feisty Cub" data-flag="@X" onclick="openSidebar('185_Feisty Cub',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\24_Boarkin Incenser.png" id="24_Boarkin Incenser" data-flag="@X" onclick="openSidebar('24_Boarkin Incenser',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\70_Five Second Rule.png" id="70_Five Second Rule" data-flag="@X" onclick="openSidebar('70_Five Second Rule',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\106_Freshly Butchered.png" id="106_Freshly Butchered" data-flag="@X" onclick="openSidebar('106_Freshly Butchered',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\158_Ready to Crumble.png" id="158_Ready to Crumble" data-flag="@X" onclick="openSidebar('158_Ready to Crumble',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\186_Free Range.png" id="186_Free Range" data-flag="@X" onclick="openSidebar('186_Free Range',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\30_Feasting Wildlife.png" id="30_Feasting Wildlife" data-flag="@X" onclick="openSidebar('30_Feasting Wildlife',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\71_Hungry Squab.png" id="71_Hungry Squab" data-flag="@X" onclick="openSidebar('71_Hungry Squab',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\110_Haul from the Depths.png" id="110_Haul from the Depths" data-flag="@X" onclick="openSidebar('110_Haul from the Depths',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\159_Rowdy Patron.png" id="159_Rowdy Patron" data-flag="@X" onclick="openSidebar('159_Rowdy Patron',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\194_Lots of Things.png" id="194_Lots of Things" data-flag="@X" onclick="openSidebar('194_Lots of Things',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\31_Flattened.png" id="31_Flattened" data-flag="@X" onclick="openSidebar('31_Flattened',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\72_Hunt for Ingredients.png" id="72_Hunt for Ingredients" data-flag="@X" onclick="openSidebar('72_Hunt for Ingredients',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\114_Maggot Cheese.png" id="114_Maggot Cheese" data-flag="@X" onclick="openSidebar('114_Maggot Cheese',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\161_Sapfarm Scourge.png" id="161_Sapfarm Scourge" data-flag="@X" onclick="openSidebar('161_Sapfarm Scourge',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\198_Sap Suckers.png" id="198_Sap Suckers" data-flag="@X" onclick="openSidebar('198_Sap Suckers',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\32_Flock Herder.png" id="32_Flock Herder" data-flag="@X" onclick="openSidebar('32_Flock Herder',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\73_Kraken Drowner.png" id="73_Kraken Drowner" data-flag="@X" onclick="openSidebar('73_Kraken Drowner',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\116_Octofolk Gorger.png" id="116_Octofolk Gorger" data-flag="@X" onclick="openSidebar('116_Octofolk Gorger',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\162_Sizzlemancer.png" id="162_Sizzlemancer" data-flag="@X" onclick="openSidebar('162_Sizzlemancer',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\202_Stompede.png" id="202_Stompede" data-flag="@X" onclick="openSidebar('202_Stompede',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\33_Healer's Livestock.png" id="33_Healers Livestock" data-flag="@X" onclick="openSidebar('33_Healers Livestock',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\81_Shaken, Not Stirred.png" id="81_Shaken, Not Stirred" data-flag="@X" onclick="openSidebar('81_Shaken, Not Stirred',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\119_Pincher Crab.png" id="119_Pincher Crab" data-flag="@X" onclick="openSidebar('119_Pincher Crab',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\165_Stovetop Maniac.png" id="165_Stovetop Maniac" data-flag="@X" onclick="openSidebar('165_Stovetop Maniac',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\203_Sweets Swiper.png" id="203_Sweets Swiper" data-flag="@X" onclick="openSidebar('203_Sweets Swiper',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\38_Livestock Guardian.png" id="38_Livestock Guardian" data-flag="@X" onclick="openSidebar('38_Livestock Guardian',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\83_Skilled Slicer.png" id="83_Skilled Slicer" data-flag="@X" onclick="openSidebar('83_Skilled Slicer',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\123_Sabotage the Competition.png" id="123_Sabotage the Competition" data-flag="@X" onclick="openSidebar('123_Sabotage the Competition',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\166_Trial of Originality.png" id="166_Trial of Originality" data-flag="@X" onclick="openSidebar('166_Trial of Originality',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\206_Trial of Resourcefulness.png" id="206_Trial of Resourcefulness" data-flag="@X" onclick="openSidebar('206_Trial of Resourcefulness',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\45_Server Angel.png" id="45_Server Angel" data-flag="@X" onclick="openSidebar('45_Server Angel',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\85_Steamed Octopus.png" id="85_Steamed Octopus" data-flag="@X" onclick="openSidebar('85_Steamed Octopus',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\128_Tavern Swindler.png" id="128_Tavern Swindler" data-flag="@X" onclick="openSidebar('128_Tavern Swindler',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\167_Twice-Baked.png" id="167_Twice-Baked" data-flag="@X" onclick="openSidebar('167_Twice-Baked',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\207_Unbalanced Diet.png" id="207_Unbalanced Diet" data-flag="@X" onclick="openSidebar('207_Unbalanced Diet',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\51_Trial of Skill.png" id="51_Trial of Skill" data-flag="@X" onclick="openSidebar('51_Trial of Skill',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\89_Trial of Improvisation.png" id="89_Trial of Improvisation" data-flag="@X" onclick="openSidebar('89_Trial of Improvisation',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\129_Trial of Deceit.png" id="129_Trial of Deceit" data-flag="@X" onclick="openSidebar('129_Trial of Deceit',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\169_Woodcrasher Baloth.png" id="169_Woodcrasher Baloth" data-flag="@X" onclick="openSidebar('169_Woodcrasher Baloth',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\208_Well-Fed Grizzly.png" id="208_Well-Fed Grizzly" data-flag="@X" onclick="openSidebar('208_Well-Fed Grizzly',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\18_And Glazed in Caramel.png" id="18_And Glazed in Caramel" data-flag="@X" onclick="openSidebar('18_And Glazed in Caramel',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\53_Ambidextrous Spellcook.png" id="53_Ambidextrous Spellcook" data-flag="@X" onclick="openSidebar('53_Ambidextrous Spellcook',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\95_And Simmered in Manticore Venom.png" id="95_And Simmered in Manticore Venom" data-flag="@X" onclick="openSidebar('95_And Simmered in Manticore Venom',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\132_And Coated in Spices.png" id="132_And Coated in Spices" data-flag="@X" onclick="openSidebar('132_And Coated in Spices',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\170_And Featuring a Rare Ingredient.png" id="170_And Featuring a Rare Ingredient" data-flag="@X" onclick="openSidebar('170_And Featuring a Rare Ingredient',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\20_Angus Beef.png" id="20_Angus Beef" data-flag="@X" onclick="openSidebar('20_Angus Beef',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\55_And Served on Ice.png" id="55_And Served on Ice" data-flag="@X" onclick="openSidebar('55_And Served on Ice',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\96_Blighted Barkhide.png" id="96_Blighted Barkhide" data-flag="@X" onclick="openSidebar('96_Blighted Barkhide',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\137_Bloodthirsty Snarltooth.png" id="137_Bloodthirsty Snarltooth" data-flag="@X" onclick="openSidebar('137_Bloodthirsty Snarltooth',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\177_Berry Blenders.png" id="177_Berry Blenders" data-flag="@X" onclick="openSidebar('177_Berry Blenders',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\21_Assistance Inventor.png" id="21_Assistance Inventor" data-flag="@X" onclick="openSidebar('21_Assistance Inventor',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\58_Aven Spell-Chef.png" id="58_Aven Spell-Chef" data-flag="@X" onclick="openSidebar('58_Aven Spell-Chef',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\97_Blood Hunter.png" id="97_Blood Hunter" data-flag="@X" onclick="openSidebar('97_Blood Hunter',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\138_Braised Gremlin.png" id="138_Braised Gremlin" data-flag="@X" onclick="openSidebar('138_Braised Gremlin',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\179_Broken Wings.png" id="179_Broken Wings" data-flag="@X" onclick="openSidebar('179_Broken Wings',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\23_Biggest Fan.png" id="23_Biggest Fan" data-flag="@X" onclick="openSidebar('23_Biggest Fan',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\60_Benthic Subduer.png" id="60_Benthic Subduer" data-flag="@X" onclick="openSidebar('60_Benthic Subduer',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\103_Crafty Resilience.png" id="103_Crafty Resilience" data-flag="@X" onclick="openSidebar('103_Crafty Resilience',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\139_Campfire Cooks.png" id="139_Campfire Cooks" data-flag="@X" onclick="openSidebar('139_Campfire Cooks',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\181_Crafty Scavenger.png" id="181_Crafty Scavenger" data-flag="@X" onclick="openSidebar('181_Crafty Scavenger',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\25_Chopped.png" id="25_Chopped" data-flag="@X" onclick="openSidebar('25_Chopped',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\62_Cafe Chums.png" id="62_Cafe Chums" data-flag="@X" onclick="openSidebar('62_Cafe Chums',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\104_Delicious Dispute.png" id="104_Delicious Dispute" data-flag="@X" onclick="openSidebar('104_Delicious Dispute',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\141_Conjoined Tigorilla.png" id="141_Conjoined Tigorilla" data-flag="@X" onclick="openSidebar('141_Conjoined Tigorilla',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\182_Distant Haze.png" id="182_Distant Haze" data-flag="@X" onclick="openSidebar('182_Distant Haze',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\27_Domesticated Wingmate.png" id="27_Domesticated Wingmate" data-flag="@X" onclick="openSidebar('27_Domesticated Wingmate',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\64_Check Please.png" id="64_Check Please" data-flag="@X" onclick="openSidebar('64_Check Please',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\108_Gothic Goop.png" id="108_Gothic Goop" data-flag="@X" onclick="openSidebar('108_Gothic Goop',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\143_Ferocious Marksman.png" id="143_Ferocious Marksman" data-flag="@X" onclick="openSidebar('143_Ferocious Marksman',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\183_Drizzled with Oil.png" id="183_Drizzled with Oil" data-flag="@X" onclick="openSidebar('183_Drizzled with Oil',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\28_Empty the Plate.png" id="28_Empty the Plate" data-flag="@X" onclick="openSidebar('28_Empty the Plate',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\68_Drake Hatchling.png" id="68_Drake Hatchling" data-flag="@X" onclick="openSidebar('68_Drake Hatchling',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\109_Grilling Gang.png" id="109_Grilling Gang" data-flag="@X" onclick="openSidebar('109_Grilling Gang',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\144_Flambe.png" id="144_Flambe" data-flag="@X" onclick="openSidebar('144_Flambe',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\188_Harvest Warden.png" id="188_Harvest Warden" data-flag="@X" onclick="openSidebar('188_Harvest Warden',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\34_Hunting Hawk.png" id="34_Hunting Hawk" data-flag="@X" onclick="openSidebar('34_Hunting Hawk',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\74_Leave to Cool.png" id="74_Leave to Cool" data-flag="@X" onclick="openSidebar('74_Leave to Cool',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\111_Inksnare Octopus.png" id="111_Inksnare Octopus" data-flag="@X" onclick="openSidebar('111_Inksnare Octopus',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\149_Heated Up.png" id="149_Heated Up" data-flag="@X" onclick="openSidebar('149_Heated Up',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\189_Homegrown Sprouts.png" id="189_Homegrown Sprouts" data-flag="@X" onclick="openSidebar('189_Homegrown Sprouts',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\35_Icing Aficionado.png" id="35_Icing Aficionado" data-flag="@X" onclick="openSidebar('35_Icing Aficionado',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\75_Messy Decorator.png" id="75_Messy Decorator" data-flag="@X" onclick="openSidebar('75_Messy Decorator',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\113_Kitchen Rats.png" id="113_Kitchen Rats" data-flag="@X" onclick="openSidebar('113_Kitchen Rats',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\150_Help Wanted.png" id="150_Help Wanted" data-flag="@X" onclick="openSidebar('150_Help Wanted',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\190_Jungle Baloth.png" id="190_Jungle Baloth" data-flag="@X" onclick="openSidebar('190_Jungle Baloth',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\36_Ingredient Juggler.png" id="36_Ingredient Juggler" data-flag="@X" onclick="openSidebar('36_Ingredient Juggler',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\77_Raid the Pantry.png" id="77_Raid the Pantry" data-flag="@X" onclick="openSidebar('77_Raid the Pantry',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\118_Pastry Poisoner.png" id="118_Pastry Poisoner" data-flag="@X" onclick="openSidebar('118_Pastry Poisoner',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\151_Hijack.png" id="151_Hijack" data-flag="@X" onclick="openSidebar('151_Hijack',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\191_Jungle Slasher.png" id="191_Jungle Slasher" data-flag="@X" onclick="openSidebar('191_Jungle Slasher',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\39_Lost in Flavor.png" id="39_Lost in Flavor" data-flag="@X" onclick="openSidebar('39_Lost in Flavor',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\78_Recipe Thief.png" id="78_Recipe Thief" data-flag="@X" onclick="openSidebar('78_Recipe Thief',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\120_Poached Squirrel.png" id="120_Poached Squirrel" data-flag="@X" onclick="openSidebar('120_Poached Squirrel',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\152_Hunted Corrix.png" id="152_Hunted Corrix" data-flag="@X" onclick="openSidebar('152_Hunted Corrix',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\192_Knuckle Sandwich.png" id="192_Knuckle Sandwich" data-flag="@X" onclick="openSidebar('192_Knuckle Sandwich',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\40_Lunch Break.png" id="40_Lunch Break" data-flag="@X" onclick="openSidebar('40_Lunch Break',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\80_Secret Way.png" id="80_Secret Way" data-flag="@X" onclick="openSidebar('80_Secret Way',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\121_Retrieved from the Cellar.png" id="121_Retrieved from the Cellar" data-flag="@X" onclick="openSidebar('121_Retrieved from the Cellar',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\153_Inspiring Chef.png" id="153_Inspiring Chef" data-flag="@X" onclick="openSidebar('153_Inspiring Chef',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\193_Livestock Farmer.png" id="193_Livestock Farmer" data-flag="@X" onclick="openSidebar('193_Livestock Farmer',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\41_Mountainous Goat.png" id="41_Mountainous Goat" data-flag="@X" onclick="openSidebar('41_Mountainous Goat',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\86_Supernatural Intervention.png" id="86_Supernatural Intervention" data-flag="@X" onclick="openSidebar('86_Supernatural Intervention',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\122_Roasted Scorpion.png" id="122_Roasted Scorpion" data-flag="@X" onclick="openSidebar('122_Roasted Scorpion',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\156_Overcook.png" id="156_Overcook" data-flag="@X" onclick="openSidebar('156_Overcook',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\196_Produce Produce.png" id="196_Produce Produce" data-flag="@X" onclick="openSidebar('196_Produce Produce',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\42_Seasoned Seasoner.png" id="42_Seasoned Seasoner" data-flag="@X" onclick="openSidebar('42_Seasoned Seasoner',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\87_Thirst for Sustenance.png" id="87_Thirst for Sustenance" data-flag="@X" onclick="openSidebar('87_Thirst for Sustenance',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\124_Seahunter's Bane.png" id="124_Seahunters Bane" data-flag="@X" onclick="openSidebar('124_Seahunters Bane',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\160_Ruin the Batch.png" id="160_Ruin the Batch" data-flag="@X" onclick="openSidebar('160_Ruin the Batch',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\199_Seasonal Harvest.png" id="199_Seasonal Harvest" data-flag="@X" onclick="openSidebar('199_Seasonal Harvest',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\46_Sprinkled with Salt.png" id="46_Sprinkled with Salt" data-flag="@X" onclick="openSidebar('46_Sprinkled with Salt',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\88_Trapjaw Kraken.png" id="88_Trapjaw Kraken" data-flag="@X" onclick="openSidebar('88_Trapjaw Kraken',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\125_Spoil.png" id="125_Spoil" data-flag="@X" onclick="openSidebar('125_Spoil',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\163_Sizzling Chef.png" id="163_Sizzling Chef" data-flag="@X" onclick="openSidebar('163_Sizzling Chef',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\200_Slimy Shopkeep.png" id="200_Slimy Shopkeep" data-flag="@X" onclick="openSidebar('200_Slimy Shopkeep',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\47_Stern Critic.png" id="47_Stern Critic" data-flag="@X" onclick="openSidebar('47_Stern Critic',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\90_Watered Down.png" id="90_Watered Down" data-flag="@X" onclick="openSidebar('90_Watered Down',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\126_Starving Crab.png" id="126_Starving Crab" data-flag="@X" onclick="openSidebar('126_Starving Crab',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\164_Steamed to Perfection.png" id="164_Steamed to Perfection" data-flag="@X" onclick="openSidebar('164_Steamed to Perfection',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\201_Sporecap Hermit.png" id="201_Sporecap Hermit" data-flag="@X" onclick="openSidebar('201_Sporecap Hermit',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\48_Sunbeam Stag.png" id="48_Sunbeam Stag" data-flag="@X" onclick="openSidebar('48_Sunbeam Stag',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\91_Winter Crab.png" id="91_Winter Crab" data-flag="@X" onclick="openSidebar('91_Winter Crab',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\127_Takeout.png" id="127_Takeout" data-flag="@X" onclick="openSidebar('127_Takeout',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\168_Wild Boar.png" id="168_Wild Boar" data-flag="@X" onclick="openSidebar('168_Wild Boar',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\205_Titanic Gorzilla.png" id="205_Titanic Gorzilla" data-flag="@X" onclick="openSidebar('205_Titanic Gorzilla',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\212_Emillie, Heavenly Baker_back.png" alt="sets\CHF-files\img\212_Emillie, Heavenly Baker_front.png" id="212_Emillie, Heavenly Baker" data-flag="@XD" onclick="openSidebar('212_Emillie, Heavenly Baker',false)"><button class="flip-btn" onclick="imgFlip(212_Emillie, Heavenly Baker)"></button></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\217_Halvis, Seafood Spokestopus_back.png" alt="sets\CHF-files\img\217_Halvis, Seafood Spokestopus_front.png" id="217_Halvis, Seafood Spokestopus" data-flag="@XD" onclick="openSidebar('217_Halvis, Seafood Spokestopus',false)"><button class="flip-btn" onclick="imgFlip(217_Halvis, Seafood Spokestopus)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\230_Vaul, Cannibal Outcast.png" id="230_Vaul, Cannibal Outcast" data-flag="@X" onclick="openSidebar('230_Vaul, Cannibal Outcast',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\215_Fritt, the Hunter_back.png" alt="sets\CHF-files\img\215_Fritt, the Hunter_front.png" id="215_Fritt, the Hunter" data-flag="@XD" onclick="openSidebar('215_Fritt, the Hunter',false)"><button class="flip-btn" onclick="imgFlip(215_Fritt, the Hunter)"></button></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\229_Urnis, Battlechef Exemplar_back.png" alt="sets\CHF-files\img\229_Urnis, Battlechef Exemplar_front.png" id="229_Urnis, Battlechef Exemplar" data-flag="@XD" onclick="openSidebar('229_Urnis, Battlechef Exemplar',false)"><button class="flip-btn" onclick="imgFlip(229_Urnis, Battlechef Exemplar)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\211_Chef of the Rest.png" id="211_Chef of the Rest" data-flag="@X" onclick="openSidebar('211_Chef of the Rest',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\221_Murktide Lurker.png" id="221_Murktide Lurker" data-flag="@X" onclick="openSidebar('221_Murktide Lurker',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\216_Grom, Cooking Momma_back.png" alt="sets\CHF-files\img\216_Grom, Cooking Momma_front.png" id="216_Grom, Cooking Momma" data-flag="@XD" onclick="openSidebar('216_Grom, Cooking Momma',false)"><button class="flip-btn" onclick="imgFlip(216_Grom, Cooking Momma)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\213_Exotic Exemplar.png" id="213_Exotic Exemplar" data-flag="@X" onclick="openSidebar('213_Exotic Exemplar',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\214_Foodie Family.png" id="214_Foodie Family" data-flag="@X" onclick="openSidebar('214_Foodie Family',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\224_Reckless Novice.png" id="224_Reckless Novice" data-flag="@X" onclick="openSidebar('224_Reckless Novice',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\219_Kinna de Rolo III_back.png" alt="sets\CHF-files\img\219_Kinna de Rolo III_front.png" id="219_Kinna de Rolo III" data-flag="@XD" onclick="openSidebar('219_Kinna de Rolo III',false)"><button class="flip-btn" onclick="imgFlip(219_Kinna de Rolo III)"></button></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\228_Terry, Sous Supreme_back.png" alt="sets\CHF-files\img\228_Terry, Sous Supreme_front.png" id="228_Terry, Sous Supreme" data-flag="@XD" onclick="openSidebar('228_Terry, Sous Supreme',false)"><button class="flip-btn" onclick="imgFlip(228_Terry, Sous Supreme)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\222_Oko, Lavish Host.png" id="222_Oko, Lavish Host" data-flag="@X" onclick="openSidebar('222_Oko, Lavish Host',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\218_Jennig, Queen of Confections_back.png" alt="sets\CHF-files\img\218_Jennig, Queen of Confections_front.png" id="218_Jennig, Queen of Confections" data-flag="@XD" onclick="openSidebar('218_Jennig, Queen of Confections',false)"><button class="flip-btn" onclick="imgFlip(218_Jennig, Queen of Confections)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\210_Cadewyn, Short Order Cook.png" id="210_Cadewyn, Short Order Cook" data-flag="@X" onclick="openSidebar('210_Cadewyn, Short Order Cook',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\225_Shady Salesman.png" id="225_Shady Salesman" data-flag="@X" onclick="openSidebar('225_Shady Salesman',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\209_Accomplished Composter.png" id="209_Accomplished Composter" data-flag="@X" onclick="openSidebar('209_Accomplished Composter',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\223_Pallo, Palate Perfectionist_back.png" alt="sets\CHF-files\img\223_Pallo, Palate Perfectionist_front.png" id="223_Pallo, Palate Perfectionist" data-flag="@XD" onclick="openSidebar('223_Pallo, Palate Perfectionist',false)"><button class="flip-btn" onclick="imgFlip(223_Pallo, Palate Perfectionist)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\227_Spell-Chef Prodigy.png" id="227_Spell-Chef Prodigy" data-flag="@X" onclick="openSidebar('227_Spell-Chef Prodigy',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\226_Sid, the Kid_back.png" alt="sets\CHF-files\img\226_Sid, the Kid_front.png" id="226_Sid, the Kid" data-flag="@XD" onclick="openSidebar('226_Sid, the Kid',false)"><button class="flip-btn" onclick="imgFlip(226_Sid, the Kid)"></button></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\220_Mocktail.png" id="220_Mocktail" data-flag="@X" onclick="openSidebar('220_Mocktail',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\231_Zealous Connoisseur.png" id="231_Zealous Connoisseur" data-flag="@X" onclick="openSidebar('231_Zealous Connoisseur',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\232_Bane of Crops.png" id="232_Bane of Crops" data-flag="@X" onclick="openSidebar('232_Bane of Crops',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\234_Codex Culinaria.png" id="234_Codex Culinaria" data-flag="@X" onclick="openSidebar('234_Codex Culinaria',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\237_Crop-Cobbled Scarecrow.png" id="237_Crop-Cobbled Scarecrow" data-flag="@X" onclick="openSidebar('237_Crop-Cobbled Scarecrow',false)"></div>
+			<div class="container"><img data-alt_src="sets\CHF-files\img\240_Ryori, Iron Chef_back.png" alt="sets\CHF-files\img\240_Ryori, Iron Chef_front.png" id="240_Ryori, Iron Chef" data-flag="@XD" onclick="openSidebar('240_Ryori, Iron Chef',false)"><button class="flip-btn" onclick="imgFlip(240_Ryori, Iron Chef)"></button></div>
+			<div class="container"><img alt="sets\CHF-files\img\2_And Loaded with Caffeine.png" id="2_And Loaded with Caffeine" data-flag="@X" onclick="openSidebar('2_And Loaded with Caffeine',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\7_Assorted Sweets.png" id="7_Assorted Sweets" data-flag="@X" onclick="openSidebar('7_Assorted Sweets',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\8_Evaporated.png" id="8_Evaporated" data-flag="@X" onclick="openSidebar('8_Evaporated',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\238_Cyclical Harvester.png" id="238_Cyclical Harvester" data-flag="@X" onclick="openSidebar('238_Cyclical Harvester',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\242_Shambling Suit.png" id="242_Shambling Suit" data-flag="@X" onclick="openSidebar('242_Shambling Suit',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\1_And Complimented with Marbled Gargoyle.png" id="1_And Complimented with Marbled Gargoyle" data-flag="@X" onclick="openSidebar('1_And Complimented with Marbled Gargoyle',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\3_And Loaded with Toppings.png" id="3_And Loaded with Toppings" data-flag="@X" onclick="openSidebar('3_And Loaded with Toppings',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\4_And Paired with a Side of Eyeballs.png" id="4_And Paired with a Side of Eyeballs" data-flag="@X" onclick="openSidebar('4_And Paired with a Side of Eyeballs',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\5_And Served by Automatic Helpers.png" id="5_And Served by Automatic Helpers" data-flag="@X" onclick="openSidebar('5_And Served by Automatic Helpers',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\6_And Served in Fine China.png" id="6_And Served in Fine China" data-flag="@X" onclick="openSidebar('6_And Served in Fine China',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\9_Fattened Up.png" id="9_Fattened Up" data-flag="@X" onclick="openSidebar('9_Fattened Up',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\10_Gathered From Far Off Lands.png" id="10_Gathered From Far Off Lands" data-flag="@X" onclick="openSidebar('10_Gathered From Far Off Lands',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\11_Made With Care.png" id="11_Made With Care" data-flag="@X" onclick="openSidebar('11_Made With Care',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\12_Tenderized.png" id="12_Tenderized" data-flag="@X" onclick="openSidebar('12_Tenderized',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\13_With Seconds Included.png" id="13_With Seconds Included" data-flag="@X" onclick="openSidebar('13_With Seconds Included',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\233_Cleaner's Knife.png" id="233_Cleaners Knife" data-flag="@X" onclick="openSidebar('233_Cleaners Knife',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\235_Copper Chef.png" id="235_Copper Chef" data-flag="@X" onclick="openSidebar('235_Copper Chef',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\236_Crop Keeper.png" id="236_Crop Keeper" data-flag="@X" onclick="openSidebar('236_Crop Keeper',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\239_Hunter's Provisions.png" id="239_Hunters Provisions" data-flag="@X" onclick="openSidebar('239_Hunters Provisions',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\241_Servo Server.png" id="241_Servo Server" data-flag="@X" onclick="openSidebar('241_Servo Server',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\248_Glacial Fortress.png" id="248_Glacial Fortress" data-flag="@X" onclick="openSidebar('248_Glacial Fortress',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\246_Drowned Catacomb.png" id="246_Drowned Catacomb" data-flag="@X" onclick="openSidebar('246_Drowned Catacomb',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\245_Dragonskull Summit.png" id="245_Dragonskull Summit" data-flag="@X" onclick="openSidebar('245_Dragonskull Summit',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\251_Rootbound Crag.png" id="251_Rootbound Crag" data-flag="@X" onclick="openSidebar('251_Rootbound Crag',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\253_Sunpetal Grove.png" id="253_Sunpetal Grove" data-flag="@X" onclick="openSidebar('253_Sunpetal Grove',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\250_Isolated Chapel.png" id="250_Isolated Chapel" data-flag="@X" onclick="openSidebar('250_Isolated Chapel',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\254_Woodland Cemetery.png" id="254_Woodland Cemetery" data-flag="@X" onclick="openSidebar('254_Woodland Cemetery',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\249_Hinterland Harbor.png" id="249_Hinterland Harbor" data-flag="@X" onclick="openSidebar('249_Hinterland Harbor',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\252_Sulfur Falls.png" id="252_Sulfur Falls" data-flag="@X" onclick="openSidebar('252_Sulfur Falls',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\244_Clifftop Retreat.png" id="244_Clifftop Retreat" data-flag="@X" onclick="openSidebar('244_Clifftop Retreat',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\243_Banquet Hall.png" id="243_Banquet Hall" data-flag="@X" onclick="openSidebar('243_Banquet Hall',false)"></div>
+			<div class="container"><img alt="sets\CHF-files\img\247_Evolving Wilds.png" id="247_Evolving Wilds" data-flag="@X" onclick="openSidebar('247_Evolving Wilds',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>
