@@ -1,0 +1,710 @@
+﻿[CustomCards]
+	[	{
+			"name": "Violent Intelligence",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{W}",
+			"type": "Artifact Creature — Alien Construct ",
+			"collector_number": "13",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/13_Violent Intelligence.png"
+			}
+		},
+		{
+			"name": "Credulous Allowance",
+			"rarity": "rare",
+			"mana_cost": "{0}",
+			"type": " Sorcery",
+			"collector_number": "16",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/16_Credulous Allowance.png"
+			}
+		},
+		{
+			"name": "Essence Drainer",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}{B}",
+			"type": "Creature — Beast Horror ",
+			"collector_number": "24",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/24_Essence Drainer.png"
+			}
+		},
+		{
+			"name": "Persistent Vermin",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": " Creature — Rat Horror ",
+			"collector_number": "28",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/28_Persistent Vermin.png"
+			}
+		},
+		{
+			"name": "Erratic Decimator",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Devoid Creature — Eldrazi Drone ",
+			"collector_number": "35",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/35_Erratic Decimator.png"
+			}
+		},
+		{
+			"name": "Shocking Expose",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{R}",
+			"type": "Sorcery",
+			"collector_number": "37",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/37_Shocking Expose.png"
+			}
+		},
+		{
+			"name": "Mauling Monstrosity",
+			"rarity": "uncommon",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Creature — Bear Mutant Horror ",
+			"collector_number": "47",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/47_Mauling Monstrosity.png"
+			}
+		},
+		{
+			"name": "Mr. Barry Grizmore, Esquire",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Legendary Creature — Bear Advisor ",
+			"collector_number": "48",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/48_Mr. Barry Grizmore, Esquire.png"
+			}
+		},
+		{
+			"name": "Strange Statues",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Artifact Land — Vehicle ",
+			"collector_number": "64",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/64_Strange Statues.png"
+			}
+		},
+		{
+			"name": "Invasion of Mystvale",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Battle — Siege ",
+			"collector_number": "10",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/10_Invasion of Mystvale.png"
+			}
+		},
+		{
+			"name": "Ancient Symbiote",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Creature — Mutant Ooze ",
+			"collector_number": "5",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/5_Ancient Symbiote.png"
+			}
+		},
+		{
+			"name": "Glimpse of Impossibility",
+			"rarity": "rare",
+			"mana_cost": "{1}{W}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "53",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/53_Glimpse of Impossibility.png"
+			}
+		},
+		{
+			"name": "Induced Will",
+			"rarity": "rare",
+			"mana_cost": "{4}{B}{B}",
+			"type": "Enchantment",
+			"collector_number": "25",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/25_Induced Will.png"
+			}
+		},
+		{
+			"name": "Cyclopean Sloth",
+			"rarity": "rare",
+			"mana_cost": "{4}{R}{R}",
+			"type": "Creature — Beast Cyclops Mutant ",
+			"collector_number": "34",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/34_Cyclopean Sloth.png"
+			}
+		},
+		{
+			"name": "Elusive Enigmas",
+			"rarity": "rare",
+			"mana_cost": "{G}{G}",
+			"type": "Creature — Human Beast Mutant ",
+			"collector_number": "43",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/43_Elusive Enigmas.png"
+			}
+		},
+		{
+			"name": "Summoner's Volute",
+			"rarity": "rare",
+			"mana_cost": "{2}{G}{G}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "50",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/50_Summoner's Volute.png"
+			}
+		},
+		{
+			"name": "Strange Lumps",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment — Aura ",
+			"collector_number": "22",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/22_Strange Lumps.png"
+			}
+		},
+		{
+			"name": "Groupthink",
+			"rarity": "rare",
+			"mana_cost": "{U}{B}",
+			"type": "Enchantment",
+			"collector_number": "55",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/55_Groupthink.png"
+			}
+		},
+		{
+			"name": "Watching Eyes",
+			"rarity": "rare",
+			"mana_cost": "{1}{B}{R}",
+			"type": "Legendary Creature — Eye Nightmare Horror ",
+			"collector_number": "59",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/59_Watching Eyes.png"
+			}
+		},
+		{
+			"name": "Ancient Augmenter",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{G}",
+			"type": "Creature — Alien Lizard Artificer ",
+			"collector_number": "51",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/51_Ancient Augmenter.png"
+			}
+		},
+		{
+			"name": "Recurring Poltergeist",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}{B}",
+			"type": "Creature — Demon Spirit Horror ",
+			"collector_number": "57",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/57_Recurring Poltergeist.png"
+			}
+		},
+		{
+			"name": "Reoccurring Phenomenon",
+			"rarity": "rare",
+			"mana_cost": "{4}{U}{R}",
+			"type": "Sorcery",
+			"collector_number": "58",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/58_Reoccurring Phenomenon.png"
+			}
+		},
+		{
+			"name": "Exclusion Zone",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}",
+			"type": "World Enchantment",
+			"collector_number": "8",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/8_Exclusion Zone.png"
+			}
+		},
+		{
+			"name": "The Truth",
+			"rarity": "mythic",
+			"mana_cost": "{1}{W}{W}{W}",
+			"type": "Legendary Creature — Elder Horror ",
+			"collector_number": "12",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/12_The Truth.png"
+			}
+		},
+		{
+			"name": "Unending Sleep",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}",
+			"type": "Sorcery",
+			"collector_number": "30",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/30_Unending Sleep.png"
+			}
+		},
+		{
+			"name": "The Unreal",
+			"rarity": "mythic",
+			"mana_cost": "{2}{R}{R}{R}",
+			"type": "Legendary Creature — Elder Horror ",
+			"collector_number": "41",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/41_The Unreal.png"
+			}
+		},
+		{
+			"name": "Simulation Manager",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "61",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/61_Simulation Manager.png"
+			}
+		},
+		{
+			"name": "Zec'tala, the Imprisoned",
+			"rarity": "mythic",
+			"mana_cost": "{4}",
+			"type": "Legendary Creature — Elder Horror ",
+			"collector_number": "4",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/4_Zec'tala, the Imprisoned.png"
+			}
+		},
+		{
+			"name": "The Incomprehensible",
+			"rarity": "mythic",
+			"mana_cost": "{5}{G}{G}{G}",
+			"type": "Legendary Creature — Elder Horror ",
+			"collector_number": "46",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/46_The Incomprehensible.png"
+			}
+		},
+		{
+			"name": "Consuming Cavern",
+			"rarity": "uncommon",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "62",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/62_Consuming Cavern.png"
+			}
+		},
+		{
+			"name": "Crop Claimer",
+			"rarity": "rare",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Alien ",
+			"collector_number": "7",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/7_Crop Claimer.png"
+			}
+		},
+		{
+			"name": "Shrinkatron Subject",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Creature — Elephant Mutant ",
+			"collector_number": "11",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/11_Shrinkatron Subject.png"
+			}
+		},
+		{
+			"name": "Behind the Curtain",
+			"rarity": "uncommon",
+			"mana_cost": "{3}{W}",
+			"type": "Enchantment",
+			"collector_number": "6",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/6_Behind the Curtain.png"
+			}
+		},
+		{
+			"name": "Interplanar Observer",
+			"rarity": "mythic",
+			"mana_cost": "{2}{U}",
+			"type": "Artifact Creature — Alien Construct ",
+			"collector_number": "18",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/18_Interplanar Observer.png"
+			}
+		},
+		{
+			"name": "The Everything",
+			"rarity": "mythic",
+			"mana_cost": "{4}{U}{U}{U}",
+			"type": "Legendary Creature — Elder Horror ",
+			"collector_number": "17",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/17_The Everything.png"
+			}
+		},
+		{
+			"name": "Third Eye",
+			"rarity": "rare",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "23",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/23_Third Eye.png"
+			}
+		},
+		{
+			"name": "Cognitive Dissonance",
+			"rarity": "uncommon",
+			"mana_cost": "{U}",
+			"type": "Sorcery — Opening ",
+			"collector_number": "15",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/15_Cognitive Dissonance.png"
+			}
+		},
+		{
+			"name": "Recalled Anomalous Test Subject",
+			"rarity": "rare",
+			"mana_cost": "{2}{B}",
+			"type": "Tribal Planeswalker — Rat Horror ",
+			"collector_number": "29",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/29_Recalled Anomalous Test Subject.png"
+			}
+		},
+		{
+			"name": "Long-Tail Rat",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{B}",
+			"type": "Creature — Rat Mutant ",
+			"collector_number": "26",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/26_Long-Tail Rat.png"
+			}
+		},
+		{
+			"name": "Swarm of Mecha-Ants",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": " Artifact Creature — Insect Horror ",
+			"collector_number": "40",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/40_Swarm of Mecha-Ants.png"
+			}
+		},
+		{
+			"name": "Final Form",
+			"rarity": "mythic",
+			"mana_cost": "{4}{G}{G}",
+			"type": "Instant",
+			"collector_number": "44",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/44_Final Form.png"
+			}
+		},
+		{
+			"name": "Form of the Hydra",
+			"rarity": "rare",
+			"mana_cost": "{X}{G}",
+			"type": "Enchantment",
+			"collector_number": "45",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/45_Form of the Hydra.png"
+			}
+		},
+		{
+			"name": "Multibear",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{G}",
+			"type": "Creature — Bear Horror ",
+			"collector_number": "49",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/49_Multibear.png"
+			}
+		},
+		{
+			"name": "Grist, the First Success",
+			"rarity": "mythic",
+			"mana_cost": "{2}{B}{G}",
+			"type": "Legendary Planeswalker — Grist ",
+			"collector_number": "54",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/54_Grist, the First Success.png"
+			}
+		},
+		{
+			"name": "Calcification Virus",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{W}",
+			"type": "Enchantment",
+			"collector_number": "52",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/52_Calcification Virus.png"
+			}
+		},
+		{
+			"name": "Reality Tear",
+			"rarity": "rare",
+			"mana_cost": "",
+			"type": "Land",
+			"collector_number": "63",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/63_Reality Tear.png"
+			}
+		},
+		{
+			"name": "Azzie, Elusive Ancient",
+			"rarity": "rare",
+			"mana_cost": "{6}{U}{U}",
+			"type": "Legendary Creature — Mutant Serpent ",
+			"collector_number": "14",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/14_Azzie, Elusive Ancient.png"
+			}
+		},
+		{
+			"name": "Imminent Invasion",
+			"rarity": "rare",
+			"mana_cost": "{1}{C}",
+			"type": "Sorcery",
+			"collector_number": "3",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/3_Imminent Invasion.png"
+			}
+		},
+		{
+			"name": "No-Eyed Girl",
+			"rarity": "uncommon",
+			"mana_cost": "{2}{U}",
+			"type": "Creature — Child Horror ",
+			"collector_number": "19",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/19_No-Eyed Girl.png"
+			}
+		},
+		{
+			"name": "Slithertusk",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{R}",
+			"type": "Creature — Snake Elephant Horror ",
+			"collector_number": "38",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/38_Slithertusk.png"
+			}
+		},
+		{
+			"name": "Replica Parasite",
+			"rarity": "rare",
+			"mana_cost": "{U}{U}",
+			"type": "Creature — Mutant Insect ",
+			"collector_number": "20",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/20_Replica Parasite.png"
+			}
+		},
+		{
+			"name": "Existential Dread",
+			"rarity": "rare",
+			"mana_cost": "{2}{W}",
+			"type": "Enchantment — Invocation ",
+			"collector_number": "9",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/9_Existential Dread.png"
+			}
+		},
+		{
+			"name": "Stalkers of Maple Street",
+			"rarity": "rare",
+			"mana_cost": "{3}{R}{R}",
+			"type": "Creature — Alien ",
+			"collector_number": "39",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/39_Stalkers of Maple Street.png"
+			}
+		},
+		{
+			"name": "Worst Enemy",
+			"rarity": "rare",
+			"mana_cost": "{B}",
+			"type": "Enchantment",
+			"collector_number": "32",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/32_Worst Enemy.png"
+			}
+		},
+		{
+			"name": "Ancient Remnants",
+			"rarity": "rare",
+			"mana_cost": "{1}{G}{G}",
+			"type": "Sorcery",
+			"collector_number": "42",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/42_Ancient Remnants.png"
+			}
+		},
+		{
+			"name": "Revenge",
+			"rarity": "rare",
+			"mana_cost": "{1}{R}",
+			"type": "Legendary Creature — Incarnation Horror ",
+			"collector_number": "36",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/36_Revenge.png"
+			}
+		},
+		{
+			"name": "C4pt𝚽vE",
+			"rarity": "rare",
+			"mana_cost": "{1}",
+			"type": "Creature — Phyrexian Horror ",
+			"collector_number": "1",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/1_C4pt𝚽vE.png"
+			}
+		},
+		{
+			"name": "Sapphiria",
+			"rarity": "uncommon",
+			"mana_cost": "{1}{U}",
+			"type": "Enchantment",
+			"collector_number": "21",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/21_Sapphiria.png"
+			}
+		},
+		{
+			"name": "Expanding Ooze",
+			"rarity": "uncommon",
+			"mana_cost": "{2}",
+			"type": "Creature — Alien Ooze ",
+			"collector_number": "2",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/2_Expanding Ooze.png"
+			}
+		},
+		{
+			"name": "The Nothing",
+			"rarity": "mythic",
+			"mana_cost": "{1}{B}{B}{B}",
+			"type": "Legendary Creature — Elder Horror ",
+			"collector_number": "27",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/27_The Nothing.png"
+			}
+		},
+		{
+			"name": "Outlands Avenger",
+			"rarity": "rare",
+			"mana_cost": "{6}{R}{W}",
+			"type": "Creature — Beast Devil Horror ",
+			"collector_number": "56",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/56_Outlands Avenger.png"
+			}
+		},
+		{
+			"name": "Charging Aratxe",
+			"rarity": "mythic",
+			"mana_cost": "{5}{R}",
+			"type": "Creature — Elemental Boar Mutant ",
+			"collector_number": "33",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/33_Charging Aratxe.png"
+			}
+		},
+		{
+			"name": "Impossibility Reactor",
+			"rarity": "mythic",
+			"mana_cost": "{3}",
+			"type": "Artifact",
+			"collector_number": "60",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/60_Impossibility Reactor.png"
+			}
+		},
+		{
+			"name": "Void Crypter",
+			"rarity": "rare",
+			"mana_cost": "{6}{B}{B}",
+			"type": "Creature — Horror ",
+			"collector_number": "31",
+			"image_uris": {
+				"en": "https://thatonesungod.github.io/sets/MYC-files/img/31_Void Crypter.png"
+			}
+		},
+		]
+	[RareSlot(1)]
+	2 Credulous Allowance
+		2 Invasion of Mystvale
+		2 Ancient Symbiote
+		2 Glimpse of Impossibility
+		2 Induced Will
+		2 Cyclopean Sloth
+		2 Elusive Enigmas
+		2 Summoner's Volute
+		2 Strange Lumps
+		2 Groupthink
+		2 Watching Eyes
+		2 Ancient Augmenter
+		2 Recurring Poltergeist
+		2 Reoccurring Phenomenon
+		2 Crop Claimer
+		2 Third Eye
+		2 Recalled Anomalous Test Subject
+		2 Swarm of Mecha-Ants
+		2 Form of the Hydra
+		2 Calcification Virus
+		2 Reality Tear
+		2 Azzie, Elusive Ancient
+		2 Imminent Invasion
+		2 Replica Parasite
+		2 Existential Dread
+		2 Stalkers of Maple Street
+		2 Worst Enemy
+		2 Ancient Remnants
+		2 Revenge
+		2 C4pt𝚽vE
+		2 Outlands Avenger
+		2 Void Crypter
+		1 Exclusion Zone
+		1 The Truth
+		1 Unending Sleep
+		1 The Unreal
+		1 Simulation Manager
+		1 Zec'tala, the Imprisoned
+		1 The Incomprehensible
+		1 Interplanar Observer
+		1 The Everything
+		1 Final Form
+		1 Grist, the First Success
+		1 The Nothing
+		1 Charging Aratxe
+		1 Impossibility Reactor
+		[UncommonSlot(3)]
+	9 Violent Intelligence
+		9 Essence Drainer
+		9 Persistent Vermin
+		9 Erratic Decimator
+		9 Shocking Expose
+		9 Mauling Monstrosity
+		9 Mr. Barry Grizmore, Esquire
+		9 Strange Statues
+		9 Consuming Cavern
+		9 Shrinkatron Subject
+		9 Behind the Curtain
+		9 Cognitive Dissonance
+		9 Long-Tail Rat
+		9 Multibear
+		9 No-Eyed Girl
+		9 Slithertusk
+		9 Sapphiria
+		9 Expanding Ooze
+		[CommonSlot(12)]
+	

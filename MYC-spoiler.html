@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/MYC-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>MYC visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/MYC-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CHF-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CHS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DWE-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/NLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/S23-files/icon.png" />
+		<img class="preload-hidden" src="/sets/WBR-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CHF-spoiler"><img src="sets/CHF-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="CHS-spoiler"><img src="sets/CHS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="DWE-spoiler"><img src="sets/DWE-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYC-spoiler"><img src="sets/MYC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYD-spoiler"><img src="sets/MYD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="NLD-spoiler"><img src="sets/NLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="S23-spoiler"><img src="sets/S23-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="WBR-spoiler"><img src="sets/WBR-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/MYC-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\MYC-files\img\8_Exclusion Zone.png" id="8_Exclusion Zone" data-flag="@X" onclick="openSidebar('8_Exclusion Zone',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\17_The Everything.png" id="17_The Everything" data-flag="@X" onclick="openSidebar('17_The Everything',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\27_The Nothing.png" id="27_The Nothing" data-flag="@X" onclick="openSidebar('27_The Nothing',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\33_Charging Aratxe.png" id="33_Charging Aratxe" data-flag="@X" onclick="openSidebar('33_Charging Aratxe',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\44_Final Form.png" id="44_Final Form" data-flag="@X" onclick="openSidebar('44_Final Form',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\12_The Truth.png" id="12_The Truth" data-flag="@X" onclick="openSidebar('12_The Truth',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\18_Interplanar Observer.png" id="18_Interplanar Observer" data-flag="@X" onclick="openSidebar('18_Interplanar Observer',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\30_Unending Sleep.png" id="30_Unending Sleep" data-flag="@X" onclick="openSidebar('30_Unending Sleep',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\41_The Unreal.png" id="41_The Unreal" data-flag="@X" onclick="openSidebar('41_The Unreal',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\46_The Incomprehensible.png" id="46_The Incomprehensible" data-flag="@X" onclick="openSidebar('46_The Incomprehensible',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\5_Ancient Symbiote.png" id="5_Ancient Symbiote" data-flag="@X" onclick="openSidebar('5_Ancient Symbiote',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\14_Azzie, Elusive Ancient.png" id="14_Azzie, Elusive Ancient" data-flag="@X" onclick="openSidebar('14_Azzie, Elusive Ancient',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\25_Induced Will.png" id="25_Induced Will" data-flag="@X" onclick="openSidebar('25_Induced Will',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\34_Cyclopean Sloth.png" id="34_Cyclopean Sloth" data-flag="@X" onclick="openSidebar('34_Cyclopean Sloth',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\42_Ancient Remnants.png" id="42_Ancient Remnants" data-flag="@X" onclick="openSidebar('42_Ancient Remnants',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\7_Crop Claimer.png" id="7_Crop Claimer" data-flag="@X" onclick="openSidebar('7_Crop Claimer',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\16_Credulous Allowance.png" id="16_Credulous Allowance" data-flag="@X" onclick="openSidebar('16_Credulous Allowance',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\29_Recalled Anomalous Test Subject.png" id="29_Recalled Anomalous Test Subject" data-flag="@X" onclick="openSidebar('29_Recalled Anomalous Test Subject',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\36_Revenge.png" id="36_Revenge" data-flag="@X" onclick="openSidebar('36_Revenge',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\43_Elusive Enigmas.png" id="43_Elusive Enigmas" data-flag="@X" onclick="openSidebar('43_Elusive Enigmas',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\9_Existential Dread.png" id="9_Existential Dread" data-flag="@X" onclick="openSidebar('9_Existential Dread',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\20_Replica Parasite.png" id="20_Replica Parasite" data-flag="@X" onclick="openSidebar('20_Replica Parasite',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\31_Void Crypter.png" id="31_Void Crypter" data-flag="@X" onclick="openSidebar('31_Void Crypter',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\39_Stalkers of Maple Street.png" id="39_Stalkers of Maple Street" data-flag="@X" onclick="openSidebar('39_Stalkers of Maple Street',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\45_Form of the Hydra.png" id="45_Form of the Hydra" data-flag="@X" onclick="openSidebar('45_Form of the Hydra',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\10_Invasion of Mystvale.png" id="10_Invasion of Mystvale" data-flag="@X" onclick="openSidebar('10_Invasion of Mystvale',true)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\22_Strange Lumps.png" id="22_Strange Lumps" data-flag="@X" onclick="openSidebar('22_Strange Lumps',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\32_Worst Enemy.png" id="32_Worst Enemy" data-flag="@X" onclick="openSidebar('32_Worst Enemy',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\40_Swarm of Mecha-Ants.png" id="40_Swarm of Mecha-Ants" data-flag="@X" onclick="openSidebar('40_Swarm of Mecha-Ants',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\50_Summoner's Volute.png" id="50_Summoners Volute" data-flag="@X" onclick="openSidebar('50_Summoners Volute',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\6_Behind the Curtain.png" id="6_Behind the Curtain" data-flag="@X" onclick="openSidebar('6_Behind the Curtain',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\23_Third Eye.png" id="23_Third Eye" data-flag="@X" onclick="openSidebar('23_Third Eye',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\24_Essence Drainer.png" id="24_Essence Drainer" data-flag="@X" onclick="openSidebar('24_Essence Drainer',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\37_Shocking Expose.png" id="37_Shocking Expose" data-flag="@X" onclick="openSidebar('37_Shocking Expose',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\47_Mauling Monstrosity.png" id="47_Mauling Monstrosity" data-flag="@X" onclick="openSidebar('47_Mauling Monstrosity',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\11_Shrinkatron Subject.png" id="11_Shrinkatron Subject" data-flag="@X" onclick="openSidebar('11_Shrinkatron Subject',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\15_Cognitive Dissonance.png" id="15_Cognitive Dissonance" data-flag="@X" onclick="openSidebar('15_Cognitive Dissonance',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\26_Long-Tail Rat.png" id="26_Long-Tail Rat" data-flag="@X" onclick="openSidebar('26_Long-Tail Rat',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\38_Slithertusk.png" id="38_Slithertusk" data-flag="@X" onclick="openSidebar('38_Slithertusk',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\48_Mr. Barry Grizmore, Esquire.png" id="48_Mr. Barry Grizmore, Esquire" data-flag="@X" onclick="openSidebar('48_Mr. Barry Grizmore, Esquire',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\13_Violent Intelligence.png" id="13_Violent Intelligence" data-flag="@X" onclick="openSidebar('13_Violent Intelligence',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\19_No-Eyed Girl.png" id="19_No-Eyed Girl" data-flag="@X" onclick="openSidebar('19_No-Eyed Girl',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\49_Multibear.png" id="49_Multibear" data-flag="@X" onclick="openSidebar('49_Multibear',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\21_Sapphiria.png" id="21_Sapphiria" data-flag="@X" onclick="openSidebar('21_Sapphiria',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\53_Glimpse of Impossibility.png" id="53_Glimpse of Impossibility" data-flag="@X" onclick="openSidebar('53_Glimpse of Impossibility',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\55_Groupthink.png" id="55_Groupthink" data-flag="@X" onclick="openSidebar('55_Groupthink',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\59_Watching Eyes.png" id="59_Watching Eyes" data-flag="@X" onclick="openSidebar('59_Watching Eyes',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\51_Ancient Augmenter.png" id="51_Ancient Augmenter" data-flag="@X" onclick="openSidebar('51_Ancient Augmenter',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\52_Calcification Virus.png" id="52_Calcification Virus" data-flag="@X" onclick="openSidebar('52_Calcification Virus',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\57_Recurring Poltergeist.png" id="57_Recurring Poltergeist" data-flag="@X" onclick="openSidebar('57_Recurring Poltergeist',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\54_Grist, the First Success.png" id="54_Grist, the First Success" data-flag="@X" onclick="openSidebar('54_Grist, the First Success',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\58_Reoccurring Phenomenon.png" id="58_Reoccurring Phenomenon" data-flag="@X" onclick="openSidebar('58_Reoccurring Phenomenon',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\56_Outlands Avenger.png" id="56_Outlands Avenger" data-flag="@X" onclick="openSidebar('56_Outlands Avenger',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\4_Zec'tala, the Imprisoned.png" id="4_Zectala, the Imprisoned" data-flag="@X" onclick="openSidebar('4_Zectala, the Imprisoned',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\60_Impossibility Reactor.png" id="60_Impossibility Reactor" data-flag="@X" onclick="openSidebar('60_Impossibility Reactor',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\61_Simulation Manager.png" id="61_Simulation Manager" data-flag="@X" onclick="openSidebar('61_Simulation Manager',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\1_C4pt𝚽vE.png" id="1_C4pt𝚽vE" data-flag="@X" onclick="openSidebar('1_C4pt𝚽vE',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\3_Imminent Invasion.png" id="3_Imminent Invasion" data-flag="@X" onclick="openSidebar('3_Imminent Invasion',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\2_Expanding Ooze.png" id="2_Expanding Ooze" data-flag="@X" onclick="openSidebar('2_Expanding Ooze',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\35_Erratic Decimator.png" id="35_Erratic Decimator" data-flag="@X" onclick="openSidebar('35_Erratic Decimator',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\63_Reality Tear.png" id="63_Reality Tear" data-flag="@X" onclick="openSidebar('63_Reality Tear',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\62_Consuming Cavern.png" id="62_Consuming Cavern" data-flag="@X" onclick="openSidebar('62_Consuming Cavern',false)"></div>
+			<div class="container"><img alt="sets\MYC-files\img\64_Strange Statues.png" id="64_Strange Statues" data-flag="@X" onclick="openSidebar('64_Strange Statues',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>

@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="icon" type="image/png" href="sets/CHS-files/icon.png"/>
+	<link rel="stylesheet" href="/resources/header.css">
+	<title>CHS visual spoiler</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+			overscroll-behavior: none;
+			background-size: cover;
+			background-attachment: fixed;
+		}
+		.main-content {
+			position: relative;
+			width: 100%;
+			float: left;
+			z-index: 2;
+			justify-items: center;
+		}
+		.sidebar {
+			position: sticky;
+			top: 0;
+			display: none;
+			text-align: center;
+			padding-right: 3%;
+			z-index: 1;
+			justify-items: center;
+		}
+		.sidebar-container {
+			width: 80%;
+			max-width: 375px;
+			position: relative;
+		}
+		.sidebar-h-img {
+			display: none;
+			transform: rotate(90deg);
+			position: absolute;
+			left: 10%;
+			top: 10%;
+			width: 85%;
+		}
+		.sidebar-img {
+			vertical-align: middle;
+			width: 100%;
+		}
+		.close-btn {
+			background: url('img/close.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 10%;
+			height: 10%;
+			border: none;
+			cursor: pointer;
+			position: absolute;
+			right: 4%;
+		}
+		.close-btn:hover {
+			background: url('img/close-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+			gap: 2px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-bottom: 3%;
+			justify-items: center;
+			max-width: 1200px;
+		}
+		.grid-container img {
+			width: 100%;
+			height: auto;
+			display: block;
+			visibility: hidden;
+			cursor: pointer;
+		}
+		.banner {
+			width: 100%;
+			height: auto;
+			padding-top: 20px;
+			padding-bottom: 50px;
+		}
+		.logo {
+			display: block;
+			margin: auto;
+			max-width: 30%;
+			max-height: 320px;
+		}
+		.container {
+			position: relative;
+			width: 100%;
+		}
+		.container img {
+			width: 100%;
+			height: auto;
+		}
+		.flip-btn {
+			background: url('img/flip.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+			width: 15%;
+			height: 11%;
+			cursor: pointer;
+			border: none;
+			position: absolute;
+			left: 50%;
+			top: 48%;
+			transform: translate(-50%, -50%);
+			opacity: 0.5;
+		}
+		.flip-btn:hover {
+			background: url('img/flip-hover.png') no-repeat;
+			background-size: contain;
+			background-position: center;
+		}
+		.icon-bar {
+			display: grid;
+			grid-template-columns: repeat(10, 3fr 2fr) 3fr;
+			gap: 1px;
+			padding-left: 5%;
+			padding-right: 5%;
+			padding-top: 2%;
+			padding-bottom: 1%;
+			justify-items: center;
+			align-items: center;
+		}
+		.icon-bar .icon img {
+			width: 90%;
+			max-width: 80px;
+			height: auto;
+			display: block;
+			padding: 5%;
+			margin: auto;
+			text-align: center;
+		}
+		.icon-bar .dot img {
+			width: 50%;
+			max-width: 65px;
+			height: auto;
+			display: block;
+			margin: auto;
+			text-align: center;
+		}
+		.preload-hidden {
+			display: none;
+		}
+		/* This is here to enable the stickiness in a Float environment. I don't know why it works but it does */
+		.footer {
+			clear: both;
+		}
+	</style>
+</head>
+<body>
+	<img class="preload-hidden" src="/img/dot.png" />
+	<img class="preload-hidden" src="/sets/CHS-files/logo.png" />
+	<img class="preload-hidden" src="/sets/CHF-files/icon.png" />
+		<img class="preload-hidden" src="/sets/CHS-files/icon.png" />
+		<img class="preload-hidden" src="/sets/DWE-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYC-files/icon.png" />
+		<img class="preload-hidden" src="/sets/MYD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/NLD-files/icon.png" />
+		<img class="preload-hidden" src="/sets/S23-files/icon.png" />
+		<img class="preload-hidden" src="/sets/WBR-files/icon.png" />
+		<div class="header">
+		<div class="search-grid">
+			<a href="/"><img class="sg-logo" src="/img/banner.png"></a>
+			<img class="sg-icon" src="/img/search.png">
+			<input type="text" inputmode="search" placeholder="Search ..." name="search" id="search" spellcheck="false" autocomplete="off" autocorrect="off" spellcheck="false">
+			<a href="/all-sets"><img src="/img/sets.png" class="sg-icon">Sets</a>
+			<a href="/deckbuilder"><img src="/img/deck.png" class="sg-icon">Deckbuilder</a>
+			<a onclick="randomCard()"><img src="/img/random.png" class="sg-icon">Random</a>
+		</div>
+	</div>
+
+	<div class="icon-bar">
+			<div class="icon"><a href="CHF-spoiler"><img src="sets/CHF-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="CHS-spoiler"><img src="sets/CHS-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="DWE-spoiler"><img src="sets/DWE-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYC-spoiler"><img src="sets/MYC-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="MYD-spoiler"><img src="sets/MYD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="NLD-spoiler"><img src="sets/NLD-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="S23-spoiler"><img src="sets/S23-files/icon.png"></img></a></div>
+		 <div class="dot"><img src="img/dot.png"></img></div>
+		<div class="icon"><a href="WBR-spoiler"><img src="sets/WBR-files/icon.png"></img></a></div>
+
+		</div>
+		<div class="banner">
+		<img class="logo" src="sets/CHS-files/logo.png">
+		</div>
+		<div class="main-content" id="main-content">
+			<div class="grid-container">
+				<div class="container"><img alt="sets\CHS-files\img\3_Smothering Thyme.png" id="3_Smothering Thyme" data-flag="@X" onclick="openSidebar('3_Smothering Thyme',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\7_Sphinx of the Final Meal.png" id="7_Sphinx of the Final Meal" data-flag="@X" onclick="openSidebar('7_Sphinx of the Final Meal',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\12_Underworld Bread.png" id="12_Underworld Bread" data-flag="@X" onclick="openSidebar('12_Underworld Bread',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\16_Wheel of Cheddar.png" id="16_Wheel of Cheddar" data-flag="@X" onclick="openSidebar('16_Wheel of Cheddar',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\20_Tyrant of Rotisserie Ridge.png" id="20_Tyrant of Rotisserie Ridge" data-flag="@X" onclick="openSidebar('20_Tyrant of Rotisserie Ridge',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\1_Cantelope.png" id="1_Cantelope" data-flag="@X" onclick="openSidebar('1_Cantelope',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\5_Imposter Cake.png" id="5_Imposter Cake" data-flag="@X" onclick="openSidebar('5_Imposter Cake',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\9_Midnight Snack.png" id="9_Midnight Snack" data-flag="@X" onclick="openSidebar('9_Midnight Snack',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\13_Crepe Shot.png" id="13_Crepe Shot" data-flag="@X" onclick="openSidebar('13_Crepe Shot',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\17_Colossal Breadmaw.png" id="17_Colossal Breadmaw" data-flag="@X" onclick="openSidebar('17_Colossal Breadmaw',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\2_Oblivionion Ring.png" id="2_Oblivionion Ring" data-flag="@X" onclick="openSidebar('2_Oblivionion Ring',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\6_Reef Wellington.png" id="6_Reef Wellington" data-flag="@X" onclick="openSidebar('6_Reef Wellington',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\10_Rotted Roast.png" id="10_Rotted Roast" data-flag="@X" onclick="openSidebar('10_Rotted Roast',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\14_Hot Potato.png" id="14_Hot Potato" data-flag="@X" onclick="openSidebar('14_Hot Potato',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\18_Grapevine Harvester.png" id="18_Grapevine Harvester" data-flag="@X" onclick="openSidebar('18_Grapevine Harvester',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\4_Watermelephant.png" id="4_Watermelephant" data-flag="@X" onclick="openSidebar('4_Watermelephant',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\8_Treasure Brews.png" id="8_Treasure Brews" data-flag="@X" onclick="openSidebar('8_Treasure Brews',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\11_Thoughtcheese.png" id="11_Thoughtcheese" data-flag="@X" onclick="openSidebar('11_Thoughtcheese',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\15_Tabascobra.png" id="15_Tabascobra" data-flag="@X" onclick="openSidebar('15_Tabascobra',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\19_Sauerkraut Elder.png" id="19_Sauerkraut Elder" data-flag="@X" onclick="openSidebar('19_Sauerkraut Elder',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\25_Salted Seer.png" id="25_Salted Seer" data-flag="@X" onclick="openSidebar('25_Salted Seer',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\22_Decadent Dragon.png" id="22_Decadent Dragon" data-flag="@X" onclick="openSidebar('22_Decadent Dragon',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\23_Frosted Flamespitter.png" id="23_Frosted Flamespitter" data-flag="@X" onclick="openSidebar('23_Frosted Flamespitter',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\21_Beefy Broodling.png" id="21_Beefy Broodling" data-flag="@X" onclick="openSidebar('21_Beefy Broodling',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\24_Prince of the Pie.png" id="24_Prince of the Pie" data-flag="@X" onclick="openSidebar('24_Prince of the Pie',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\26_Aether Veal.png" id="26_Aether Veal" data-flag="@X" onclick="openSidebar('26_Aether Veal',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\28_Bagels and Mox.png" id="28_Bagels and Mox" data-flag="@X" onclick="openSidebar('28_Bagels and Mox',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\34_Cake Boss.png" id="34_Cake Boss" data-flag="@X" onclick="openSidebar('34_Cake Boss',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\38_Delectable Altar.png" id="38_Delectable Altar" data-flag="@X" onclick="openSidebar('38_Delectable Altar',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\41_Frosted Ballista.png" id="41_Frosted Ballista" data-flag="@X" onclick="openSidebar('41_Frosted Ballista',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\54_Staff of Confection.png" id="54_Staff of Confection" data-flag="@X" onclick="openSidebar('54_Staff of Confection',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\55_Sword of Sugar and Spice.png" id="55_Sword of Sugar and Spice" data-flag="@X" onclick="openSidebar('55_Sword of Sugar and Spice',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\56_Taffin, Lord of the Feast.png" id="56_Taffin, Lord of the Feast" data-flag="@X" onclick="openSidebar('56_Taffin, Lord of the Feast',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\57_Transmutive Tonic.png" id="57_Transmutive Tonic" data-flag="@X" onclick="openSidebar('57_Transmutive Tonic',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\62_Wurmboil Engine.png" id="62_Wurmboil Engine" data-flag="@X" onclick="openSidebar('62_Wurmboil Engine',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\27_All You Can Eat Buffet.png" id="27_All You Can Eat Buffet" data-flag="@X" onclick="openSidebar('27_All You Can Eat Buffet',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\33_Buns in the Oven.png" id="33_Buns in the Oven" data-flag="@X" onclick="openSidebar('33_Buns in the Oven',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\36_Cherry Bomb.png" id="36_Cherry Bomb" data-flag="@X" onclick="openSidebar('36_Cherry Bomb',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\40_Exotic Chocolate Coin.png" id="40_Exotic Chocolate Coin" data-flag="@X" onclick="openSidebar('40_Exotic Chocolate Coin',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\42_Gormet Golem.png" id="42_Gormet Golem" data-flag="@X" onclick="openSidebar('42_Gormet Golem',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\43_Gravy Train.png" id="43_Gravy Train" data-flag="@X" onclick="openSidebar('43_Gravy Train',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\45_Infinite Truffle.png" id="45_Infinite Truffle" data-flag="@X" onclick="openSidebar('45_Infinite Truffle',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\46_Irresistible Coating.png" id="46_Irresistible Coating" data-flag="@X" onclick="openSidebar('46_Irresistible Coating',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\52_Sensei's Divining Tea.png" id="52_Senseis Divining Tea" data-flag="@X" onclick="openSidebar('52_Senseis Divining Tea',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\29_Blood Pudding.png" id="29_Blood Pudding" data-flag="@X" onclick="openSidebar('29_Blood Pudding',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\30_Boundless Cornucopia.png" id="30_Boundless Cornucopia" data-flag="@X" onclick="openSidebar('30_Boundless Cornucopia',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\31_Brain Food.png" id="31_Brain Food" data-flag="@X" onclick="openSidebar('31_Brain Food',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\32_Bread Knife.png" id="32_Bread Knife" data-flag="@X" onclick="openSidebar('32_Bread Knife',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\35_Carnivorous Vegetable.png" id="35_Carnivorous Vegetable" data-flag="@X" onclick="openSidebar('35_Carnivorous Vegetable',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\37_Color Pie.png" id="37_Color Pie" data-flag="@X" onclick="openSidebar('37_Color Pie',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\39_Energy Drink.png" id="39_Energy Drink" data-flag="@X" onclick="openSidebar('39_Energy Drink',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\44_Inferno Sauce.png" id="44_Inferno Sauce" data-flag="@X" onclick="openSidebar('44_Inferno Sauce',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\47_Kraken Roll.png" id="47_Kraken Roll" data-flag="@X" onclick="openSidebar('47_Kraken Roll',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\48_Plate of Leftovers.png" id="48_Plate of Leftovers" data-flag="@X" onclick="openSidebar('48_Plate of Leftovers',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\49_Poisoned Apple.png" id="49_Poisoned Apple" data-flag="@X" onclick="openSidebar('49_Poisoned Apple',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\50_Puff Partner.png" id="50_Puff Partner" data-flag="@X" onclick="openSidebar('50_Puff Partner',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\51_Secret Ingredient.png" id="51_Secret Ingredient" data-flag="@X" onclick="openSidebar('51_Secret Ingredient',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\53_Soul Food.png" id="53_Soul Food" data-flag="@X" onclick="openSidebar('53_Soul Food',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\58_Two-for-One Special.png" id="58_Two-for-One Special" data-flag="@X" onclick="openSidebar('58_Two-for-One Special',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\59_Uplifting Brew.png" id="59_Uplifting Brew" data-flag="@X" onclick="openSidebar('59_Uplifting Brew',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\60_Wholesome Milk.png" id="60_Wholesome Milk" data-flag="@X" onclick="openSidebar('60_Wholesome Milk',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\61_Winter Produce.png" id="61_Winter Produce" data-flag="@X" onclick="openSidebar('61_Winter Produce',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="img\er.png" id="er" data-flag="@E" onclick="openSidebar('er',false)"></div>
+			<div class="container"><img alt="sets\CHS-files\img\63_Delectable Delta.png" id="63_Delectable Delta" data-flag="@X" onclick="openSidebar('63_Delectable Delta',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+			<div class="container"><img alt="img\e.png" id="e" data-flag="@E" onclick="openSidebar('e',false)"></div>
+	</div>
+</div>
+	<div class="sidebar" id="sidebar">
+		<div class="sidebar-container">
+			<img id="sidebar_img" class="sidebar-img" src="img/er.png">
+			<img id="sidebar_h_img" class="sidebar-h-img">
+			<button class="flip-btn" id="sidebar-flip-btn" onclick="imgFlip('sidebar_img')"></button>
+		</div>
+		<button class="close-btn" onclick="closeSidebar()"></button>
+	</div>
+	<div class="footer"></div>
+
+	<script>
+	const delay = ms => new Promise(res => setTimeout(res, ms));
+		let specialchars = "";
+
+	document.addEventListener('DOMContentLoaded', async function() {
+		await fetch('/lists/all-cards.json')
+					.then(response => response.json())
+					.then(json => {
+						card_list = json;
+				}).catch(error => console.error('Error:', error));
+
+				await fetch('/resources/replacechars.txt')
+					.then(response => response.text())
+					.then(text => {
+						specialchars = text; 
+				}).catch(error => console.error('Error:', error));
+
+				card_list_arrayified = card_list.cards;
+
+		preloadImgs = document.getElementsByClassName('preload-hidden');
+		
+		let images_loaded = [];
+
+		do {
+			await delay(100);
+			images_loaded = []
+			for (const img of preloadImgs)
+			{
+				images_loaded.push(isImageOk(img));
+			}
+		}
+		while (images_loaded.includes(false));
+
+		
+		loadImages();
+	});
+
+	function isImageOk(img) {
+		if (!img.complete || img.naturalWidth == 0) {
+			return false;
+		}
+
+		return true;
+	}
+
+	function loadImages() {
+		const images = document.querySelectorAll('.grid-container img');
+
+		images.forEach(img => {
+			const flag = img.getAttribute('data-flag');
+
+			if (flag === '@N') {
+				img.src = 'img/card_back.png';
+				img.removeAttribute("onclick");
+				img.style.cursor = 'default';
+			}
+			else
+			{
+				img.src = img.alt;
+
+				if (flag === '@E') {
+					img.removeAttribute("onclick");
+					img.style.cursor = 'default';
+				}
+			}
+
+			img.style.visibility = 'visible';
+		});
+	}
+
+	window.addEventListener('resize', function(event) {
+		setSidebarTop();
+	}, true);
+
+	function setSidebarTop() {
+		let vh = Math.max(document.documentElement.clientHeight || 0, window.innerHeight || 0);
+		let sh = document.getElementById('sidebar').offsetHeight;
+		let height = 100 * ((vh - sh) / 2) / vh;
+		document.getElementById('sidebar').style.top = height + '%';
+	}
+
+	let horizontal = false;
+
+	function imgFlip(num) {
+		tmp = document.getElementById(num).src;
+		document.getElementById(num).src = document.getElementById(num).dataset.alt_src;
+		document.getElementById(num).dataset.alt_src = tmp;
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		if (horizontal && rotated_img.style.display == 'none')
+		{
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+	}
+
+	function openSidebar(id, h=false) {
+		horizontal = h;
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+		
+		document.getElementById('sidebar').style.display = 'grid';
+
+		const rotated_img = document.getElementById('sidebar_h_img');
+		const sidebar_img = document.getElementById('sidebar_img');
+
+		sidebar_img.src = document.getElementById(id).src;
+
+		if (horizontal)
+		{
+			rotated_img.src = document.getElementById(id).src;
+			rotated_img.style.display = "block";
+			sidebar_img.style.filter = "blur(2px) brightness(0.7)";
+		}
+		else
+		{
+			rotated_img.style.display = "none";
+			sidebar_img.style.filter = "";
+		}
+
+		if (document.getElementById(id).dataset.alt_src)
+		{
+			document.getElementById('sidebar_img').dataset.alt_src = document.getElementById(id).dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'block';
+		}
+		else
+		{
+			delete document.getElementById('sidebar_img').dataset.alt_src;
+			document.getElementById('sidebar-flip-btn').style.display = 'none';
+		}
+		document.getElementById('main-content').style.width = '60%';
+		
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+		setSidebarTop();
+	}
+
+	function closeSidebar() {
+		scroll_pct = window.scrollY / document.documentElement.scrollHeight;
+
+		document.getElementById('sidebar').style.display = 'none';
+		document.getElementById('main-content').style.width = '100%';
+		
+
+		scroll_pos = scroll_pct * document.documentElement.scrollHeight;
+		window.scrollTo(window.scrollX, scroll_pos);
+	}
+
+	document.getElementById("search").addEventListener("keypress", function(event) {
+			if (event.key === "Enter") {
+				event.preventDefault();
+				search();
+			}
+		});
+
+		function search() {
+			window.location = ("/search?search=" + document.getElementById("search").value);
+		}
+
+		function randomCard() {
+				let i = Math.floor(Math.random() * (card_list_arrayified.length + 1));
+				let card_name = card_list_arrayified[i].card_name;
+				for (const char of specialchars)
+				{
+					card_name = card_name.replaceAll(char, "");
+				}
+
+				window.location = ('/cards/' + card_list_arrayified[i].set + '/' + card_list_arrayified[i].number + '_' + card_name);
+			}
+	</script>
+</body>
+</html>
